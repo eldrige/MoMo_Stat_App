@@ -1,5 +1,7 @@
 import xml.etree.ElementTree as ET
 from typing import List, Dict
+import re
+import json
 
 # Constants for table names and their corresponding search strings
 TABLE_CONFIG = {
@@ -70,6 +72,100 @@ def extract_sms_data(root: ET.Element) -> Dict[str, List[str]]:
 
     return sms_data
 
+
+def populate_airtime_table(sms_data: Dict[str, List[str]]):
+    # Get airtime table
+    airtime_table = sms_data['airtime']
+
+    categorized_payments = []
+    for payment_string in airtime_table:
+        # Use regex to extract the relevant information from the string
+        match = re.search(
+            r"TxId:(\d+).*?Your payment of (\d+) RWF.*?at ([\d-]+ [\d:]+).*?Fee was (\d+) RWF.*?Your new balance: (\d+) RWF", payment_string)
+
+        if match:
+            txid = match.group(1)
+            payment_amount = int(match.group(2))  # Convert to integer
+            date = match.group(3)
+            fee = int(match.group(4))  # Convert to integer
+            new_balance = int(match.group(5))  # Convert to integer
+
+            payment_data = {
+                "date": date,
+                "txid": txid,
+                "payment_amount": payment_amount,
+                "fee": fee,
+                "new_balance": new_balance
+            }
+            categorized_payments.append(payment_data)
+
+    print(categorized_payments)
+    export_to_json(categorized_payments )
+
+    return categorized_payments
+
+
+def export_to_json(data, filename="airtime_payments.json"):
+    """
+    Exports a list of dictionaries to a JSON file.
+
+    Args:
+        data: A list of dictionaries to be exported.
+        filename: The name of the JSON file to create (default: "airtime_payments.json").
+    """
+
+    with open(filename, "w") as f:  # "w" for write mode
+        json.dump(data, f, indent=4)  # indent for pretty formatting
+    print(f"Data exported to {filename}")
+
+
+def transfer_to_mobile_numbers(sms_data: Dict[str, List[str]]):
+    # Get transfer to mobile numbers table
+    transfer_to_mobile_numbers_table = sms_data['transfers_to_mobile_numbers']
+    print(transfer_to_mobile_numbers_table)
+
+    categorized_transfers = []
+    for transfer_string in transfer_to_mobile_numbers_table:
+        # Use regex to extract the relevant information from the string
+
+        pattern = r"\*165\*S\*(\d+) RWF transferred to ([A-Za-z\s]+) \((\d+)\) from (\d+) at ([\d-]+ [\d:]+) \. Fee was: (\d+) RWF\. New balance: (\d+) RWF"
+
+        match = re.search(pattern, transfer_string)
+        # match = re.search(
+        #     r"\*165\*S\*(\d+) RWF transferred to ([A-Za-z\s]+) \((\d+)\) from (\d+) at ([\d-]+ [\d:]+) \. Fee was: (\d+) RWF\. New balance: (\d+) RWF, TxId: (\d+)", transfer_string)
+        print(match)
+        if match:
+            amount_transferred = int(match.group(1))  # Convert to integer
+            recipient = match.group(2)
+            recipient_number = match.group(3)
+            date = match.group(4)
+            time = match.group(5)
+            fee = int(match.group(6))  # Convert to integer
+            new_balance = int(match.group(7))
+            # transaction_id = match.group(8)
+
+            transfer_data = {
+                "amount_transferred": amount_transferred,
+                "recipient": recipient,
+                "recipient_number": recipient_number,
+                "date": date,
+                "time": time,
+                "fee": fee,
+                "new_balance": new_balance
+            }
+
+            categorized_transfers.append(transfer_data)
+
+    print(categorized_transfers)
+    export_to_json(categorized_transfers, "transfer_to_mobile_numbers.json")
+
+    # return categorized_transfers
+
+
+
+
+
+
 def main():
     xml_file = 'sms.xml'
     root = parse_xml(xml_file)
@@ -77,12 +173,16 @@ def main():
     if root is not None:
         sms_data = extract_sms_data(root)
 
-        # Example usage: Print the extracted data for each table
-        for table, messages in sms_data.items():
-            print(f"Table: {table}")
-            for message in messages:
-                print(f"- {message}")
-            print("-" * 30)
+        # for table, messages in sms_data.items():
+        #     print(f"Table: {table}")
+        #     for message in messages:
+        #         print(f"- {message}")
+        #     print("-" * 30)
+
+        # Example usage: Populate the airtime table
+        # airtime_table = populate_airtime_table(sms_data)
+        transfer_to_mobile_numbers_table = transfer_to_mobile_numbers(sms_data)
+
 
 
 if __name__ == "__main__":
