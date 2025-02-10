@@ -26,8 +26,8 @@ TABLE_SCHEMA = {
     'airtime': ['date', 'time', 'new_balance', 'transaction_id', 'amount'],
 }
 
-TABLES = list(TABLE_CONFIG.keys())  # Dynamically generate TABLES
-SMS_TAG = 'sms'
+TABLES = list(TABLE_CONFIG.keys())  # creates a list names 'TABLES' that contains the keys of the dictionary 'TABLE_CONFIG'
+SMS_TAG = 'sms' # creates a variable 'SMS_TAG' that should not be changed : upper case 'SMS_TAG' is a constant
 
 
 def parse_xml(file_path: str) -> ET.Element | None:
@@ -69,7 +69,6 @@ def extract_sms_data(root: ET.Element) -> Dict[str, List[str]]:
                     sms_data[table].append(body)
 
     return sms_data
-
 
 def main():
     xml_file = 'sms.xml'
