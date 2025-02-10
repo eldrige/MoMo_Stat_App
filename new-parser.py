@@ -1,5 +1,7 @@
 import xml.etree.ElementTree as ET
 from typing import List, Dict
+import re
+import json
 
 # Constants for table names and their corresponding search strings
 TABLE_CONFIG = {
@@ -17,7 +19,13 @@ TABLE_CONFIG = {
 TABLE_SCHEMA = {
     'incoming_money': ['amount_received', 'sender', 'date', 'time', 'new_balance', 'transaction_id'],
     'payment_to_code_holders': ['amount_paid', 'recipient', 'date', 'time', 'new_balance', 'transaction_id', 'payment_code'],
-    'transfers_to_mobile_numbers': ['amount_transferred', 'recipient', 'date', 'time', 'fee', 'new_balance', 'transaction_id'],
+    'transfers_to_mobile_numbers': ['amount_transferred', 'recipient', 'recipient_number', 'date', 'time', 'fee', 'new_balance', 'transaction_id'],
+    'bank_transfers': ['amount_transferred', 'recipient', 'date', 'time', 'fee', 'new_balance', 'transaction_id', 'bank_name'],
+    'internet_voice_bundle': ['date', 'time', 'new_balance', 'transaction_id', 'amount'],
+    'cash_power_bill_payments': ['date', 'time', 'new_balance', 'transaction_id', 'amount', 'token'],
+    'transtxns_initiate_by_third_parties': ['date', 'time', 'new_balance', 'transaction_amount', 'transaction_initiator', 'financial_transaction_id', 'external_transaction_id'],
+    'withdrawals_from_agents': ['date', 'time', 'new_balance', 'transaction_id', 'amount', 'agent_name', 'agent_number', 'fee'],
+    'airtime': ['date', 'time', 'new_balance', 'transaction_id', 'amount'],
 }
 
 TABLES = list(TABLE_CONFIG.keys())  # Dynamically generate TABLES
@@ -65,6 +73,52 @@ def extract_sms_data(root: ET.Element) -> Dict[str, List[str]]:
     return sms_data
 
 
+def populate_airtime_table(sms_data: Dict[str, List[str]]):
+    # Get airtime table
+    airtime_table = sms_data['airtime']
+
+    categorized_payments = []
+    for payment_string in airtime_table:
+        # Use regex to extract the relevant information from the string
+        match = re.search(
+            r"TxId:(\d+).*?Your payment of (\d+) RWF.*?at ([\d-]+ [\d:]+).*?Fee was (\d+) RWF.*?Your new balance: (\d+) RWF", payment_string)
+
+        if match:
+            txid = match.group(1)
+            payment_amount = int(match.group(2))  # Convert to integer
+            date = match.group(3)
+            fee = int(match.group(4))  # Convert to integer
+            new_balance = int(match.group(5))  # Convert to integer
+
+            payment_data = {
+                "date": date,
+                "txid": txid,
+                "payment_amount": payment_amount,
+                "fee": fee,
+                "new_balance": new_balance
+            }
+            categorized_payments.append(payment_data)
+
+    print(categorized_payments)
+    export_to_json(categorized_payments)
+
+    return categorized_payments
+
+
+def export_to_json(data, filename="airtime_payments.json"):
+    """
+    Exports a list of dictionaries to a JSON file.
+
+    Args:
+        data: A list of dictionaries to be exported.
+        filename: The name of the JSON file to create (default: "airtime_payments.json").
+    """
+
+    with open(filename, "w") as f:  # "w" for write mode
+        json.dump(data, f, indent=4)  # indent for pretty formatting
+    print(f"Data exported to {filename}")
+
+
 def main():
     xml_file = 'sms.xml'
     root = parse_xml(xml_file)
@@ -72,12 +126,14 @@ def main():
     if root is not None:
         sms_data = extract_sms_data(root)
 
-        # Example usage: Print the extracted data for each table
-        for table, messages in sms_data.items():
-            print(f"Table: {table}")
-            for message in messages:
-                print(f"- {message}")
-            print("-" * 30)
+        # for table, messages in sms_data.items():
+        #     print(f"Table: {table}")
+        #     for message in messages:
+        #         print(f"- {message}")
+        #     print("-" * 30)
+
+        # Example usage: Populate the airtime table
+        airtime_table = populate_airtime_table(sms_data)
 
 
 if __name__ == "__main__":
