@@ -105,6 +105,36 @@ def populate_airtime_table(sms_data: Dict[str, List[str]]):
     return categorized_payments
 
 
+def populate_withdrawals_from_agents_table(sms_data: Dict[str, List[str]]):
+    # Get withdrawals from agents table
+    withdrawals_table = sms_data['withdrawals_from_agents']
+
+    categorized_withdrawals = []
+    for withdrawal_string in withdrawals_table:
+        # Use regex to extract the relevant information from the string
+        match = re.search(
+            r"You Abebe Chala CHEBUDIE (*********036) have via agent: Agent Sophia (250790777777), withdrawn 20000 RWF from your mobile money account: 36521838 at 2024-05-26 02:10:27 and you can now collect your money in cash. Your new balance: 6400 RWF. Fee paid: 350 RWF. Message from agent: 1. Financial Transaction Id: 14098463509.", withdrawal_string)
+
+        if match:
+            txid = match.group(1)
+            withdrawal_amount = int(match.group(2))  # Convert to integer
+            date = match.group(3)
+            new_balance = int(match.group(4))  # Convert to integer
+
+            withdrawal_data = {
+                "date": date,
+                "txid": txid,
+                "withdrawal_amount": withdrawal_amount,
+                "new_balance": new_balance
+            }
+            categorized_withdrawals.append(withdrawal_data)
+
+    print(categorized_withdrawals)
+    export_to_json(categorized_withdrawals, "withdrawals_from_agents.json")
+
+    return categorized_withdrawals
+
+
 def export_to_json(data, filename="airtime_payments.json"):
     """
     Exports a list of dictionaries to a JSON file.
