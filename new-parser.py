@@ -19,7 +19,7 @@ TABLE_CONFIG = {
 TABLE_SCHEMA = {
     'incoming_money': ['amount_received', 'sender', 'date', 'time', 'new_balance', 'transaction_id'],
     'payment_to_code_holders': ['amount_paid', 'recipient', 'date', 'time', 'new_balance', 'transaction_id', 'payment_code'],
-    'transfers_to_mobile_numbers': ['amount_transferred', 'recipient', 'recipient_number', 'date', 'time', 'fee', 'new_balance', 'transaction_id'],
+    'transfers_to_mobile_numbers': ['amount_transferred', 'recipient', 'recipient_number', 'date', 'time', 'fee', 'new_balance'],
     'bank_transfers': ['amount_transferred', 'recipient', 'date', 'time', 'fee', 'new_balance', 'transaction_id', 'bank_name'],
     'internet_voice_bundle': ['date', 'time', 'new_balance', 'transaction_id', 'amount'],
     'cash_power_bill_payments': ['date', 'time', 'new_balance', 'transaction_id', 'amount', 'token'],
@@ -142,7 +142,6 @@ def transfer_to_mobile_numbers(sms_data: Dict[str, List[str]]):
             time = match.group(5)
             fee = int(match.group(6))  # Convert to integer
             new_balance = int(match.group(7))
-            # transaction_id = match.group(8)
 
             transfer_data = {
                 "amount_transferred": amount_transferred,
