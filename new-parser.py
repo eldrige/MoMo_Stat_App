@@ -1,3 +1,5 @@
+from typing import Dict, List
+from datetime import datetime
 import xml.etree.ElementTree as ET
 from typing import List, Dict
 import re
@@ -100,39 +102,84 @@ def populate_airtime_table(sms_data: Dict[str, List[str]]):
             categorized_payments.append(payment_data)
 
     print(categorized_payments)
-    export_to_json(categorized_payments)
+    export_to_json(categorized_payments, "data/airtime_payments.json")
 
     return categorized_payments
 
 
-def populate_withdrawals_from_agents_table(sms_data: Dict[str, List[str]]):
-    # Get withdrawals from agents table
-    withdrawals_table = sms_data['withdrawals_from_agents']
+def populate_received_money_table(sms_data: Dict[str, List[str]]):
+    received_money_table = sms_data.get('incoming_money', [])
+    categorized_received_money = []
 
-    categorized_withdrawals = []
-    for withdrawal_string in withdrawals_table:
-        # Use regex to extract the relevant information from the string
+    for message in received_money_table:
         match = re.search(
-            r"You Abebe Chala CHEBUDIE (*********036) have via agent: Agent Sophia (250790777777), withdrawn 20000 RWF from your mobile money account: 36521838 at 2024-05-26 02:10:27 and you can now collect your money in cash. Your new balance: 6400 RWF. Fee paid: 350 RWF. Message from agent: 1. Financial Transaction Id: 14098463509.", withdrawal_string)
+            r"You have received (\d+) RWF from ([\w\s]+) \(\*{9}\d{3}\).*?at ([\d-]+ [\d:]+).*?Your new balance:(\d+) RWF.*?Financial Transaction Id: (\d+)",
+            message
+        )
 
         if match:
-            txid = match.group(1)
-            withdrawal_amount = int(match.group(2))  # Convert to integer
-            date = match.group(3)
-            new_balance = int(match.group(4))  # Convert to integer
+            amount_received = int(match.group(1))
+            sender = match.group(2)
+            date_str = match.group(3)
+            new_balance = int(match.group(4))
+            txid = match.group(5)
 
-            withdrawal_data = {
-                "date": date,
+            # Convert date string to datetime
+            try:
+                date = datetime.strptime(date_str, "%Y-%m-%d %H:%M:%S")
+            except ValueError:
+                date = date_str  # Keep it as a string if parsing fails
+
+            received_money_data = {
                 "txid": txid,
-                "withdrawal_amount": withdrawal_amount,
+                "amount_received": amount_received,
+                "sender": sender,
+                "date": date.isoformat() if isinstance(date, datetime) else date,
+                "new_balance": new_balance,
+            }
+
+            categorized_received_money.append(received_money_data)
+
+    print(categorized_received_money)
+    # Ensure this function exists
+    export_to_json(categorized_received_money,
+                   'data/incoming_money_table.json')
+    return categorized_received_money
+
+
+def transfer_to_mobile_numbers(sms_data: Dict[str, List[str]]):
+    transfer_to_mobile_numbers_table = sms_data['transfers_to_mobile_numbers']
+
+    categorized_transfers = []
+    for transfer_string in transfer_to_mobile_numbers_table:
+
+        pattern = r"\*165\*S\*(\d+) RWF transferred to ([A-Za-z\s]+) \((\d+)\) from (\d+) at ([\d-]+ [\d:]+) \. Fee was: (\d+) RWF\. New balance: (\d+) RWF"
+
+        match = re.search(pattern, transfer_string)
+
+        if match:
+            amount_transferred = int(match.group(1))  # Convert to integer
+            recipient = match.group(2)
+            recipient_number = match.group(3)
+            date = match.group(4)
+            time = match.group(5)
+            fee = int(match.group(6))  # Convert to integer
+            new_balance = int(match.group(7))
+
+            transfer_data = {
+                "amount_transferred": amount_transferred,
+                "recipient": recipient,
+                "recipient_number": recipient_number,
+                "date": date,
+                "time": time,
+                "fee": fee,
                 "new_balance": new_balance
             }
-            categorized_withdrawals.append(withdrawal_data)
 
-    print(categorized_withdrawals)
-    export_to_json(categorized_withdrawals, "withdrawals_from_agents.json")
+            categorized_transfers.append(transfer_data)
 
-    return categorized_withdrawals
+    export_to_json(categorized_transfers,
+                   "data/transfer_to_mobile_numbers.json")
 
 
 def export_to_json(data, filename="airtime_payments.json"):
@@ -156,14 +203,15 @@ def main():
     if root is not None:
         sms_data = extract_sms_data(root)
 
-        # for table, messages in sms_data.items():
-        #     print(f"Table: {table}")
-        #     for message in messages:
-        #         print(f"- {message}")
-        #     print("-" * 30)
+        for table, messages in sms_data.items():
+            print(f"Table: {table}")
+            for message in messages:
+                print(f"- {message}")
+            print("-" * 30)
 
-        # Example usage: Populate the airtime table
-        airtime_table = populate_airtime_table(sms_data)
+        # populate_received_money_table(sms_data)
+        # transfer_to_mobile_numbers(sms_data)
+        # populate_airtime_table(sms_data)
 
 
 if __name__ == "__main__":
