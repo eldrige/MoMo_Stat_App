@@ -140,7 +140,6 @@ def populate_received_money_table(sms_data: Dict[str, List[str]]):
 
             categorized_received_money.append(received_money_data)
 
-    print(categorized_received_money)
     # Ensure this function exists
     export_to_json(categorized_received_money,
                    'data/incoming_money_table.json')
@@ -182,6 +181,108 @@ def transfer_to_mobile_numbers(sms_data: Dict[str, List[str]]):
                    "data/transfer_to_mobile_numbers.json")
 
 
+def cash_power_bill_payments(sms_data: Dict[str, List[str]]):
+    cash_power_bill_payments_table = sms_data['cash_power_bill_payments']
+    print(cash_power_bill_payments_table)
+
+    categorized_cash_power_payments = []
+
+    for message in cash_power_bill_payments_table:
+
+        transaction_id = message.split("TxId:")[1].split("*")[0]
+        amount = message.split("payment of ")[1].split(" RWF")[0]
+        provider = message.split(" to ")[1].split(" with")[0]
+        token = message.split("token ")[1].split(" has")[0]
+        date_time = message.split("completed at ")[1].split(". Fee")[0]
+        fee = message.split("Fee was ")[1].split(" RWF")[0]
+        balance = message.split("new balance: ")[1].split(" RWF")[0]
+        # units = message.split("Electricity units: ")[1].split("kwH")[0]
+
+        # try:
+        #     date = datetime.strptime(date, "%Y-%m-%d %H:%M:%S")
+        # except ValueError:
+        #     date = date
+
+        categorized_cash_power_payments.append({
+            "transaction_id": transaction_id,
+            "payment_amount": amount,
+            "token": token,
+            "date": date_time,
+            # "date": date.isoformat() if isinstance(date, datetime) else date,
+            "fee": fee,
+            # "units": units,
+            "new_balance": balance,
+            "provider": provider
+        })
+
+    export_to_json(categorized_cash_power_payments,
+                   "data/cash_power_bill_payments.json")
+
+
+def withdrawals_from_agents(sms_data: Dict[str, List[str]]):
+    withdrawals_from_agents_table = sms_data['withdrawals_from_agents']
+
+    categorized_withdrawals_from_agents = []
+
+    for message in withdrawals_from_agents_table:
+
+        name = message.split("You ")[1].split(" have")[0].strip()
+        agent_info = message.split("via agent: ")[1].split(",")[0].strip()
+        agent_name = agent_info.split("(")[0].strip()
+        agent_number = agent_info.split("(")[1].strip().strip(")")
+        amount = message.split("withdrawn ")[1].split(" RWF")[0]
+        account = message.split("account: ")[1].split(" at")[0].strip()
+        date_time = message.split("at ")[1].split(" and")[0].strip()
+        new_balance = message.split("Your new balance: ")[1].split(" RWF")[0]
+        fee = message.split("Fee paid: ")[1].split(" RWF")[0]
+        transaction_id = message.split("Id: ")[1].strip().split(".")[0]
+
+        categorized_withdrawals_from_agents.append({
+            "name": name,
+            "agent_name": agent_name,
+            "agent_number": agent_number,
+            "account": account,
+            "amount": amount,
+            "date": date_time,
+            "fee": fee,
+            "new_balance": new_balance,
+            "transaction_id": transaction_id
+        })
+
+    export_to_json(categorized_withdrawals_from_agents,
+                   "data/withdrawals_from_agents.json")
+
+
+def internet_voice_bundles(sms_data: Dict[str, List[str]]):
+    internet_voice_bundles_table = sms_data['internet_voice_bundle']
+
+    internet_voice_bundles = []
+
+    for message in internet_voice_bundles_table:
+
+        transaction_id = message.split("TxId:")[1].split("*")[0]
+        amount = message.split("payment of ")[1].split(" RWF")[0]
+        provider = message.split("to ")[1].split(" with")[0].strip()
+        token = message.split("with token ")[1].split(" has")[0].strip()
+        # date_time = message.split("completed at ")[1].split(". Fee")[0].strip()
+        # fee = message.split("Fee was ")[1].split(" RWF")[0]
+        new_balance = message.split("new balance: ")[1].split(" RWF")[0]
+    # units = message.split("Electricity units: ")[1].split("kwH")[0]
+
+        internet_voice_bundles.append({
+            "transaction_id": transaction_id,
+            "amount": amount,
+            "provider": provider,
+            "token": token,
+            # "date": date_time,
+            # "fee": fee,
+            "new_balance": new_balance
+        })
+
+    export_to_json(internet_voice_bundles,
+                   "data/internet_voice_bundles.json")
+
+
 def export_to_json(data, filename="airtime_payments.json"):
     """
     Exports a list of dictionaries to a JSON file.
@@ -209,9 +310,12 @@ def main():
                 print(f"- {message}")
             print("-" * 30)
 
-        # populate_received_money_table(sms_data)
-        # transfer_to_mobile_numbers(sms_data)
-        # populate_airtime_table(sms_data)
+        # # populate_received_money_table(sms_data)
+        # # transfer_to_mobile_numbers(sms_data)
+        # # populate_airtime_table(sms_data)
+        # cash_power_bill_payments(sms_data)
+        # withdrawals_from_agents(sms_data)
+        internet_voice_bundles(sms_data)
 
 
 if __name__ == "__main__":

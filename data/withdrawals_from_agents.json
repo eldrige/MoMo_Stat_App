@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Abebe Chala CHEBUDIE (*********036)",
+        "agent_name": "Agent Sophia",
+        "agent_number": "250790777777",
+        "account": "36521838",
+        "amount": "20000",
+        "date": "2024-05-26 02:10:27",
+        "fee": "350",
+        "new_balance": "6400",
+        "transaction_id": "14098463509"
+    },
+    {
+        "name": "Abebe Chala CHEBUDIE (*********036)",
+        "agent_name": "Agent Sophia",
+        "agent_number": "250788999999",
+        "account": "36521838",
+        "amount": "50000",
+        "date": "2024-11-23 13:23:44",
+        "fee": "1100",
+        "new_balance": "2401",
+        "transaction_id": "17006777609"
+    },
+    {
+        "name": "Abebe Chala CHEBUDIE (*********036)",
+        "agent_name": "Agent John",
+        "agent_number": "250788999999",
+        "account": "36521838",
+        "amount": "24000",
+        "date": "2024-11-23 14:09:27",
+        "fee": "600",
+        "new_balance": "61892",
+        "transaction_id": "17007580507"
+    }
+]

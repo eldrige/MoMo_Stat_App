@@ -36,6 +36,30 @@ def create_table():
         recipient_number TEXT
     )
 """)
+    c.execute("""
+    CREATE TABLE IF NOT EXISTS cash_power_bill_payments (
+        transaction_id TEXT PRIMARY KEY, 
+        date TEXT,
+        payment_amount INTEGER,
+        new_balance INTEGER,
+        fee INTEGER,
+        token TEXT,
+        provider TEXT
+    )
+""")
+    c.execute("""
+    CREATE TABLE IF NOT EXISTS withdrawals_from_agents (
+        transaction_id TEXT PRIMARY KEY, 
+        date TEXT,
+        name TEXT,
+        agent_name TEXT,
+        agent_number TEXT,
+        account TEXT,
+        amount INTEGER,
+        new_balance INTEGER,
+        fee INTEGER
+    )
+""")
 
     conn.commit()
 
@@ -84,6 +108,36 @@ def data_entry_for_transfers_to_mobile_numbers(data):
         print(f"Error inserting data: {e}")
 
 
+def data_entry_for_cash_power_bill_payments(data):
+    print(data)
+
+    try:
+        c.execute("""
+            INSERT INTO cash_power_bill_payments (transaction_id,date,payment_amount,new_balance,fee, token, provider)
+            VALUES (?, ?, ?, ?, ?, ?, ?)
+        """, (data['transaction_id'], data['date'], data['payment_amount'], data['new_balance'], data['fee'], data['token'], data['provider']))
+        conn.commit()
+        print(
+            f"Data for transaction_number {data['transaction_id']} inserted successfully.")
+    except sqlite3.IntegrityError as e:
+        print(f"Error inserting data: {e}")
+
+
+def data_entry_for_withdrawals_from_agents(data):
+    print(data)
+
+    try:
+        c.execute("""
+            INSERT INTO withdrawals_from_agents (transaction_id,date,name,agent_name,agent_number, account, amount, new_balance, fee)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+        """, (data['transaction_id'], data['date'], data['name'], data['agent_name'], data['agent_number'], data['account'], data['amount'], data['new_balance'], data['fee']))
+        conn.commit()
+        print(
+            f"Data for transaction_number {data['transaction_id']} inserted successfully.")
+    except sqlite3.IntegrityError as e:
+        print(f"Error inserting data: {e}")
+
+
 # Main execution
 create_table()
 
@@ -102,6 +156,16 @@ with open('./data/transfer_to_mobile_numbers.json', 'r') as f:
     data = json.load(f)
     for record in data:
         data_entry_for_transfers_to_mobile_numbers(record)
+
+with open('./data/cash_power_bill_payments.json', 'r') as f:
+    data = json.load(f)
+    for record in data:
+        data_entry_for_cash_power_bill_payments(record)
+
+with open('./data/withdrawals_from_agents.json', 'r') as f:
+    data = json.load(f)
+    for record in data:
+        data_entry_for_withdrawals_from_agents(record)
 
 
 c.close()
