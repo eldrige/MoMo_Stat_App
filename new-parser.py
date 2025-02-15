@@ -255,29 +255,30 @@ def withdrawals_from_agents(sms_data: Dict[str, List[str]]):
 
 def internet_voice_bundles(sms_data: Dict[str, List[str]]):
     internet_voice_bundles_table = sms_data['internet_voice_bundle']
+    pattern = re.compile(
+        r"TxId:(\d+).*?payment of (\d+) RWF to (.*?) with token.*?at ([\d-]+ [\d:]+).*?Fee was (\d+) RWF.*?balance: (\d+) RWF",
+        re.DOTALL
+    )
 
     internet_voice_bundles = []
 
     for message in internet_voice_bundles_table:
+        match = pattern.search(message)
 
-        transaction_id = message.split("TxId:")[1].split("*")[0]
-        amount = message.split("payment of ")[1].split(" RWF")[0]
-        provider = message.split("to ")[1].split(" with")[0].strip()
-        token = message.split("with token ")[1].split(" has")[0].strip()
-        # date_time = message.split("completed at ")[1].split(". Fee")[0].strip()
-        # fee = message.split("Fee was ")[1].split(" RWF")[0]
-        new_balance = message.split("new balance: ")[1].split(" RWF")[0]
-    # units = message.split("Electricity units: ")[1].split("kwH")[0]
+        if match:
+            transaction_id = match.group(1)
+            amount = match.group(2)
+            service = match.group(3)
+            date_time = match.group(4)
+            new_balance = match.group(6)
 
-        internet_voice_bundles.append({
-            "transaction_id": transaction_id,
-            "amount": amount,
-            "provider": provider,
-            "token": token,
-            # "date": date_time,
-            # "fee": fee,
-            "new_balance": new_balance
-        })
+            internet_voice_bundles.append({
+                "transaction_id": transaction_id,
+                "amount": amount,
+                "service": service,
+                "date": date_time,
+                "new_balance": new_balance
+            })
 
     export_to_json(internet_voice_bundles,
                    "data/internet_voice_bundles.json")
@@ -297,6 +298,72 @@ def export_to_json(data, filename="airtime_payments.json"):
     print(f"Data exported to {filename}")
 
 
+def payment_to_code_holders(sms_data: Dict[str, List[str]]):
+    payment_to_code_holders_table = sms_data['payment_to_code_holders']
+    pattern = re.compile(
+        r"TxId:\s*(\d+).*?payment of ([\d,]+) RWF to (.*?) has been completed at ([\d-]+ [\d:]+).*?balance:\s*([\d,]+) RWF.*?Fee was (\d+) RWF",
+        re.DOTALL
+    )
+
+    payment_to_code_holders = []
+
+    for message in payment_to_code_holders_table:
+        match = pattern.search(message)
+
+        if match:
+            transaction_id = match.group(1)
+            amount = match.group(2).replace(",", "")
+            recipient = match.group(3)
+            date_time = match.group(4)
+            new_balance = match.group(5).replace(",", "")
+            fee = match.group(6)
+
+            payment_to_code_holders.append({
+                "transaction_id": transaction_id,
+                "amount": amount,
+                "date": date_time,
+                "new_balance": new_balance,
+                "fee": fee,
+                "recipient": recipient
+            })
+
+    export_to_json(payment_to_code_holders,
+                   "data/payment_to_code_holders.json")
+
+
+def bank_transfers(sms_data: Dict[str, List[str]]):
+    bank_transfers_table = sms_data['bank_transfers']
+    pattern = re.compile(
+        r"You have transferred (\d+) RWF to ([A-Za-z\s]+) \((\d+)\) from your mobile money account (\d+).*?at ([\d-]+ [\d:]+).*?Financial Transaction Id:\s*(\d+)",
+        re.DOTALL
+    )
+    bank_transfers = []
+
+    for message in bank_transfers_table:
+        match = pattern.search(message)
+
+        if match:
+            amount = match.group(1)
+            recipient_name = match.group(2)
+            recipient_phone = match.group(3)
+            sender_account = match.group(4)
+            date_time = match.group(5)
+            transaction_id = match.group(6)
+            print(amount)
+
+            bank_transfers.append({
+                "transaction_id": transaction_id,
+                "amount": amount,
+                "date": date_time,
+                "recipient_name": recipient_name,
+                "recipient_phone": recipient_phone,
+                "sender_account": sender_account
+            })
+
+    export_to_json(bank_transfers,
+                   "data/bank_transfers.json")
+
+
 def main():
     xml_file = 'sms.xml'
     root = parse_xml(xml_file)
@@ -310,12 +377,14 @@ def main():
                 print(f"- {message}")
             print("-" * 30)
 
-        # # populate_received_money_table(sms_data)
-        # # transfer_to_mobile_numbers(sms_data)
-        # # populate_airtime_table(sms_data)
+        # populate_received_money_table(sms_data)
+        # transfer_to_mobile_numbers(sms_data)
+        # populate_airtime_table(sms_data)
         # cash_power_bill_payments(sms_data)
         # withdrawals_from_agents(sms_data)
-        internet_voice_bundles(sms_data)
+        # internet_voice_bundles(sms_data)
+        # payment_to_code_holders(sms_data)
+        bank_transfers(sms_data)
 
 
 if __name__ == "__main__":

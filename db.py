@@ -60,6 +60,34 @@ def create_table():
         fee INTEGER
     )
 """)
+    c.execute("""
+    CREATE TABLE IF NOT EXISTS internet_voice_bundles (
+        transaction_id TEXT PRIMARY KEY, 
+        date TEXT,
+        amount INTEGER,
+        new_balance INTEGER,
+        service TEXT
+    )
+""")
+    c.execute("""
+    CREATE TABLE IF NOT EXISTS payment_to_code_holders (
+        transaction_id TEXT PRIMARY KEY, 
+        date TEXT,
+        amount INTEGER,
+        new_balance INTEGER,
+        recipient TEXT
+    )
+""")
+    c.execute("""
+    CREATE TABLE IF NOT EXISTS bank_transfers (
+        transaction_id TEXT PRIMARY KEY, 
+        date TEXT,
+        amount INTEGER,
+        recipient_name TEXT,
+        recipient_phone TEXT,
+        sender_account TEXT
+    )
+""")
 
     conn.commit()
 
@@ -138,6 +166,51 @@ def data_entry_for_withdrawals_from_agents(data):
         print(f"Error inserting data: {e}")
 
 
+def data_entry_for_internet_voice_bundles(data):
+    print(data)
+
+    try:
+        c.execute("""
+            INSERT INTO internet_voice_bundles (transaction_id,date, amount, new_balance, service)
+            VALUES (?, ?, ?, ?, ?)
+        """, (data['transaction_id'], data['date'], data['amount'], data['new_balance'], data['service']))
+        conn.commit()
+        print(
+            f"Data for transaction_number {data['transaction_id']} inserted successfully.")
+    except sqlite3.IntegrityError as e:
+        print(f"Error inserting data: {e}")
+
+
+def data_entry_for_payment_to_code_holders(data):
+    print(data)
+
+    try:
+        c.execute("""
+            INSERT INTO payment_to_code_holders (transaction_id,date, amount, new_balance, recipient)
+            VALUES (?, ?, ?, ?, ?)
+        """, (data['transaction_id'], data['date'], data['amount'], data['new_balance'], data['recipient']))
+        conn.commit()
+        print(
+            f"Data for transaction_number {data['transaction_id']} inserted successfully.")
+    except sqlite3.IntegrityError as e:
+        print(f"Error inserting data: {e}")
+
+
+def data_entry_for_bank_transfers(data):
+    print(data)
+
+    try:
+        c.execute("""
+            INSERT INTO bank_transfers (transaction_id,date, amount, recipient_name, recipient_phone, sender_account)
+            VALUES (?, ?, ?, ?, ?,?)
+        """, (data['transaction_id'], data['date'], data['amount'], data['recipient_name'], data['recipient_phone'], data['sender_account']))
+        conn.commit()
+        print(
+            f"Data for transaction_number {data['transaction_id']} inserted successfully.")
+    except sqlite3.IntegrityError as e:
+        print(f"Error inserting data: {e}")
+
+
 # Main execution
 create_table()
 
@@ -166,6 +239,21 @@ with open('./data/withdrawals_from_agents.json', 'r') as f:
     data = json.load(f)
     for record in data:
         data_entry_for_withdrawals_from_agents(record)
+
+with open('./data/internet_voice_bundles.json', 'r') as f:
+    data = json.load(f)
+    for record in data:
+        data_entry_for_internet_voice_bundles(record)
+
+with open('./data/payment_to_code_holders.json', 'r') as f:
+    data = json.load(f)
+    for record in data:
+        data_entry_for_payment_to_code_holders(record)
+
+with open('./data/bank_transfers.json', 'r') as f:
+    data = json.load(f)
+    for record in data:
+        data_entry_for_bank_transfers(record)
 
 
 c.close()

@@ -1,1 +1,5266 @@
-[]
+[
+    {
+        "transaction_id": "73214484437",
+        "amount": "1000",
+        "date": "2024-05-10 16:31:39",
+        "new_balance": "1000",
+        "fee": "0",
+        "recipient": "Jane Smith 12845"
+    },
+    {
+        "transaction_id": "51732411227",
+        "amount": "600",
+        "date": "2024-05-10 21:32:32",
+        "new_balance": "400",
+        "fee": "0",
+        "recipient": "Samuel Carter 95464"
+    },
+    {
+        "transaction_id": "17818959211",
+        "amount": "2000",
+        "date": "2024-05-11 18:48:42",
+        "new_balance": "38400",
+        "fee": "0",
+        "recipient": "Samuel Carter 14965"
+    },
+    {
+        "transaction_id": "45434420466",
+        "amount": "10900",
+        "date": "2024-05-12 13:26:13",
+        "new_balance": "14380",
+        "fee": "0",
+        "recipient": "Jane Smith 59543"
+    },
+    {
+        "transaction_id": "82113964658",
+        "amount": "3500",
+        "date": "2024-05-12 13:34:25",
+        "new_balance": "10880",
+        "fee": "0",
+        "recipient": "Alex Doe 43810"
+    },
+    {
+        "transaction_id": "26614842768",
+        "amount": "1000",
+        "date": "2024-05-12 17:58:15",
+        "new_balance": "9880",
+        "fee": "0",
+        "recipient": "Robert Brown 41193"
+    },
+    {
+        "transaction_id": "70497610538",
+        "amount": "5000",
+        "date": "2024-05-12 18:08:58",
+        "new_balance": "4880",
+        "fee": "0",
+        "recipient": "Linda Green 75028"
+    },
+    {
+        "transaction_id": "24227321992",
+        "amount": "1600",
+        "date": "2024-05-14 21:29:01",
+        "new_balance": "2460",
+        "fee": "0",
+        "recipient": "Linda Green 14166"
+    },
+    {
+        "transaction_id": "18249226395",
+        "amount": "2000",
+        "date": "2024-05-14 21:29:35",
+        "new_balance": "460",
+        "fee": "0",
+        "recipient": "Alex Doe 23199"
+    },
+    {
+        "transaction_id": "98755359894",
+        "amount": "1800",
+        "date": "2024-05-15 09:16:32",
+        "new_balance": "3660",
+        "fee": "0",
+        "recipient": "Alex Doe 73050"
+    },
+    {
+        "transaction_id": "65789139357",
+        "amount": "1000",
+        "date": "2024-05-15 20:38:44",
+        "new_balance": "340",
+        "fee": "0",
+        "recipient": "Alex Doe 46904"
+    },
+    {
+        "transaction_id": "16913786322",
+        "amount": "2150",
+        "date": "2024-05-16 21:35:36",
+        "new_balance": "3890",
+        "fee": "0",
+        "recipient": "Linda Green 20428"
+    },
+    {
+        "transaction_id": "30173936259",
+        "amount": "1500",
+        "date": "2024-05-18 08:15:31",
+        "new_balance": "4190",
+        "fee": "0",
+        "recipient": "Robert Brown 52128"
+    },
+    {
+        "transaction_id": "38084447123",
+        "amount": "6000",
+        "date": "2024-05-18 08:48:28",
+        "new_balance": "3190",
+        "fee": "0",
+        "recipient": "Jane Smith 48045"
+    },
+    {
+        "transaction_id": "32894434269",
+        "amount": "1500",
+        "date": "2024-05-20 16:55:34",
+        "new_balance": "2570",
+        "fee": "0",
+        "recipient": "Jane Smith 61445"
+    },
+    {
+        "transaction_id": "61189493387",
+        "amount": "3500",
+        "date": "2024-05-22 13:44:59",
+        "new_balance": "2950",
+        "fee": "0",
+        "recipient": "Robert Brown 61316"
+    },
+    {
+        "transaction_id": "37467134419",
+        "amount": "1800",
+        "date": "2024-05-23 09:51:43",
+        "new_balance": "1150",
+        "fee": "0",
+        "recipient": "Robert Brown 28481"
+    },
+    {
+        "transaction_id": "12131092250",
+        "amount": "1000",
+        "date": "2024-05-24 13:10:41",
+        "new_balance": "3250",
+        "fee": "0",
+        "recipient": "Samuel Carter 98117"
+    },
+    {
+        "transaction_id": "35617026753",
+        "amount": "1500",
+        "date": "2024-05-24 16:41:03",
+        "new_balance": "1750",
+        "fee": "0",
+        "recipient": "Alex Doe 22692"
+    },
+    {
+        "transaction_id": "59168184137",
+        "amount": "2000",
+        "date": "2024-05-24 23:07:44",
+        "new_balance": "3050",
+        "fee": "0",
+        "recipient": "Alex Doe 14717"
+    },
+    {
+        "transaction_id": "47570656030",
+        "amount": "2000",
+        "date": "2024-05-25 04:54:54",
+        "new_balance": "1050",
+        "fee": "0",
+        "recipient": "Samuel Carter 23701"
+    },
+    {
+        "transaction_id": "95960893947",
+        "amount": "2000",
+        "date": "2024-05-25 11:19:23",
+        "new_balance": "4050",
+        "fee": "0",
+        "recipient": "Samuel Carter 19954"
+    },
+    {
+        "transaction_id": "43786042083",
+        "amount": "9300",
+        "date": "2024-05-25 17:20:20",
+        "new_balance": "4750",
+        "fee": "0",
+        "recipient": "Jane Smith 15975"
+    },
+    {
+        "transaction_id": "51199793551",
+        "amount": "2000",
+        "date": "2024-05-25 19:50:55",
+        "new_balance": "2750",
+        "fee": "0",
+        "recipient": "Samuel Carter 24729"
+    },
+    {
+        "transaction_id": "90057863776",
+        "amount": "1000",
+        "date": "2024-05-25 23:47:53",
+        "new_balance": "1750",
+        "fee": "0",
+        "recipient": "Jane Smith 55799"
+    },
+    {
+        "transaction_id": "65035082869",
+        "amount": "8000",
+        "date": "2024-05-26 17:19:28",
+        "new_balance": "2450",
+        "fee": "0",
+        "recipient": "Jane Smith 51116"
+    },
+    {
+        "transaction_id": "23112980564",
+        "amount": "2000",
+        "date": "2024-05-26 18:46:37",
+        "new_balance": "450",
+        "fee": "0",
+        "recipient": "Robert Brown 11803"
+    },
+    {
+        "transaction_id": "97391079490",
+        "amount": "1700",
+        "date": "2024-05-27 08:01:47",
+        "new_balance": "3750",
+        "fee": "0",
+        "recipient": "Samuel Carter 71141"
+    },
+    {
+        "transaction_id": "28021128029",
+        "amount": "1500",
+        "date": "2024-05-28 17:34:02",
+        "new_balance": "1400",
+        "fee": "0",
+        "recipient": "Alex Doe 44654"
+    },
+    {
+        "transaction_id": "59054859038",
+        "amount": "1800",
+        "date": "2024-05-30 12:14:29",
+        "new_balance": "3600",
+        "fee": "0",
+        "recipient": "Jane Smith 39230"
+    },
+    {
+        "transaction_id": "49894890981",
+        "amount": "1700",
+        "date": "2024-05-31 09:39:36",
+        "new_balance": "4000",
+        "fee": "0",
+        "recipient": "Linda Green 61690"
+    },
+    {
+        "transaction_id": "36362293540",
+        "amount": "1500",
+        "date": "2024-05-31 12:57:20",
+        "new_balance": "2500",
+        "fee": "0",
+        "recipient": "Jane Smith 80677"
+    },
+    {
+        "transaction_id": "38069282043",
+        "amount": "4050",
+        "date": "2024-06-01 14:35:41",
+        "new_balance": "730",
+        "fee": "0",
+        "recipient": "Jane Smith 20505"
+    },
+    {
+        "transaction_id": "66215693108",
+        "amount": "1000",
+        "date": "2024-06-01 19:46:46",
+        "new_balance": "14730",
+        "fee": "0",
+        "recipient": "Samuel Carter 81957"
+    },
+    {
+        "transaction_id": "37706238756",
+        "amount": "900",
+        "date": "2024-06-01 19:48:05",
+        "new_balance": "13830",
+        "fee": "0",
+        "recipient": "Robert Brown 96964"
+    },
+    {
+        "transaction_id": "22989641020",
+        "amount": "1500",
+        "date": "2024-06-01 19:51:37",
+        "new_balance": "2230",
+        "fee": "0",
+        "recipient": "Linda Green 38423"
+    },
+    {
+        "transaction_id": "28025360855",
+        "amount": "2000",
+        "date": "2024-06-02 21:10:45",
+        "new_balance": "3130",
+        "fee": "0",
+        "recipient": "Alex Doe 65474"
+    },
+    {
+        "transaction_id": "32615649069",
+        "amount": "3500",
+        "date": "2024-06-03 13:10:42",
+        "new_balance": "3030",
+        "fee": "0",
+        "recipient": "Jane Smith 14003"
+    },
+    {
+        "transaction_id": "21910499837",
+        "amount": "4800",
+        "date": "2024-06-03 18:57:19",
+        "new_balance": "3430",
+        "fee": "0",
+        "recipient": "Alex Doe 46942"
+    },
+    {
+        "transaction_id": "40412577651",
+        "amount": "1300",
+        "date": "2024-06-03 19:34:13",
+        "new_balance": "2130",
+        "fee": "0",
+        "recipient": "Samuel Carter 46893"
+    },
+    {
+        "transaction_id": "44021806588",
+        "amount": "1500",
+        "date": "2024-06-04 09:32:38",
+        "new_balance": "630",
+        "fee": "0",
+        "recipient": "Linda Green 96637"
+    },
+    {
+        "transaction_id": "70782527436",
+        "amount": "3500",
+        "date": "2024-06-04 13:52:25",
+        "new_balance": "2130",
+        "fee": "0",
+        "recipient": "Robert Brown 25426"
+    },
+    {
+        "transaction_id": "15037119744",
+        "amount": "2100",
+        "date": "2024-06-04 21:19:34",
+        "new_balance": "30",
+        "fee": "0",
+        "recipient": "Alex Doe 72233"
+    },
+    {
+        "transaction_id": "25107231114",
+        "amount": "24500",
+        "date": "2024-06-05 17:19:49",
+        "new_balance": "830",
+        "fee": "0",
+        "recipient": "Alex Doe 27079"
+    },
+    {
+        "transaction_id": "19727516208",
+        "amount": "600",
+        "date": "2024-06-05 22:17:21",
+        "new_balance": "1630",
+        "fee": "0",
+        "recipient": "Linda Green 76533"
+    },
+    {
+        "transaction_id": "36046721654",
+        "amount": "800",
+        "date": "2024-06-06 18:18:56",
+        "new_balance": "2830",
+        "fee": "0",
+        "recipient": "Robert Brown 84176"
+    },
+    {
+        "transaction_id": "94257743617",
+        "amount": "3500",
+        "date": "2024-06-12 13:04:58",
+        "new_balance": "2710",
+        "fee": "0",
+        "recipient": "Robert Brown 39208"
+    },
+    {
+        "transaction_id": "28563784569",
+        "amount": "1500",
+        "date": "2024-06-12 17:08:44",
+        "new_balance": "4610",
+        "fee": "0",
+        "recipient": "Alex Doe 39288"
+    },
+    {
+        "transaction_id": "16877151789",
+        "amount": "1500",
+        "date": "2024-06-12 17:15:15",
+        "new_balance": "3110",
+        "fee": "0",
+        "recipient": "Alex Doe 44082"
+    },
+    {
+        "transaction_id": "49766645414",
+        "amount": "800",
+        "date": "2024-06-12 20:18:40",
+        "new_balance": "5670",
+        "fee": "0",
+        "recipient": "Linda Green 18881"
+    },
+    {
+        "transaction_id": "91799715733",
+        "amount": "1000",
+        "date": "2024-06-12 22:08:07",
+        "new_balance": "4670",
+        "fee": "0",
+        "recipient": "Samuel Carter 70871"
+    },
+    {
+        "transaction_id": "42326639460",
+        "amount": "1600",
+        "date": "2024-06-12 22:24:34",
+        "new_balance": "3070",
+        "fee": "0",
+        "recipient": "Jane Smith 37496"
+    },
+    {
+        "transaction_id": "18893569803",
+        "amount": "1500",
+        "date": "2024-06-13 13:36:25",
+        "new_balance": "3650",
+        "fee": "0",
+        "recipient": "Alex Doe 45991"
+    },
+    {
+        "transaction_id": "10809435113",
+        "amount": "2000",
+        "date": "2024-06-14 09:44:21",
+        "new_balance": "2750",
+        "fee": "0",
+        "recipient": "Linda Green 84094"
+    },
+    {
+        "transaction_id": "97328486237",
+        "amount": "1800",
+        "date": "2024-06-14 10:58:00",
+        "new_balance": "950",
+        "fee": "0",
+        "recipient": "Samuel Carter 31469"
+    },
+    {
+        "transaction_id": "20564153955",
+        "amount": "2500",
+        "date": "2024-06-14 13:07:42",
+        "new_balance": "3450",
+        "fee": "0",
+        "recipient": "Alex Doe 15064"
+    },
+    {
+        "transaction_id": "31051483102",
+        "amount": "1500",
+        "date": "2024-06-14 13:28:42",
+        "new_balance": "1950",
+        "fee": "0",
+        "recipient": "Samuel Carter 28053"
+    },
+    {
+        "transaction_id": "17481776844",
+        "amount": "1800",
+        "date": "2024-06-14 15:52:21",
+        "new_balance": "5050",
+        "fee": "0",
+        "recipient": "Robert Brown 40227"
+    },
+    {
+        "transaction_id": "63344530197",
+        "amount": "1000",
+        "date": "2024-06-14 20:04:10",
+        "new_balance": "3830",
+        "fee": "0",
+        "recipient": "Robert Brown 18321"
+    },
+    {
+        "transaction_id": "99134996997",
+        "amount": "1500",
+        "date": "2024-06-15 13:11:40",
+        "new_balance": "4730",
+        "fee": "0",
+        "recipient": "Jane Smith 89064"
+    },
+    {
+        "transaction_id": "96723699988",
+        "amount": "2100",
+        "date": "2024-06-15 13:20:08",
+        "new_balance": "1030",
+        "fee": "0",
+        "recipient": "Jane Smith 92936"
+    },
+    {
+        "transaction_id": "16545003631",
+        "amount": "700",
+        "date": "2024-06-15 14:02:58",
+        "new_balance": "49610",
+        "fee": "0",
+        "recipient": "Alex Doe 29114"
+    },
+    {
+        "transaction_id": "61557468875",
+        "amount": "23300",
+        "date": "2024-06-15 15:37:37",
+        "new_balance": "26310",
+        "fee": "0",
+        "recipient": "Jane Smith 90360"
+    },
+    {
+        "transaction_id": "81945111303",
+        "amount": "11000",
+        "date": "2024-06-15 18:30:24",
+        "new_balance": "12110",
+        "fee": "0",
+        "recipient": "Alex Doe 15688"
+    },
+    {
+        "transaction_id": "59979980024",
+        "amount": "900",
+        "date": "2024-06-16 12:28:56",
+        "new_balance": "3210",
+        "fee": "0",
+        "recipient": "Robert Brown 32983"
+    },
+    {
+        "transaction_id": "77021305535",
+        "amount": "7000",
+        "date": "2024-06-16 20:13:42",
+        "new_balance": "2350",
+        "fee": "0",
+        "recipient": "Linda Green 89531"
+    },
+    {
+        "transaction_id": "59491550845",
+        "amount": "500",
+        "date": "2024-06-16 21:48:11",
+        "new_balance": "850",
+        "fee": "0",
+        "recipient": "Samuel Carter 54211"
+    },
+    {
+        "transaction_id": "19524019964",
+        "amount": "4500",
+        "date": "2024-06-17 15:57:16",
+        "new_balance": "10630",
+        "fee": "0",
+        "recipient": "Linda Green 22964"
+    },
+    {
+        "transaction_id": "23764987164",
+        "amount": "9900",
+        "date": "2024-06-17 16:27:00",
+        "new_balance": "42980",
+        "fee": "0",
+        "recipient": "Linda Green 57394"
+    },
+    {
+        "transaction_id": "41741931224",
+        "amount": "2800",
+        "date": "2024-06-17 16:35:20",
+        "new_balance": "40180",
+        "fee": "0",
+        "recipient": "Jane Smith 12146"
+    },
+    {
+        "transaction_id": "81779365319",
+        "amount": "2000",
+        "date": "2024-06-17 22:14:09",
+        "new_balance": "15210",
+        "fee": "0",
+        "recipient": "Linda Green 31161"
+    },
+    {
+        "transaction_id": "12093489080",
+        "amount": "2500",
+        "date": "2024-06-18 13:32:45",
+        "new_balance": "10610",
+        "fee": "0",
+        "recipient": "Alex Doe 12185"
+    },
+    {
+        "transaction_id": "10919892030",
+        "amount": "1500",
+        "date": "2024-06-18 13:47:33",
+        "new_balance": "9110",
+        "fee": "0",
+        "recipient": "Samuel Carter 54054"
+    },
+    {
+        "transaction_id": "92393353015",
+        "amount": "1500",
+        "date": "2024-06-18 20:13:38",
+        "new_balance": "10810",
+        "fee": "0",
+        "recipient": "Alex Doe 12474"
+    },
+    {
+        "transaction_id": "70015105006",
+        "amount": "3500",
+        "date": "2024-06-19 13:14:56",
+        "new_balance": "7310",
+        "fee": "0",
+        "recipient": "Robert Brown 29936"
+    },
+    {
+        "transaction_id": "11901062453",
+        "amount": "1500",
+        "date": "2024-06-19 16:07:43",
+        "new_balance": "5810",
+        "fee": "0",
+        "recipient": "Samuel Carter 20955"
+    },
+    {
+        "transaction_id": "65472821949",
+        "amount": "1500",
+        "date": "2024-06-21 16:01:02",
+        "new_balance": "2640",
+        "fee": "0",
+        "recipient": "Alex Doe 35808"
+    },
+    {
+        "transaction_id": "18526546570",
+        "amount": "1000",
+        "date": "2024-06-21 19:02:57",
+        "new_balance": "4540",
+        "fee": "0",
+        "recipient": "Alex Doe 27861"
+    },
+    {
+        "transaction_id": "90823104833",
+        "amount": "800",
+        "date": "2024-06-21 21:08:17",
+        "new_balance": "3740",
+        "fee": "0",
+        "recipient": "Jane Smith 90263"
+    },
+    {
+        "transaction_id": "94029377235",
+        "amount": "2500",
+        "date": "2024-06-22 06:14:50",
+        "new_balance": "1240",
+        "fee": "0",
+        "recipient": "Alex Doe 38221"
+    },
+    {
+        "transaction_id": "38074910818",
+        "amount": "6200",
+        "date": "2024-06-22 10:49:01",
+        "new_balance": "8740",
+        "fee": "0",
+        "recipient": "Linda Green 39756"
+    },
+    {
+        "transaction_id": "43333418094",
+        "amount": "1500",
+        "date": "2024-06-22 11:40:56",
+        "new_balance": "6220",
+        "fee": "0",
+        "recipient": "Alex Doe 29218"
+    },
+    {
+        "transaction_id": "43349533054",
+        "amount": "10000",
+        "date": "2024-06-22 18:15:44",
+        "new_balance": "16220",
+        "fee": "0",
+        "recipient": "Samuel Carter 44047"
+    },
+    {
+        "transaction_id": "12723317674",
+        "amount": "15000",
+        "date": "2024-06-23 12:16:52",
+        "new_balance": "620",
+        "fee": "0",
+        "recipient": "Linda Green 94480"
+    },
+    {
+        "transaction_id": "29081551536",
+        "amount": "600",
+        "date": "2024-06-23 13:56:01",
+        "new_balance": "20",
+        "fee": "0",
+        "recipient": "Jane Smith 74631"
+    },
+    {
+        "transaction_id": "55981011420",
+        "amount": "800",
+        "date": "2024-06-23 17:02:22",
+        "new_balance": "11120",
+        "fee": "0",
+        "recipient": "Jane Smith 67993"
+    },
+    {
+        "transaction_id": "67456128847",
+        "amount": "3500",
+        "date": "2024-06-24 13:06:23",
+        "new_balance": "420",
+        "fee": "0",
+        "recipient": "Jane Smith 19682"
+    },
+    {
+        "transaction_id": "45238324104",
+        "amount": "1500",
+        "date": "2024-06-24 15:03:47",
+        "new_balance": "1800",
+        "fee": "0",
+        "recipient": "Robert Brown 66886"
+    },
+    {
+        "transaction_id": "31373267832",
+        "amount": "1000",
+        "date": "2024-06-24 17:38:59",
+        "new_balance": "800",
+        "fee": "0",
+        "recipient": "Jane Smith 97326"
+    },
+    {
+        "transaction_id": "99439041781",
+        "amount": "4200",
+        "date": "2024-06-24 20:40:01",
+        "new_balance": "580",
+        "fee": "0",
+        "recipient": "Alex Doe 41367"
+    },
+    {
+        "transaction_id": "91628513434",
+        "amount": "2400",
+        "date": "2024-06-24 21:06:12",
+        "new_balance": "3180",
+        "fee": "0",
+        "recipient": "Alex Doe 29405"
+    },
+    {
+        "transaction_id": "95997298432",
+        "amount": "3500",
+        "date": "2024-06-25 13:32:46",
+        "new_balance": "17260",
+        "fee": "0",
+        "recipient": "Jane Smith 79876"
+    },
+    {
+        "transaction_id": "93272208136",
+        "amount": "1500",
+        "date": "2024-06-25 13:57:32",
+        "new_balance": "10660",
+        "fee": "0",
+        "recipient": "Alex Doe 88360"
+    },
+    {
+        "transaction_id": "76500239822",
+        "amount": "1200",
+        "date": "2024-06-25 19:03:16",
+        "new_balance": "7560",
+        "fee": "0",
+        "recipient": "Robert Brown 89730"
+    },
+    {
+        "transaction_id": "62680813443",
+        "amount": "15000",
+        "date": "2024-06-25 22:11:05",
+        "new_balance": "19960",
+        "fee": "0",
+        "recipient": "Jane Smith 27049"
+    },
+    {
+        "transaction_id": "60128198918",
+        "amount": "2500",
+        "date": "2024-06-25 22:12:12",
+        "new_balance": "17460",
+        "fee": "0",
+        "recipient": "Samuel Carter 28730"
+    },
+    {
+        "transaction_id": "45944658885",
+        "amount": "2000",
+        "date": "2024-06-25 23:32:50",
+        "new_balance": "7360",
+        "fee": "0",
+        "recipient": "Jane Smith 50933"
+    },
+    {
+        "transaction_id": "95262102019",
+        "amount": "2000",
+        "date": "2024-06-26 09:52:34",
+        "new_balance": "5360",
+        "fee": "0",
+        "recipient": "Robert Brown 69373"
+    },
+    {
+        "transaction_id": "87006296823",
+        "amount": "3500",
+        "date": "2024-06-26 13:49:35",
+        "new_balance": "1760",
+        "fee": "0",
+        "recipient": "Robert Brown 96044"
+    },
+    {
+        "transaction_id": "31576470196",
+        "amount": "2600",
+        "date": "2024-06-26 20:56:26",
+        "new_balance": "290",
+        "fee": "0",
+        "recipient": "Samuel Carter 26362"
+    },
+    {
+        "transaction_id": "73458718592",
+        "amount": "1300",
+        "date": "2024-06-26 21:15:01",
+        "new_balance": "3990",
+        "fee": "0",
+        "recipient": "Linda Green 68296"
+    },
+    {
+        "transaction_id": "38607418037",
+        "amount": "2000",
+        "date": "2024-06-27 10:11:28",
+        "new_balance": "1990",
+        "fee": "0",
+        "recipient": "Samuel Carter 32097"
+    },
+    {
+        "transaction_id": "74528093189",
+        "amount": "3000",
+        "date": "2024-06-27 12:42:40",
+        "new_balance": "3990",
+        "fee": "0",
+        "recipient": "Samuel Carter 80358"
+    },
+    {
+        "transaction_id": "36124196268",
+        "amount": "2000",
+        "date": "2024-06-28 11:57:46",
+        "new_balance": "2920",
+        "fee": "0",
+        "recipient": "Samuel Carter 53745"
+    },
+    {
+        "transaction_id": "12278530897",
+        "amount": "3500",
+        "date": "2024-06-28 13:54:35",
+        "new_balance": "4420",
+        "fee": "0",
+        "recipient": "Alex Doe 24477"
+    },
+    {
+        "transaction_id": "80699538135",
+        "amount": "38500",
+        "date": "2024-06-28 23:17:22",
+        "new_balance": "1670",
+        "fee": "0",
+        "recipient": "Jane Smith 49279"
+    },
+    {
+        "transaction_id": "76219803114",
+        "amount": "16500",
+        "date": "2024-06-29 00:42:15",
+        "new_balance": "5170",
+        "fee": "0",
+        "recipient": "Alex Doe 31462"
+    },
+    {
+        "transaction_id": "49444119897",
+        "amount": "12500",
+        "date": "2024-06-29 01:16:07",
+        "new_balance": "42670",
+        "fee": "0",
+        "recipient": "Samuel Carter 80818"
+    },
+    {
+        "transaction_id": "23617183914",
+        "amount": "11500",
+        "date": "2024-06-29 01:54:26",
+        "new_balance": "31170",
+        "fee": "0",
+        "recipient": "Alex Doe 80450"
+    },
+    {
+        "transaction_id": "77242964085",
+        "amount": "5000",
+        "date": "2024-06-29 02:35:39",
+        "new_balance": "26170",
+        "fee": "0",
+        "recipient": "Linda Green 58573"
+    },
+    {
+        "transaction_id": "46513194998",
+        "amount": "2000",
+        "date": "2024-06-29 02:54:58",
+        "new_balance": "24170",
+        "fee": "0",
+        "recipient": "Linda Green 29839"
+    },
+    {
+        "transaction_id": "91434725399",
+        "amount": "5800",
+        "date": "2024-06-29 13:17:13",
+        "new_balance": "98120",
+        "fee": "0",
+        "recipient": "Alex Doe 52731"
+    },
+    {
+        "transaction_id": "92465449198",
+        "amount": "17000",
+        "date": "2024-06-29 15:55:40",
+        "new_balance": "65870",
+        "fee": "0",
+        "recipient": "Jane Smith 48732"
+    },
+    {
+        "transaction_id": "73443153836",
+        "amount": "4000",
+        "date": "2024-06-29 18:25:16",
+        "new_balance": "25600",
+        "fee": "0",
+        "recipient": "Samuel Carter 93083"
+    },
+    {
+        "transaction_id": "36547564090",
+        "amount": "15000",
+        "date": "2024-06-29 20:14:18",
+        "new_balance": "98350",
+        "fee": "0",
+        "recipient": "Samuel Carter 33167"
+    },
+    {
+        "transaction_id": "74110530634",
+        "amount": "3000",
+        "date": "2024-06-29 20:26:29",
+        "new_balance": "95350",
+        "fee": "0",
+        "recipient": "Jane Smith 36439"
+    },
+    {
+        "transaction_id": "13627937199",
+        "amount": "3000",
+        "date": "2024-06-29 20:48:30",
+        "new_balance": "92350",
+        "fee": "0",
+        "recipient": "Samuel Carter 89385"
+    },
+    {
+        "transaction_id": "72441399952",
+        "amount": "5000",
+        "date": "2024-06-29 21:14:55",
+        "new_balance": "87350",
+        "fee": "0",
+        "recipient": "Robert Brown 56837"
+    },
+    {
+        "transaction_id": "61734495932",
+        "amount": "3000",
+        "date": "2024-06-29 22:00:11",
+        "new_balance": "84350",
+        "fee": "0",
+        "recipient": "Jane Smith 73232"
+    },
+    {
+        "transaction_id": "60128358762",
+        "amount": "12000",
+        "date": "2024-06-29 22:22:57",
+        "new_balance": "72350",
+        "fee": "0",
+        "recipient": "Jane Smith 57243"
+    },
+    {
+        "transaction_id": "65198686588",
+        "amount": "3000",
+        "date": "2024-06-29 23:00:54",
+        "new_balance": "69350",
+        "fee": "0",
+        "recipient": "Samuel Carter 43908"
+    },
+    {
+        "transaction_id": "74637643766",
+        "amount": "3000",
+        "date": "2024-06-29 23:54:38",
+        "new_balance": "66350",
+        "fee": "0",
+        "recipient": "Jane Smith 46155"
+    },
+    {
+        "transaction_id": "19291503186",
+        "amount": "13000",
+        "date": "2024-06-30 02:08:25",
+        "new_balance": "53350",
+        "fee": "0",
+        "recipient": "Robert Brown 66160"
+    },
+    {
+        "transaction_id": "89343929108",
+        "amount": "1400",
+        "date": "2024-06-30 13:25:37",
+        "new_balance": "39680",
+        "fee": "0",
+        "recipient": "Robert Brown 39520"
+    },
+    {
+        "transaction_id": "59302716963",
+        "amount": "12000",
+        "date": "2024-06-30 15:00:28",
+        "new_balance": "27680",
+        "fee": "0",
+        "recipient": "Samuel Carter 23837"
+    },
+    {
+        "transaction_id": "26484890740",
+        "amount": "500",
+        "date": "2024-06-30 15:49:57",
+        "new_balance": "26660",
+        "fee": "0",
+        "recipient": "Alex Doe 14112"
+    },
+    {
+        "transaction_id": "28014849597",
+        "amount": "4500",
+        "date": "2024-06-30 16:51:36",
+        "new_balance": "20560",
+        "fee": "0",
+        "recipient": "Linda Green 10831"
+    },
+    {
+        "transaction_id": "26330194128",
+        "amount": "2000",
+        "date": "2024-06-30 20:48:31",
+        "new_balance": "28490",
+        "fee": "0",
+        "recipient": "Jane Smith 46726"
+    },
+    {
+        "transaction_id": "55580359590",
+        "amount": "32800",
+        "date": "2024-06-30 22:09:42",
+        "new_balance": "13590",
+        "fee": "0",
+        "recipient": "Alex Doe 86390"
+    },
+    {
+        "transaction_id": "15722120949",
+        "amount": "1500",
+        "date": "2024-07-01 10:31:30",
+        "new_balance": "11070",
+        "fee": "0",
+        "recipient": "Linda Green 77000"
+    },
+    {
+        "transaction_id": "13515849108",
+        "amount": "24850",
+        "date": "2024-07-01 18:21:22",
+        "new_balance": "36220",
+        "fee": "0",
+        "recipient": "Robert Brown 88803"
+    },
+    {
+        "transaction_id": "91762592039",
+        "amount": "500",
+        "date": "2024-07-01 18:32:23",
+        "new_balance": "26620",
+        "fee": "0",
+        "recipient": "Robert Brown 62116"
+    },
+    {
+        "transaction_id": "10806359835",
+        "amount": "16000",
+        "date": "2024-07-01 20:01:06",
+        "new_balance": "10620",
+        "fee": "0",
+        "recipient": "Linda Green 78551"
+    },
+    {
+        "transaction_id": "72418341683",
+        "amount": "2200",
+        "date": "2024-07-01 20:07:36",
+        "new_balance": "8420",
+        "fee": "0",
+        "recipient": "Alex Doe 88813"
+    },
+    {
+        "transaction_id": "36585848121",
+        "amount": "1300",
+        "date": "2024-07-02 10:01:10",
+        "new_balance": "7120",
+        "fee": "0",
+        "recipient": "Jane Smith 16905"
+    },
+    {
+        "transaction_id": "58456925124",
+        "amount": "2500",
+        "date": "2024-07-02 13:11:53",
+        "new_balance": "14370",
+        "fee": "0",
+        "recipient": "Alex Doe 28379"
+    },
+    {
+        "transaction_id": "52596922232",
+        "amount": "500",
+        "date": "2024-07-02 18:47:07",
+        "new_balance": "10870",
+        "fee": "0",
+        "recipient": "Linda Green 70581"
+    },
+    {
+        "transaction_id": "15105279544",
+        "amount": "1000",
+        "date": "2024-07-02 18:48:29",
+        "new_balance": "9870",
+        "fee": "0",
+        "recipient": "Samuel Carter 46317"
+    },
+    {
+        "transaction_id": "30881509437",
+        "amount": "40000",
+        "date": "2024-07-03 09:55:54",
+        "new_balance": "9870",
+        "fee": "0",
+        "recipient": "Robert Brown 45612"
+    },
+    {
+        "transaction_id": "75410293151",
+        "amount": "1300",
+        "date": "2024-07-03 10:01:38",
+        "new_balance": "8570",
+        "fee": "0",
+        "recipient": "Samuel Carter 78656"
+    },
+    {
+        "transaction_id": "62824215473",
+        "amount": "3000",
+        "date": "2024-07-03 13:54:02",
+        "new_balance": "2970",
+        "fee": "0",
+        "recipient": "Alex Doe 54679"
+    },
+    {
+        "transaction_id": "45688985882",
+        "amount": "1500",
+        "date": "2024-07-03 18:32:50",
+        "new_balance": "1320",
+        "fee": "0",
+        "recipient": "Jane Smith 87381"
+    },
+    {
+        "transaction_id": "16694058718",
+        "amount": "600",
+        "date": "2024-07-03 19:51:48",
+        "new_balance": "720",
+        "fee": "0",
+        "recipient": "Robert Brown 37824"
+    },
+    {
+        "transaction_id": "99848480430",
+        "amount": "16000",
+        "date": "2024-07-04 16:30:35",
+        "new_balance": "6070",
+        "fee": "0",
+        "recipient": "Linda Green 29449"
+    },
+    {
+        "transaction_id": "35153028513",
+        "amount": "2500",
+        "date": "2024-07-05 13:10:38",
+        "new_balance": "16570",
+        "fee": "0",
+        "recipient": "Jane Smith 69781"
+    },
+    {
+        "transaction_id": "67511009036",
+        "amount": "1000",
+        "date": "2024-07-05 13:16:13",
+        "new_balance": "15570",
+        "fee": "0",
+        "recipient": "Linda Green 66505"
+    },
+    {
+        "transaction_id": "34707153443",
+        "amount": "1000",
+        "date": "2024-07-05 18:20:55",
+        "new_balance": "14570",
+        "fee": "0",
+        "recipient": "Robert Brown 62497"
+    },
+    {
+        "transaction_id": "38508422103",
+        "amount": "6000",
+        "date": "2024-07-06 00:11:24",
+        "new_balance": "15950",
+        "fee": "0",
+        "recipient": "Jane Smith 43089"
+    },
+    {
+        "transaction_id": "34521857854",
+        "amount": "1000",
+        "date": "2024-07-06 00:44:32",
+        "new_balance": "14950",
+        "fee": "0",
+        "recipient": "Robert Brown 52619"
+    },
+    {
+        "transaction_id": "41545470202",
+        "amount": "23000",
+        "date": "2024-07-06 15:49:18",
+        "new_balance": "31950",
+        "fee": "0",
+        "recipient": "Jane Smith 46824"
+    },
+    {
+        "transaction_id": "11475000639",
+        "amount": "1000",
+        "date": "2024-07-06 20:31:06",
+        "new_balance": "28350",
+        "fee": "0",
+        "recipient": "Alex Doe 19874"
+    },
+    {
+        "transaction_id": "56884759672",
+        "amount": "700",
+        "date": "2024-07-06 22:28:46",
+        "new_balance": "25910",
+        "fee": "0",
+        "recipient": "Alex Doe 40378"
+    },
+    {
+        "transaction_id": "89252038095",
+        "amount": "6000",
+        "date": "2024-07-07 02:42:23",
+        "new_balance": "19910",
+        "fee": "0",
+        "recipient": "Alex Doe 72640"
+    },
+    {
+        "transaction_id": "78679877816",
+        "amount": "13000",
+        "date": "2024-07-07 15:21:37",
+        "new_balance": "4060",
+        "fee": "0",
+        "recipient": "Linda Green 88021"
+    },
+    {
+        "transaction_id": "81915290006",
+        "amount": "1300",
+        "date": "2024-07-08 11:08:11",
+        "new_balance": "7140",
+        "fee": "0",
+        "recipient": "Linda Green 30473"
+    },
+    {
+        "transaction_id": "72699451485",
+        "amount": "3300",
+        "date": "2024-07-08 13:37:44",
+        "new_balance": "3840",
+        "fee": "0",
+        "recipient": "Jane Smith 69362"
+    },
+    {
+        "transaction_id": "80209257569",
+        "amount": "2500",
+        "date": "2024-07-08 18:56:43",
+        "new_balance": "19690",
+        "fee": "0",
+        "recipient": "Samuel Carter 74506"
+    },
+    {
+        "transaction_id": "98284235113",
+        "amount": "1500",
+        "date": "2024-07-08 19:36:52",
+        "new_balance": "18190",
+        "fee": "0",
+        "recipient": "Samuel Carter 94613"
+    },
+    {
+        "transaction_id": "84747563706",
+        "amount": "1500",
+        "date": "2024-07-09 13:08:04",
+        "new_balance": "15390",
+        "fee": "0",
+        "recipient": "Linda Green 76164"
+    },
+    {
+        "transaction_id": "90348213649",
+        "amount": "40000",
+        "date": "2024-07-09 18:35:39",
+        "new_balance": "9270",
+        "fee": "0",
+        "recipient": "Linda Green 94438"
+    },
+    {
+        "transaction_id": "69649307640",
+        "amount": "1300",
+        "date": "2024-07-10 10:27:07",
+        "new_balance": "7970",
+        "fee": "0",
+        "recipient": "Robert Brown 10193"
+    },
+    {
+        "transaction_id": "53891623812",
+        "amount": "3300",
+        "date": "2024-07-10 13:56:04",
+        "new_balance": "4670",
+        "fee": "0",
+        "recipient": "Samuel Carter 12689"
+    },
+    {
+        "transaction_id": "50912955416",
+        "amount": "3500",
+        "date": "2024-07-10 18:33:07",
+        "new_balance": "1170",
+        "fee": "0",
+        "recipient": "Alex Doe 29799"
+    },
+    {
+        "transaction_id": "74932161869",
+        "amount": "500",
+        "date": "2024-07-10 18:54:44",
+        "new_balance": "670",
+        "fee": "0",
+        "recipient": "Jane Smith 50454"
+    },
+    {
+        "transaction_id": "87090810360",
+        "amount": "1300",
+        "date": "2024-07-11 09:38:00",
+        "new_balance": "19040",
+        "fee": "0",
+        "recipient": "Samuel Carter 65775"
+    },
+    {
+        "transaction_id": "12980825408",
+        "amount": "7000",
+        "date": "2024-07-11 13:51:42",
+        "new_balance": "12040",
+        "fee": "0",
+        "recipient": "Jane Smith 65410"
+    },
+    {
+        "transaction_id": "87304861537",
+        "amount": "400",
+        "date": "2024-07-11 20:54:21",
+        "new_balance": "10240",
+        "fee": "0",
+        "recipient": "Linda Green 86689"
+    },
+    {
+        "transaction_id": "16850663914",
+        "amount": "1000",
+        "date": "2024-07-11 20:57:16",
+        "new_balance": "9240",
+        "fee": "0",
+        "recipient": "Alex Doe 97029"
+    },
+    {
+        "transaction_id": "85764457767",
+        "amount": "1500",
+        "date": "2024-07-12 18:11:08",
+        "new_balance": "2640",
+        "fee": "0",
+        "recipient": "Jane Smith 70173"
+    },
+    {
+        "transaction_id": "29430841892",
+        "amount": "1000",
+        "date": "2024-07-12 18:50:15",
+        "new_balance": "1640",
+        "fee": "0",
+        "recipient": "Robert Brown 98461"
+    },
+    {
+        "transaction_id": "72553027719",
+        "amount": "18800",
+        "date": "2024-07-14 17:07:38",
+        "new_balance": "8770",
+        "fee": "0",
+        "recipient": "Robert Brown 88017"
+    },
+    {
+        "transaction_id": "23386885212",
+        "amount": "800",
+        "date": "2024-07-14 17:32:08",
+        "new_balance": "7150",
+        "fee": "0",
+        "recipient": "Jane Smith 49790"
+    },
+    {
+        "transaction_id": "44609370529",
+        "amount": "5000",
+        "date": "2024-07-14 23:03:46",
+        "new_balance": "50110",
+        "fee": "0",
+        "recipient": "Robert Brown 42656"
+    },
+    {
+        "transaction_id": "90206827638",
+        "amount": "40000",
+        "date": "2024-07-14 23:06:13",
+        "new_balance": "10110",
+        "fee": "0",
+        "recipient": "Alex Doe 87860"
+    },
+    {
+        "transaction_id": "22146060402",
+        "amount": "5000",
+        "date": "2024-07-14 23:47:12",
+        "new_balance": "5110",
+        "fee": "0",
+        "recipient": "Samuel Carter 42579"
+    },
+    {
+        "transaction_id": "52332988443",
+        "amount": "5000",
+        "date": "2024-07-15 00:41:54",
+        "new_balance": "110",
+        "fee": "0",
+        "recipient": "Alex Doe 65209"
+    },
+    {
+        "transaction_id": "59668582919",
+        "amount": "1500",
+        "date": "2024-07-16 18:11:18",
+        "new_balance": "11390",
+        "fee": "0",
+        "recipient": "Linda Green 42316"
+    },
+    {
+        "transaction_id": "89908606372",
+        "amount": "1000",
+        "date": "2024-07-16 18:39:03",
+        "new_balance": "10390",
+        "fee": "0",
+        "recipient": "Robert Brown 78512"
+    },
+    {
+        "transaction_id": "46934619518",
+        "amount": "1500",
+        "date": "2024-07-17 19:20:29",
+        "new_balance": "10440",
+        "fee": "0",
+        "recipient": "Alex Doe 70256"
+    },
+    {
+        "transaction_id": "66395034050",
+        "amount": "1000",
+        "date": "2024-07-17 19:47:26",
+        "new_balance": "9440",
+        "fee": "0",
+        "recipient": "Alex Doe 43296"
+    },
+    {
+        "transaction_id": "69887702746",
+        "amount": "1300",
+        "date": "2024-07-18 09:42:28",
+        "new_balance": "8140",
+        "fee": "0",
+        "recipient": "Linda Green 88463"
+    },
+    {
+        "transaction_id": "63310525007",
+        "amount": "1000",
+        "date": "2024-07-18 19:31:18",
+        "new_balance": "6120",
+        "fee": "0",
+        "recipient": "Linda Green 92026"
+    },
+    {
+        "transaction_id": "95583860245",
+        "amount": "1500",
+        "date": "2024-07-19 11:05:28",
+        "new_balance": "4620",
+        "fee": "0",
+        "recipient": "Linda Green 89136"
+    },
+    {
+        "transaction_id": "66819031167",
+        "amount": "1200",
+        "date": "2024-07-19 12:13:36",
+        "new_balance": "3420",
+        "fee": "0",
+        "recipient": "Samuel Carter 74866"
+    },
+    {
+        "transaction_id": "56567422826",
+        "amount": "3500",
+        "date": "2024-07-19 12:47:58",
+        "new_balance": "9920",
+        "fee": "0",
+        "recipient": "Jane Smith 50730"
+    },
+    {
+        "transaction_id": "21105102493",
+        "amount": "1500",
+        "date": "2024-07-19 20:46:37",
+        "new_balance": "8420",
+        "fee": "0",
+        "recipient": "Alex Doe 82226"
+    },
+    {
+        "transaction_id": "63176850070",
+        "amount": "7300",
+        "date": "2024-07-19 21:06:37",
+        "new_balance": "21120",
+        "fee": "0",
+        "recipient": "Robert Brown 71154"
+    },
+    {
+        "transaction_id": "55265011853",
+        "amount": "1000",
+        "date": "2024-07-20 13:44:05",
+        "new_balance": "18020",
+        "fee": "0",
+        "recipient": "Samuel Carter 70896"
+    },
+    {
+        "transaction_id": "37017834113",
+        "amount": "7910",
+        "date": "2024-07-20 15:59:49",
+        "new_balance": "8010",
+        "fee": "0",
+        "recipient": "Robert Brown 10994"
+    },
+    {
+        "transaction_id": "60895608806",
+        "amount": "2850",
+        "date": "2024-07-20 18:07:22",
+        "new_balance": "1960",
+        "fee": "0",
+        "recipient": "Jane Smith 27904"
+    },
+    {
+        "transaction_id": "87797195810",
+        "amount": "700",
+        "date": "2024-07-20 18:10:13",
+        "new_balance": "1260",
+        "fee": "0",
+        "recipient": "Samuel Carter 57410"
+    },
+    {
+        "transaction_id": "35751352205",
+        "amount": "1300",
+        "date": "2024-07-22 11:01:18",
+        "new_balance": "18760",
+        "fee": "0",
+        "recipient": "Jane Smith 99855"
+    },
+    {
+        "transaction_id": "90362526943",
+        "amount": "2000",
+        "date": "2024-07-22 17:59:18",
+        "new_balance": "15360",
+        "fee": "0",
+        "recipient": "Robert Brown 12608"
+    },
+    {
+        "transaction_id": "41432289875",
+        "amount": "1800",
+        "date": "2024-07-22 18:05:21",
+        "new_balance": "13560",
+        "fee": "0",
+        "recipient": "Robert Brown 18604"
+    },
+    {
+        "transaction_id": "44149221556",
+        "amount": "1000",
+        "date": "2024-07-22 20:18:47",
+        "new_balance": "12560",
+        "fee": "0",
+        "recipient": "Samuel Carter 49098"
+    },
+    {
+        "transaction_id": "33565890577",
+        "amount": "1200",
+        "date": "2024-07-22 20:37:56",
+        "new_balance": "11360",
+        "fee": "0",
+        "recipient": "Linda Green 13794"
+    },
+    {
+        "transaction_id": "41602878997",
+        "amount": "1000",
+        "date": "2024-07-23 20:30:00",
+        "new_balance": "540",
+        "fee": "0",
+        "recipient": "Robert Brown 47185"
+    },
+    {
+        "transaction_id": "14739625447",
+        "amount": "7800",
+        "date": "2024-07-24 13:07:18",
+        "new_balance": "1440",
+        "fee": "0",
+        "recipient": "Robert Brown 57161"
+    },
+    {
+        "transaction_id": "76672344043",
+        "amount": "1200",
+        "date": "2024-07-24 18:08:19",
+        "new_balance": "240",
+        "fee": "0",
+        "recipient": "Linda Green 95561"
+    },
+    {
+        "transaction_id": "60173686359",
+        "amount": "1000",
+        "date": "2024-07-24 19:23:33",
+        "new_balance": "8240",
+        "fee": "0",
+        "recipient": "Robert Brown 21206"
+    },
+    {
+        "transaction_id": "92109248895",
+        "amount": "5600",
+        "date": "2024-07-24 19:31:42",
+        "new_balance": "2640",
+        "fee": "0",
+        "recipient": "Jane Smith 96776"
+    },
+    {
+        "transaction_id": "71788861419",
+        "amount": "4000",
+        "date": "2024-07-24 19:50:49",
+        "new_balance": "48640",
+        "fee": "0",
+        "recipient": "Alex Doe 26309"
+    },
+    {
+        "transaction_id": "88491836419",
+        "amount": "1000",
+        "date": "2024-07-24 22:36:57",
+        "new_balance": "37540",
+        "fee": "0",
+        "recipient": "Samuel Carter 12849"
+    },
+    {
+        "transaction_id": "91472495825",
+        "amount": "4000",
+        "date": "2024-07-24 22:50:45",
+        "new_balance": "33540",
+        "fee": "0",
+        "recipient": "Samuel Carter 65578"
+    },
+    {
+        "transaction_id": "34195714002",
+        "amount": "1300",
+        "date": "2024-07-25 09:56:10",
+        "new_balance": "32240",
+        "fee": "0",
+        "recipient": "Linda Green 58279"
+    },
+    {
+        "transaction_id": "67819295386",
+        "amount": "2500",
+        "date": "2024-07-25 14:29:24",
+        "new_balance": "8520",
+        "fee": "0",
+        "recipient": "Samuel Carter 52533"
+    },
+    {
+        "transaction_id": "82065623976",
+        "amount": "1500",
+        "date": "2024-07-25 23:22:00",
+        "new_balance": "6000",
+        "fee": "0",
+        "recipient": "Linda Green 37513"
+    },
+    {
+        "transaction_id": "42285606353",
+        "amount": "2000",
+        "date": "2024-07-25 23:46:40",
+        "new_balance": "4000",
+        "fee": "0",
+        "recipient": "Alex Doe 19717"
+    },
+    {
+        "transaction_id": "36437958017",
+        "amount": "7500",
+        "date": "2024-07-26 00:13:42",
+        "new_balance": "14500",
+        "fee": "0",
+        "recipient": "Jane Smith 21807"
+    },
+    {
+        "transaction_id": "85850951309",
+        "amount": "6600",
+        "date": "2024-07-26 00:49:56",
+        "new_balance": "7900",
+        "fee": "0",
+        "recipient": "Jane Smith 61012"
+    },
+    {
+        "transaction_id": "10296908600",
+        "amount": "1500",
+        "date": "2024-07-26 00:50:49",
+        "new_balance": "6400",
+        "fee": "0",
+        "recipient": "Jane Smith 43509"
+    },
+    {
+        "transaction_id": "81424789154",
+        "amount": "3000",
+        "date": "2024-07-26 13:30:43",
+        "new_balance": "1750",
+        "fee": "0",
+        "recipient": "Samuel Carter 18082"
+    },
+    {
+        "transaction_id": "60914783301",
+        "amount": "800",
+        "date": "2024-07-26 13:37:28",
+        "new_balance": "950",
+        "fee": "0",
+        "recipient": "Jane Smith 15319"
+    },
+    {
+        "transaction_id": "82008869453",
+        "amount": "3000",
+        "date": "2024-07-27 17:49:46",
+        "new_balance": "9560",
+        "fee": "0",
+        "recipient": "Linda Green 66062"
+    },
+    {
+        "transaction_id": "40600429643",
+        "amount": "20000",
+        "date": "2024-07-28 18:14:59",
+        "new_balance": "89560",
+        "fee": "0",
+        "recipient": "Robert Brown 93437"
+    },
+    {
+        "transaction_id": "64055047273",
+        "amount": "1800",
+        "date": "2024-07-28 20:36:51",
+        "new_balance": "85660",
+        "fee": "0",
+        "recipient": "Linda Green 41843"
+    },
+    {
+        "transaction_id": "89491266162",
+        "amount": "1500",
+        "date": "2024-07-29 11:22:28",
+        "new_balance": "84160",
+        "fee": "0",
+        "recipient": "Jane Smith 22271"
+    },
+    {
+        "transaction_id": "55841829409",
+        "amount": "3000",
+        "date": "2024-07-29 13:51:41",
+        "new_balance": "81160",
+        "fee": "0",
+        "recipient": "Robert Brown 78422"
+    },
+    {
+        "transaction_id": "88560738072",
+        "amount": "1200",
+        "date": "2024-07-29 14:48:56",
+        "new_balance": "79960",
+        "fee": "0",
+        "recipient": "Samuel Carter 14297"
+    },
+    {
+        "transaction_id": "30752287352",
+        "amount": "1500",
+        "date": "2024-07-29 18:18:11",
+        "new_balance": "78460",
+        "fee": "0",
+        "recipient": "Jane Smith 30062"
+    },
+    {
+        "transaction_id": "53255374349",
+        "amount": "3300",
+        "date": "2024-07-29 19:42:03",
+        "new_balance": "75160",
+        "fee": "0",
+        "recipient": "Alex Doe 22997"
+    },
+    {
+        "transaction_id": "51995555513",
+        "amount": "1800",
+        "date": "2024-07-29 22:12:19",
+        "new_balance": "73360",
+        "fee": "0",
+        "recipient": "Samuel Carter 98562"
+    },
+    {
+        "transaction_id": "82523323504",
+        "amount": "1300",
+        "date": "2024-07-30 10:33:13",
+        "new_balance": "72060",
+        "fee": "0",
+        "recipient": "Linda Green 86341"
+    },
+    {
+        "transaction_id": "83243497448",
+        "amount": "3300",
+        "date": "2024-07-30 13:10:45",
+        "new_balance": "68760",
+        "fee": "0",
+        "recipient": "Robert Brown 81809"
+    },
+    {
+        "transaction_id": "18412104580",
+        "amount": "4500",
+        "date": "2024-07-30 17:49:26",
+        "new_balance": "62660",
+        "fee": "0",
+        "recipient": "Robert Brown 48490"
+    },
+    {
+        "transaction_id": "37742687948",
+        "amount": "21000",
+        "date": "2024-07-30 18:02:26",
+        "new_balance": "41660",
+        "fee": "0",
+        "recipient": "Alex Doe 71719"
+    },
+    {
+        "transaction_id": "88339887283",
+        "amount": "1000",
+        "date": "2024-07-30 18:15:35",
+        "new_balance": "40660",
+        "fee": "0",
+        "recipient": "Linda Green 36072"
+    },
+    {
+        "transaction_id": "36652345884",
+        "amount": "600",
+        "date": "2024-07-30 20:15:12",
+        "new_balance": "40060",
+        "fee": "0",
+        "recipient": "Samuel Carter 79989"
+    },
+    {
+        "transaction_id": "97102681312",
+        "amount": "4000",
+        "date": "2024-07-30 20:28:24",
+        "new_balance": "36060",
+        "fee": "0",
+        "recipient": "Samuel Carter 66573"
+    },
+    {
+        "transaction_id": "69262787089",
+        "amount": "1500",
+        "date": "2024-07-31 10:25:27",
+        "new_balance": "34560",
+        "fee": "0",
+        "recipient": "Robert Brown 38667"
+    },
+    {
+        "transaction_id": "84450540041",
+        "amount": "3500",
+        "date": "2024-07-31 13:07:12",
+        "new_balance": "31060",
+        "fee": "0",
+        "recipient": "Jane Smith 47666"
+    },
+    {
+        "transaction_id": "29940304846",
+        "amount": "1500",
+        "date": "2024-07-31 18:08:31",
+        "new_balance": "29560",
+        "fee": "0",
+        "recipient": "Alex Doe 25299"
+    },
+    {
+        "transaction_id": "76571849631",
+        "amount": "3300",
+        "date": "2024-08-01 13:42:14",
+        "new_balance": "21660",
+        "fee": "0",
+        "recipient": "Alex Doe 12163"
+    },
+    {
+        "transaction_id": "84613735727",
+        "amount": "700",
+        "date": "2024-08-01 16:17:18",
+        "new_balance": "710",
+        "fee": "0",
+        "recipient": "Robert Brown 25004"
+    },
+    {
+        "transaction_id": "67758041409",
+        "amount": "1500",
+        "date": "2024-08-01 19:08:06",
+        "new_balance": "48710",
+        "fee": "0",
+        "recipient": "Linda Green 76096"
+    },
+    {
+        "transaction_id": "37095118662",
+        "amount": "1300",
+        "date": "2024-08-01 19:38:36",
+        "new_balance": "47410",
+        "fee": "0",
+        "recipient": "Samuel Carter 80498"
+    },
+    {
+        "transaction_id": "54529107912",
+        "amount": "6000",
+        "date": "2024-08-02 20:33:20",
+        "new_balance": "30440",
+        "fee": "0",
+        "recipient": "Samuel Carter 34176"
+    },
+    {
+        "transaction_id": "17312696676",
+        "amount": "7000",
+        "date": "2024-08-03 23:31:10",
+        "new_balance": "46340",
+        "fee": "0",
+        "recipient": "Jane Smith 55269"
+    },
+    {
+        "transaction_id": "44828677354",
+        "amount": "27000",
+        "date": "2024-08-04 19:52:21",
+        "new_balance": "6440",
+        "fee": "0",
+        "recipient": "Robert Brown 39166"
+    },
+    {
+        "transaction_id": "81849854541",
+        "amount": "3000",
+        "date": "2024-08-05 12:51:38",
+        "new_balance": "7390",
+        "fee": "0",
+        "recipient": "Alex Doe 20595"
+    },
+    {
+        "transaction_id": "68702182375",
+        "amount": "1500",
+        "date": "2024-08-05 19:38:54",
+        "new_balance": "7290",
+        "fee": "0",
+        "recipient": "Alex Doe 80371"
+    },
+    {
+        "transaction_id": "35397483220",
+        "amount": "1400",
+        "date": "2024-08-05 20:23:56",
+        "new_balance": "5890",
+        "fee": "0",
+        "recipient": "Linda Green 71208"
+    },
+    {
+        "transaction_id": "61050966433",
+        "amount": "3000",
+        "date": "2024-08-06 13:24:47",
+        "new_balance": "1290",
+        "fee": "0",
+        "recipient": "Jane Smith 25406"
+    },
+    {
+        "transaction_id": "17146568940",
+        "amount": "1500",
+        "date": "2024-08-06 20:24:03",
+        "new_balance": "18790",
+        "fee": "0",
+        "recipient": "Samuel Carter 89134"
+    },
+    {
+        "transaction_id": "51244172238",
+        "amount": "1300",
+        "date": "2024-08-06 20:55:47",
+        "new_balance": "17490",
+        "fee": "0",
+        "recipient": "Jane Smith 25549"
+    },
+    {
+        "transaction_id": "42404795768",
+        "amount": "700",
+        "date": "2024-08-06 21:18:17",
+        "new_balance": "16790",
+        "fee": "0",
+        "recipient": "Alex Doe 13104"
+    },
+    {
+        "transaction_id": "28724945380",
+        "amount": "2000",
+        "date": "2024-08-06 21:26:41",
+        "new_balance": "4690",
+        "fee": "0",
+        "recipient": "Jane Smith 51892"
+    },
+    {
+        "transaction_id": "84355626350",
+        "amount": "3500",
+        "date": "2024-08-07 12:50:28",
+        "new_balance": "49590",
+        "fee": "0",
+        "recipient": "Robert Brown 18531"
+    },
+    {
+        "transaction_id": "66942812945",
+        "amount": "2000",
+        "date": "2024-08-07 16:41:12",
+        "new_balance": "45990",
+        "fee": "0",
+        "recipient": "Linda Green 20387"
+    },
+    {
+        "transaction_id": "44686423914",
+        "amount": "40000",
+        "date": "2024-08-07 16:50:31",
+        "new_balance": "5990",
+        "fee": "0",
+        "recipient": "Samuel Carter 88003"
+    },
+    {
+        "transaction_id": "90009446652",
+        "amount": "4000",
+        "date": "2024-08-07 18:02:56",
+        "new_balance": "48290",
+        "fee": "0",
+        "recipient": "Robert Brown 10818"
+    },
+    {
+        "transaction_id": "39711811703",
+        "amount": "22400",
+        "date": "2024-08-07 18:21:22",
+        "new_balance": "25890",
+        "fee": "0",
+        "recipient": "Robert Brown 48951"
+    },
+    {
+        "transaction_id": "43449848103",
+        "amount": "1500",
+        "date": "2024-08-07 20:25:13",
+        "new_balance": "23370",
+        "fee": "0",
+        "recipient": "Robert Brown 36649"
+    },
+    {
+        "transaction_id": "36806257641",
+        "amount": "1200",
+        "date": "2024-08-07 20:59:02",
+        "new_balance": "22170",
+        "fee": "0",
+        "recipient": "Jane Smith 65429"
+    },
+    {
+        "transaction_id": "85705805836",
+        "amount": "11600",
+        "date": "2024-08-08 14:37:29",
+        "new_balance": "10570",
+        "fee": "0",
+        "recipient": "Samuel Carter 57462"
+    },
+    {
+        "transaction_id": "98718398488",
+        "amount": "1200",
+        "date": "2024-08-08 15:38:05",
+        "new_balance": "9370",
+        "fee": "0",
+        "recipient": "Linda Green 62587"
+    },
+    {
+        "transaction_id": "65794486507",
+        "amount": "700",
+        "date": "2024-08-25 03:16:33",
+        "new_balance": "8100",
+        "fee": "0",
+        "recipient": "Robert Brown 95184"
+    },
+    {
+        "transaction_id": "54527566978",
+        "amount": "2500",
+        "date": "2024-08-25 05:37:48",
+        "new_balance": "5600",
+        "fee": "0",
+        "recipient": "Robert Brown 21510"
+    },
+    {
+        "transaction_id": "44085722067",
+        "amount": "500",
+        "date": "2024-08-25 19:15:03",
+        "new_balance": "42850",
+        "fee": "0",
+        "recipient": "Alex Doe 30039"
+    },
+    {
+        "transaction_id": "34840236831",
+        "amount": "3500",
+        "date": "2024-08-25 19:19:56",
+        "new_balance": "39350",
+        "fee": "0",
+        "recipient": "Linda Green 44139"
+    },
+    {
+        "transaction_id": "33807026334",
+        "amount": "700",
+        "date": "2024-08-25 19:24:15",
+        "new_balance": "38650",
+        "fee": "0",
+        "recipient": "Jane Smith 27398"
+    },
+    {
+        "transaction_id": "17685290715",
+        "amount": "200",
+        "date": "2024-08-25 19:35:06",
+        "new_balance": "38450",
+        "fee": "0",
+        "recipient": "Jane Smith 94124"
+    },
+    {
+        "transaction_id": "30421279676",
+        "amount": "2800",
+        "date": "2024-08-26 14:20:25",
+        "new_balance": "23630",
+        "fee": "0",
+        "recipient": "Robert Brown 21529"
+    },
+    {
+        "transaction_id": "67810322933",
+        "amount": "40000",
+        "date": "2024-08-26 18:44:28",
+        "new_balance": "33630",
+        "fee": "0",
+        "recipient": "Samuel Carter 36220"
+    },
+    {
+        "transaction_id": "16477334750",
+        "amount": "1000",
+        "date": "2024-08-26 19:28:38",
+        "new_balance": "32630",
+        "fee": "0",
+        "recipient": "Alex Doe 67381"
+    },
+    {
+        "transaction_id": "63168026131",
+        "amount": "2000",
+        "date": "2024-08-26 19:54:59",
+        "new_balance": "30630",
+        "fee": "0",
+        "recipient": "Samuel Carter 81187"
+    },
+    {
+        "transaction_id": "37958581135",
+        "amount": "800",
+        "date": "2024-08-26 20:17:35",
+        "new_balance": "29830",
+        "fee": "0",
+        "recipient": "Alex Doe 51129"
+    },
+    {
+        "transaction_id": "32776707801",
+        "amount": "1500",
+        "date": "2024-08-27 12:07:17",
+        "new_balance": "28330",
+        "fee": "0",
+        "recipient": "Jane Smith 98770"
+    },
+    {
+        "transaction_id": "16642246344",
+        "amount": "3500",
+        "date": "2024-08-27 12:45:12",
+        "new_balance": "24830",
+        "fee": "0",
+        "recipient": "Samuel Carter 56630"
+    },
+    {
+        "transaction_id": "51287161721",
+        "amount": "1500",
+        "date": "2024-08-27 20:31:18",
+        "new_balance": "14810",
+        "fee": "0",
+        "recipient": "Alex Doe 72777"
+    },
+    {
+        "transaction_id": "42143703095",
+        "amount": "600",
+        "date": "2024-08-27 20:44:39",
+        "new_balance": "14210",
+        "fee": "0",
+        "recipient": "Robert Brown 99509"
+    },
+    {
+        "transaction_id": "19778042081",
+        "amount": "1000",
+        "date": "2024-08-27 20:57:59",
+        "new_balance": "13210",
+        "fee": "0",
+        "recipient": "Jane Smith 47042"
+    },
+    {
+        "transaction_id": "65847057882",
+        "amount": "1500",
+        "date": "2024-08-28 12:12:22",
+        "new_balance": "21460",
+        "fee": "0",
+        "recipient": "Linda Green 25980"
+    },
+    {
+        "transaction_id": "50837825539",
+        "amount": "3300",
+        "date": "2024-08-28 12:56:56",
+        "new_balance": "18160",
+        "fee": "0",
+        "recipient": "Linda Green 55509"
+    },
+    {
+        "transaction_id": "72819907564",
+        "amount": "1000",
+        "date": "2024-08-28 19:47:54",
+        "new_balance": "15560",
+        "fee": "0",
+        "recipient": "Jane Smith 11731"
+    },
+    {
+        "transaction_id": "53433821307",
+        "amount": "2300",
+        "date": "2024-08-28 20:04:06",
+        "new_balance": "13260",
+        "fee": "0",
+        "recipient": "Alex Doe 79544"
+    },
+    {
+        "transaction_id": "58247627931",
+        "amount": "2000",
+        "date": "2024-08-28 20:44:05",
+        "new_balance": "11260",
+        "fee": "0",
+        "recipient": "Linda Green 75600"
+    },
+    {
+        "transaction_id": "19153266137",
+        "amount": "1500",
+        "date": "2024-08-30 12:13:02",
+        "new_balance": "99460",
+        "fee": "0",
+        "recipient": "Linda Green 74929"
+    },
+    {
+        "transaction_id": "39270807010",
+        "amount": "5800",
+        "date": "2024-08-30 14:28:34",
+        "new_balance": "92060",
+        "fee": "0",
+        "recipient": "Jane Smith 65531"
+    },
+    {
+        "transaction_id": "99076325019",
+        "amount": "1300",
+        "date": "2024-08-30 15:16:18",
+        "new_balance": "90760",
+        "fee": "0",
+        "recipient": "Linda Green 16289"
+    },
+    {
+        "transaction_id": "34261953989",
+        "amount": "1500",
+        "date": "2024-08-30 19:30:19",
+        "new_balance": "85920",
+        "fee": "0",
+        "recipient": "Jane Smith 51632"
+    },
+    {
+        "transaction_id": "96185760887",
+        "amount": "10000",
+        "date": "2024-08-30 21:24:51",
+        "new_balance": "75920",
+        "fee": "0",
+        "recipient": "Samuel Carter 64575"
+    },
+    {
+        "transaction_id": "97313704025",
+        "amount": "12100",
+        "date": "2024-08-31 17:20:27",
+        "new_balance": "16570",
+        "fee": "0",
+        "recipient": "Alex Doe 86311"
+    },
+    {
+        "transaction_id": "77555076585",
+        "amount": "1200",
+        "date": "2024-08-31 18:44:51",
+        "new_balance": "15370",
+        "fee": "0",
+        "recipient": "Samuel Carter 16371"
+    },
+    {
+        "transaction_id": "84510391939",
+        "amount": "2000",
+        "date": "2024-08-31 18:47:20",
+        "new_balance": "13370",
+        "fee": "0",
+        "recipient": "Linda Green 30923"
+    },
+    {
+        "transaction_id": "22766907160",
+        "amount": "1500",
+        "date": "2024-09-01 17:26:52",
+        "new_balance": "11870",
+        "fee": "0",
+        "recipient": "Robert Brown 25919"
+    },
+    {
+        "transaction_id": "28158968182",
+        "amount": "1500",
+        "date": "2024-09-01 20:46:16",
+        "new_balance": "11870",
+        "fee": "0",
+        "recipient": "Robert Brown 21358"
+    },
+    {
+        "transaction_id": "46906409049",
+        "amount": "7000",
+        "date": "2024-09-01 23:34:42",
+        "new_balance": "4870",
+        "fee": "0",
+        "recipient": "Alex Doe 71929"
+    },
+    {
+        "transaction_id": "54566717014",
+        "amount": "1000",
+        "date": "2024-09-02 00:26:59",
+        "new_balance": "3870",
+        "fee": "0",
+        "recipient": "Alex Doe 17485"
+    },
+    {
+        "transaction_id": "18226776468",
+        "amount": "21000",
+        "date": "2024-09-02 13:54:14",
+        "new_balance": "29870",
+        "fee": "0",
+        "recipient": "Linda Green 97614"
+    },
+    {
+        "transaction_id": "54349163900",
+        "amount": "1500",
+        "date": "2024-09-02 14:18:09",
+        "new_balance": "28370",
+        "fee": "0",
+        "recipient": "Alex Doe 86356"
+    },
+    {
+        "transaction_id": "78378077317",
+        "amount": "1500",
+        "date": "2024-09-02 17:40:32",
+        "new_balance": "26870",
+        "fee": "0",
+        "recipient": "Jane Smith 86197"
+    },
+    {
+        "transaction_id": "71235033735",
+        "amount": "2000",
+        "date": "2024-09-02 22:36:13",
+        "new_balance": "21690",
+        "fee": "0",
+        "recipient": "Linda Green 46799"
+    },
+    {
+        "transaction_id": "71779593744",
+        "amount": "3500",
+        "date": "2024-09-03 13:13:07",
+        "new_balance": "18190",
+        "fee": "0",
+        "recipient": "Linda Green 72373"
+    },
+    {
+        "transaction_id": "17120559943",
+        "amount": "5000",
+        "date": "2024-09-03 17:49:33",
+        "new_balance": "13190",
+        "fee": "0",
+        "recipient": "Linda Green 99420"
+    },
+    {
+        "transaction_id": "60424907269",
+        "amount": "1500",
+        "date": "2024-09-03 18:53:19",
+        "new_balance": "1590",
+        "fee": "0",
+        "recipient": "Linda Green 27195"
+    },
+    {
+        "transaction_id": "49794854165",
+        "amount": "4500",
+        "date": "2024-09-03 21:03:08",
+        "new_balance": "47090",
+        "fee": "0",
+        "recipient": "Linda Green 74481"
+    },
+    {
+        "transaction_id": "83422016891",
+        "amount": "1500",
+        "date": "2024-09-04 09:47:40",
+        "new_balance": "45590",
+        "fee": "0",
+        "recipient": "Jane Smith 25500"
+    },
+    {
+        "transaction_id": "63961191384",
+        "amount": "5000",
+        "date": "2024-09-04 13:36:38",
+        "new_balance": "40590",
+        "fee": "0",
+        "recipient": "Jane Smith 25674"
+    },
+    {
+        "transaction_id": "15812096064",
+        "amount": "4500",
+        "date": "2024-09-04 17:43:39",
+        "new_balance": "36090",
+        "fee": "0",
+        "recipient": "Jane Smith 10890"
+    },
+    {
+        "transaction_id": "67353135596",
+        "amount": "2500",
+        "date": "2024-09-04 20:34:33",
+        "new_balance": "33590",
+        "fee": "0",
+        "recipient": "Linda Green 60962"
+    },
+    {
+        "transaction_id": "57527013791",
+        "amount": "2500",
+        "date": "2024-09-04 21:01:35",
+        "new_balance": "31090",
+        "fee": "0",
+        "recipient": "Samuel Carter 76240"
+    },
+    {
+        "transaction_id": "61863630305",
+        "amount": "5000",
+        "date": "2024-09-04 23:02:36",
+        "new_balance": "26090",
+        "fee": "0",
+        "recipient": "Alex Doe 62262"
+    },
+    {
+        "transaction_id": "80939174580",
+        "amount": "6000",
+        "date": "2024-09-05 13:32:48",
+        "new_balance": "18490",
+        "fee": "0",
+        "recipient": "Alex Doe 67793"
+    },
+    {
+        "transaction_id": "29253592859",
+        "amount": "1500",
+        "date": "2024-09-05 16:18:21",
+        "new_balance": "16990",
+        "fee": "0",
+        "recipient": "Linda Green 11347"
+    },
+    {
+        "transaction_id": "95155933276",
+        "amount": "1500",
+        "date": "2024-09-05 20:00:19",
+        "new_balance": "15490",
+        "fee": "0",
+        "recipient": "Samuel Carter 47641"
+    },
+    {
+        "transaction_id": "52713686775",
+        "amount": "2000",
+        "date": "2024-09-05 20:15:34",
+        "new_balance": "10490",
+        "fee": "0",
+        "recipient": "Samuel Carter 70583"
+    },
+    {
+        "transaction_id": "18813391203",
+        "amount": "3000",
+        "date": "2024-09-06 15:49:18",
+        "new_balance": "5890",
+        "fee": "0",
+        "recipient": "Robert Brown 35273"
+    },
+    {
+        "transaction_id": "14741959916",
+        "amount": "4800",
+        "date": "2024-09-06 18:54:44",
+        "new_balance": "16090",
+        "fee": "0",
+        "recipient": "Robert Brown 32723"
+    },
+    {
+        "transaction_id": "37507241088",
+        "amount": "24000",
+        "date": "2024-09-08 00:35:20",
+        "new_balance": "126360",
+        "fee": "0",
+        "recipient": "Linda Green 14558"
+    },
+    {
+        "transaction_id": "88126214143",
+        "amount": "1500",
+        "date": "2024-09-08 01:06:16",
+        "new_balance": "124860",
+        "fee": "0",
+        "recipient": "Alex Doe 80465"
+    },
+    {
+        "transaction_id": "95649567862",
+        "amount": "4500",
+        "date": "2024-09-08 01:19:32",
+        "new_balance": "98760",
+        "fee": "0",
+        "recipient": "Samuel Carter 78619"
+    },
+    {
+        "transaction_id": "10083689781",
+        "amount": "17000",
+        "date": "2024-09-08 02:40:02",
+        "new_balance": "79720",
+        "fee": "0",
+        "recipient": "Jane Smith 85339"
+    },
+    {
+        "transaction_id": "68925556497",
+        "amount": "14500",
+        "date": "2024-09-08 13:34:50",
+        "new_balance": "63180",
+        "fee": "0",
+        "recipient": "Robert Brown 39629"
+    },
+    {
+        "transaction_id": "90275359445",
+        "amount": "1500",
+        "date": "2024-09-08 14:52:24",
+        "new_balance": "61680",
+        "fee": "0",
+        "recipient": "Robert Brown 12774"
+    },
+    {
+        "transaction_id": "87571566840",
+        "amount": "700",
+        "date": "2024-09-08 17:25:26",
+        "new_balance": "51840",
+        "fee": "0",
+        "recipient": "Jane Smith 60790"
+    },
+    {
+        "transaction_id": "13774628019",
+        "amount": "3500",
+        "date": "2024-09-09 13:12:42",
+        "new_balance": "19470",
+        "fee": "0",
+        "recipient": "Linda Green 30786"
+    },
+    {
+        "transaction_id": "65478956735",
+        "amount": "900",
+        "date": "2024-09-09 13:36:13",
+        "new_balance": "16970",
+        "fee": "0",
+        "recipient": "Robert Brown 77191"
+    },
+    {
+        "transaction_id": "96684440213",
+        "amount": "6500",
+        "date": "2024-09-09 21:25:47",
+        "new_balance": "10470",
+        "fee": "0",
+        "recipient": "Alex Doe 30414"
+    },
+    {
+        "transaction_id": "10893465854",
+        "amount": "5000",
+        "date": "2024-09-09 23:25:28",
+        "new_balance": "3870",
+        "fee": "0",
+        "recipient": "Linda Green 84616"
+    },
+    {
+        "transaction_id": "18269992033",
+        "amount": "4000",
+        "date": "2024-09-10 00:14:44",
+        "new_balance": "49870",
+        "fee": "0",
+        "recipient": "Jane Smith 88876"
+    },
+    {
+        "transaction_id": "79540204158",
+        "amount": "1500",
+        "date": "2024-09-10 10:34:14",
+        "new_balance": "11380",
+        "fee": "0",
+        "recipient": "Linda Green 77048"
+    },
+    {
+        "transaction_id": "21123163485",
+        "amount": "10000",
+        "date": "2024-09-10 18:17:25",
+        "new_balance": "48280",
+        "fee": "0",
+        "recipient": "Linda Green 41295"
+    },
+    {
+        "transaction_id": "67195404064",
+        "amount": "1500",
+        "date": "2024-09-10 20:35:20",
+        "new_balance": "21430",
+        "fee": "0",
+        "recipient": "Linda Green 65405"
+    },
+    {
+        "transaction_id": "52003402612",
+        "amount": "1500",
+        "date": "2024-09-11 09:47:33",
+        "new_balance": "19930",
+        "fee": "0",
+        "recipient": "Robert Brown 11621"
+    },
+    {
+        "transaction_id": "70460358419",
+        "amount": "2500",
+        "date": "2024-09-11 14:08:32",
+        "new_balance": "14330",
+        "fee": "0",
+        "recipient": "Samuel Carter 79967"
+    },
+    {
+        "transaction_id": "14667936406",
+        "amount": "1500",
+        "date": "2024-09-11 16:11:26",
+        "new_balance": "9830",
+        "fee": "0",
+        "recipient": "Linda Green 57182"
+    },
+    {
+        "transaction_id": "20823828008",
+        "amount": "1000",
+        "date": "2024-09-11 20:08:36",
+        "new_balance": "8830",
+        "fee": "0",
+        "recipient": "Alex Doe 11421"
+    },
+    {
+        "transaction_id": "40728069150",
+        "amount": "700",
+        "date": "2024-09-12 15:59:45",
+        "new_balance": "4210",
+        "fee": "0",
+        "recipient": "Samuel Carter 87737"
+    },
+    {
+        "transaction_id": "60033930579",
+        "amount": "1000",
+        "date": "2024-09-12 20:27:42",
+        "new_balance": "33260",
+        "fee": "0",
+        "recipient": "Robert Brown 65442"
+    },
+    {
+        "transaction_id": "90380679208",
+        "amount": "2000",
+        "date": "2024-09-12 20:35:11",
+        "new_balance": "31260",
+        "fee": "0",
+        "recipient": "Linda Green 51673"
+    },
+    {
+        "transaction_id": "12313178673",
+        "amount": "1500",
+        "date": "2024-09-13 13:52:19",
+        "new_balance": "28260",
+        "fee": "0",
+        "recipient": "Samuel Carter 98382"
+    },
+    {
+        "transaction_id": "57207221830",
+        "amount": "1500",
+        "date": "2024-09-13 18:36:22",
+        "new_balance": "20560",
+        "fee": "0",
+        "recipient": "Alex Doe 22803"
+    },
+    {
+        "transaction_id": "72944989836",
+        "amount": "1500",
+        "date": "2024-09-13 19:11:06",
+        "new_balance": "13960",
+        "fee": "0",
+        "recipient": "Alex Doe 31890"
+    },
+    {
+        "transaction_id": "97178498053",
+        "amount": "5300",
+        "date": "2024-09-13 22:54:52",
+        "new_balance": "5040",
+        "fee": "0",
+        "recipient": "Jane Smith 63271"
+    },
+    {
+        "transaction_id": "80693378371",
+        "amount": "2000",
+        "date": "2024-09-14 07:55:18",
+        "new_balance": "800",
+        "fee": "0",
+        "recipient": "Robert Brown 72729"
+    },
+    {
+        "transaction_id": "77217198389",
+        "amount": "1200",
+        "date": "2024-09-14 11:58:38",
+        "new_balance": "49600",
+        "fee": "0",
+        "recipient": "Linda Green 28799"
+    },
+    {
+        "transaction_id": "91279986205",
+        "amount": "2000",
+        "date": "2024-09-14 16:16:43",
+        "new_balance": "2250",
+        "fee": "0",
+        "recipient": "Jane Smith 75402"
+    },
+    {
+        "transaction_id": "28826953210",
+        "amount": "50000",
+        "date": "2024-09-14 18:05:15",
+        "new_balance": "52250",
+        "fee": "0",
+        "recipient": "Samuel Carter 28438"
+    },
+    {
+        "transaction_id": "17948439353",
+        "amount": "3000",
+        "date": "2024-09-14 18:05:54",
+        "new_balance": "49250",
+        "fee": "0",
+        "recipient": "Alex Doe 97683"
+    },
+    {
+        "transaction_id": "36356336397",
+        "amount": "13500",
+        "date": "2024-09-14 19:51:12",
+        "new_balance": "35750",
+        "fee": "0",
+        "recipient": "Robert Brown 38807"
+    },
+    {
+        "transaction_id": "69586541013",
+        "amount": "500",
+        "date": "2024-09-14 19:51:47",
+        "new_balance": "35250",
+        "fee": "0",
+        "recipient": "Alex Doe 72148"
+    },
+    {
+        "transaction_id": "94012583928",
+        "amount": "4500",
+        "date": "2024-09-16 13:42:40",
+        "new_balance": "0",
+        "fee": "0",
+        "recipient": "Linda Green 64137"
+    },
+    {
+        "transaction_id": "37418547572",
+        "amount": "3500",
+        "date": "2024-09-17 13:41:36",
+        "new_balance": "46500",
+        "fee": "0",
+        "recipient": "Samuel Carter 71202"
+    },
+    {
+        "transaction_id": "31576458916",
+        "amount": "1000",
+        "date": "2024-09-17 20:28:01",
+        "new_balance": "23050",
+        "fee": "0",
+        "recipient": "Alex Doe 32980"
+    },
+    {
+        "transaction_id": "36553832778",
+        "amount": "5200",
+        "date": "2024-09-17 20:52:40",
+        "new_balance": "17850",
+        "fee": "0",
+        "recipient": "Jane Smith 25602"
+    },
+    {
+        "transaction_id": "67555624275",
+        "amount": "3000",
+        "date": "2024-09-18 14:33:31",
+        "new_balance": "7750",
+        "fee": "0",
+        "recipient": "Jane Smith 31472"
+    },
+    {
+        "transaction_id": "89855734028",
+        "amount": "2500",
+        "date": "2024-09-18 20:16:35",
+        "new_balance": "5250",
+        "fee": "0",
+        "recipient": "Linda Green 15747"
+    },
+    {
+        "transaction_id": "82996055356",
+        "amount": "2100",
+        "date": "2024-09-18 21:03:03",
+        "new_balance": "3150",
+        "fee": "0",
+        "recipient": "Samuel Carter 27184"
+    },
+    {
+        "transaction_id": "97916279369",
+        "amount": "4000",
+        "date": "2024-09-18 22:41:17",
+        "new_balance": "19150",
+        "fee": "0",
+        "recipient": "Samuel Carter 33416"
+    },
+    {
+        "transaction_id": "48524994396",
+        "amount": "3500",
+        "date": "2024-09-19 13:52:14",
+        "new_balance": "2930",
+        "fee": "0",
+        "recipient": "Samuel Carter 96667"
+    },
+    {
+        "transaction_id": "78688834340",
+        "amount": "14100",
+        "date": "2024-09-19 15:26:32",
+        "new_balance": "38830",
+        "fee": "0",
+        "recipient": "Jane Smith 20307"
+    },
+    {
+        "transaction_id": "60193532268",
+        "amount": "1300",
+        "date": "2024-09-19 20:48:28",
+        "new_balance": "37530",
+        "fee": "0",
+        "recipient": "Jane Smith 94080"
+    },
+    {
+        "transaction_id": "60158780091",
+        "amount": "40000",
+        "date": "2024-09-20 09:04:24",
+        "new_balance": "2530",
+        "fee": "0",
+        "recipient": "Robert Brown 90615"
+    },
+    {
+        "transaction_id": "35202815280",
+        "amount": "2500",
+        "date": "2024-09-20 13:56:57",
+        "new_balance": "30",
+        "fee": "0",
+        "recipient": "Jane Smith 35376"
+    },
+    {
+        "transaction_id": "32371477638",
+        "amount": "3300",
+        "date": "2024-09-20 20:45:24",
+        "new_balance": "41630",
+        "fee": "0",
+        "recipient": "Jane Smith 67795"
+    },
+    {
+        "transaction_id": "15188663338",
+        "amount": "3000",
+        "date": "2024-09-21 13:55:34",
+        "new_balance": "38630",
+        "fee": "0",
+        "recipient": "Samuel Carter 14192"
+    },
+    {
+        "transaction_id": "46064965737",
+        "amount": "700",
+        "date": "2024-09-21 14:02:35",
+        "new_balance": "37930",
+        "fee": "0",
+        "recipient": "Robert Brown 76517"
+    },
+    {
+        "transaction_id": "13372675354",
+        "amount": "28700",
+        "date": "2024-09-22 13:39:35",
+        "new_balance": "36900",
+        "fee": "0",
+        "recipient": "Jane Smith 65293"
+    },
+    {
+        "transaction_id": "17063216498",
+        "amount": "700",
+        "date": "2024-09-22 13:52:44",
+        "new_balance": "36200",
+        "fee": "0",
+        "recipient": "Robert Brown 81980"
+    },
+    {
+        "transaction_id": "62962558714",
+        "amount": "5000",
+        "date": "2024-09-22 19:27:38",
+        "new_balance": "12600",
+        "fee": "0",
+        "recipient": "Samuel Carter 42535"
+    },
+    {
+        "transaction_id": "37376382898",
+        "amount": "5800",
+        "date": "2024-09-23 13:32:42",
+        "new_balance": "4650",
+        "fee": "0",
+        "recipient": "Robert Brown 40003"
+    },
+    {
+        "transaction_id": "68217644339",
+        "amount": "35300",
+        "date": "2024-09-23 23:30:35",
+        "new_balance": "15000",
+        "fee": "0",
+        "recipient": "Linda Green 92413"
+    },
+    {
+        "transaction_id": "24296251142",
+        "amount": "800",
+        "date": "2024-09-24 13:13:00",
+        "new_balance": "10580",
+        "fee": "0",
+        "recipient": "Samuel Carter 61804"
+    },
+    {
+        "transaction_id": "90644334751",
+        "amount": "2500",
+        "date": "2024-09-24 13:13:36",
+        "new_balance": "8080",
+        "fee": "0",
+        "recipient": "Alex Doe 73621"
+    },
+    {
+        "transaction_id": "79921659205",
+        "amount": "4000",
+        "date": "2024-09-24 20:55:24",
+        "new_balance": "17180",
+        "fee": "0",
+        "recipient": "Alex Doe 42875"
+    },
+    {
+        "transaction_id": "94510396651",
+        "amount": "900",
+        "date": "2024-09-25 02:00:43",
+        "new_balance": "10930",
+        "fee": "0",
+        "recipient": "Linda Green 65441"
+    },
+    {
+        "transaction_id": "55341611618",
+        "amount": "4700",
+        "date": "2024-09-25 14:44:43",
+        "new_balance": "6230",
+        "fee": "0",
+        "recipient": "Alex Doe 13898"
+    },
+    {
+        "transaction_id": "78265898230",
+        "amount": "1000",
+        "date": "2024-09-25 20:33:21",
+        "new_balance": "130",
+        "fee": "0",
+        "recipient": "Robert Brown 53148"
+    },
+    {
+        "transaction_id": "51862934722",
+        "amount": "2500",
+        "date": "2024-09-26 17:18:56",
+        "new_balance": "29360",
+        "fee": "0",
+        "recipient": "Samuel Carter 33261"
+    },
+    {
+        "transaction_id": "91477230630",
+        "amount": "40000",
+        "date": "2024-09-26 19:45:03",
+        "new_balance": "9360",
+        "fee": "0",
+        "recipient": "Samuel Carter 26001"
+    },
+    {
+        "transaction_id": "98785716472",
+        "amount": "2500",
+        "date": "2024-09-26 20:53:55",
+        "new_balance": "6860",
+        "fee": "0",
+        "recipient": "Samuel Carter 27736"
+    },
+    {
+        "transaction_id": "60169531477",
+        "amount": "2000",
+        "date": "2024-09-26 21:14:39",
+        "new_balance": "4860",
+        "fee": "0",
+        "recipient": "Robert Brown 74029"
+    },
+    {
+        "transaction_id": "18182747024",
+        "amount": "300",
+        "date": "2024-09-26 21:16:44",
+        "new_balance": "4560",
+        "fee": "0",
+        "recipient": "Samuel Carter 94344"
+    },
+    {
+        "transaction_id": "33085803334",
+        "amount": "3000",
+        "date": "2024-09-27 13:47:04",
+        "new_balance": "1560",
+        "fee": "0",
+        "recipient": "Robert Brown 77907"
+    },
+    {
+        "transaction_id": "39214139430",
+        "amount": "10000",
+        "date": "2024-09-29 11:42:19",
+        "new_balance": "33210",
+        "fee": "0",
+        "recipient": "Alex Doe 38961"
+    },
+    {
+        "transaction_id": "90902383993",
+        "amount": "2500",
+        "date": "2024-09-29 22:39:32",
+        "new_balance": "5260",
+        "fee": "0",
+        "recipient": "Jane Smith 53237"
+    },
+    {
+        "transaction_id": "10659235728",
+        "amount": "12100",
+        "date": "2024-09-30 07:31:31",
+        "new_balance": "23160",
+        "fee": "0",
+        "recipient": "Linda Green 76028"
+    },
+    {
+        "transaction_id": "39663280584",
+        "amount": "3300",
+        "date": "2024-10-01 13:31:33",
+        "new_balance": "19610",
+        "fee": "0",
+        "recipient": "Jane Smith 32608"
+    },
+    {
+        "transaction_id": "81871013229",
+        "amount": "50000",
+        "date": "2024-10-01 17:25:41",
+        "new_balance": "19610",
+        "fee": "0",
+        "recipient": "Jane Smith 17271"
+    },
+    {
+        "transaction_id": "44506228015",
+        "amount": "1000",
+        "date": "2024-10-01 19:22:32",
+        "new_balance": "18610",
+        "fee": "0",
+        "recipient": "Alex Doe 16975"
+    },
+    {
+        "transaction_id": "83067244660",
+        "amount": "2500",
+        "date": "2024-10-02 14:31:02",
+        "new_balance": "16110",
+        "fee": "0",
+        "recipient": "Linda Green 84722"
+    },
+    {
+        "transaction_id": "20546538645",
+        "amount": "1500",
+        "date": "2024-10-02 18:46:26",
+        "new_balance": "107862",
+        "fee": "0",
+        "recipient": "Alex Doe 23231"
+    },
+    {
+        "transaction_id": "35245414129",
+        "amount": "11000",
+        "date": "2024-10-02 21:26:50",
+        "new_balance": "58612",
+        "fee": "0",
+        "recipient": "Samuel Carter 36197"
+    },
+    {
+        "transaction_id": "32286024625",
+        "amount": "5000",
+        "date": "2024-10-03 16:49:59",
+        "new_balance": "4012",
+        "fee": "0",
+        "recipient": "Linda Green 96457"
+    },
+    {
+        "transaction_id": "90308181228",
+        "amount": "3500",
+        "date": "2024-10-04 13:03:17",
+        "new_balance": "12",
+        "fee": "0",
+        "recipient": "Jane Smith 60129"
+    },
+    {
+        "transaction_id": "18477975094",
+        "amount": "700",
+        "date": "2024-10-04 19:45:12",
+        "new_balance": "19312",
+        "fee": "0",
+        "recipient": "Samuel Carter 49614"
+    },
+    {
+        "transaction_id": "85146339192",
+        "amount": "11000",
+        "date": "2024-10-04 22:12:20",
+        "new_balance": "8312",
+        "fee": "0",
+        "recipient": "Jane Smith 29099"
+    },
+    {
+        "transaction_id": "82638981577",
+        "amount": "3000",
+        "date": "2024-10-05 17:00:07",
+        "new_balance": "1962",
+        "fee": "0",
+        "recipient": "Linda Green 41515"
+    },
+    {
+        "transaction_id": "24060951845",
+        "amount": "20000",
+        "date": "2024-10-05 17:11:22",
+        "new_balance": "31962",
+        "fee": "0",
+        "recipient": "Alex Doe 71300"
+    },
+    {
+        "transaction_id": "48231394901",
+        "amount": "300",
+        "date": "2024-10-05 17:18:57",
+        "new_balance": "31662",
+        "fee": "0",
+        "recipient": "Samuel Carter 58485"
+    },
+    {
+        "transaction_id": "77445681586",
+        "amount": "23500",
+        "date": "2024-10-06 22:41:19",
+        "new_balance": "9912",
+        "fee": "0",
+        "recipient": "Linda Green 95616"
+    },
+    {
+        "transaction_id": "22996639471",
+        "amount": "1000",
+        "date": "2024-10-06 23:15:14",
+        "new_balance": "8912",
+        "fee": "0",
+        "recipient": "Samuel Carter 53959"
+    },
+    {
+        "transaction_id": "89752753163",
+        "amount": "3500",
+        "date": "2024-10-07 13:25:17",
+        "new_balance": "7312",
+        "fee": "0",
+        "recipient": "Samuel Carter 51917"
+    },
+    {
+        "transaction_id": "43532820450",
+        "amount": "1500",
+        "date": "2024-10-07 19:33:48",
+        "new_balance": "8812",
+        "fee": "0",
+        "recipient": "Robert Brown 43078"
+    },
+    {
+        "transaction_id": "58196919753",
+        "amount": "1000",
+        "date": "2024-10-07 19:34:32",
+        "new_balance": "7812",
+        "fee": "0",
+        "recipient": "Jane Smith 58193"
+    },
+    {
+        "transaction_id": "37468876171",
+        "amount": "9000",
+        "date": "2024-10-07 22:07:02",
+        "new_balance": "1812",
+        "fee": "0",
+        "recipient": "Alex Doe 39002"
+    },
+    {
+        "transaction_id": "88108852426",
+        "amount": "4500",
+        "date": "2024-10-08 18:08:39",
+        "new_balance": "45212",
+        "fee": "0",
+        "recipient": "Linda Green 81102"
+    },
+    {
+        "transaction_id": "31762210000",
+        "amount": "40000",
+        "date": "2024-10-08 18:17:20",
+        "new_balance": "5212",
+        "fee": "0",
+        "recipient": "Jane Smith 80896"
+    },
+    {
+        "transaction_id": "13398096034",
+        "amount": "9000",
+        "date": "2024-10-08 20:48:25",
+        "new_balance": "3962",
+        "fee": "0",
+        "recipient": "Alex Doe 41138"
+    },
+    {
+        "transaction_id": "67853860784",
+        "amount": "1000",
+        "date": "2024-10-09 20:15:07",
+        "new_balance": "2962",
+        "fee": "0",
+        "recipient": "Linda Green 21555"
+    },
+    {
+        "transaction_id": "59663284115",
+        "amount": "10000",
+        "date": "2024-10-09 22:27:15",
+        "new_balance": "22962",
+        "fee": "0",
+        "recipient": "Jane Smith 78295"
+    },
+    {
+        "transaction_id": "11340322119",
+        "amount": "2500",
+        "date": "2024-10-10 19:29:37",
+        "new_balance": "145705",
+        "fee": "0",
+        "recipient": "Robert Brown 55356"
+    },
+    {
+        "transaction_id": "53889847709",
+        "amount": "4000",
+        "date": "2024-10-11 13:51:00",
+        "new_balance": "81255",
+        "fee": "0",
+        "recipient": "Robert Brown 12519"
+    },
+    {
+        "transaction_id": "77321308899",
+        "amount": "40000",
+        "date": "2024-10-11 16:23:38",
+        "new_balance": "29655",
+        "fee": "0",
+        "recipient": "Robert Brown 97461"
+    },
+    {
+        "transaction_id": "79562421324",
+        "amount": "2000",
+        "date": "2024-10-11 18:02:18",
+        "new_balance": "22655",
+        "fee": "0",
+        "recipient": "Robert Brown 71523"
+    },
+    {
+        "transaction_id": "13398775256",
+        "amount": "2000",
+        "date": "2024-10-11 18:52:01",
+        "new_balance": "20655",
+        "fee": "0",
+        "recipient": "Alex Doe 97941"
+    },
+    {
+        "transaction_id": "83779362556",
+        "amount": "20500",
+        "date": "2024-10-12 17:59:04",
+        "new_balance": "32105",
+        "fee": "0",
+        "recipient": "Robert Brown 98029"
+    },
+    {
+        "transaction_id": "15010571728",
+        "amount": "1000",
+        "date": "2024-10-12 18:20:11",
+        "new_balance": "31105",
+        "fee": "0",
+        "recipient": "Jane Smith 61914"
+    },
+    {
+        "transaction_id": "69826234262",
+        "amount": "2500",
+        "date": "2024-10-13 09:30:02",
+        "new_balance": "28605",
+        "fee": "0",
+        "recipient": "Samuel Carter 89824"
+    },
+    {
+        "transaction_id": "64182407557",
+        "amount": "3900",
+        "date": "2024-10-13 09:56:50",
+        "new_balance": "21705",
+        "fee": "0",
+        "recipient": "Samuel Carter 73206"
+    },
+    {
+        "transaction_id": "22165640182",
+        "amount": "15000",
+        "date": "2024-10-13 13:16:08",
+        "new_balance": "6705",
+        "fee": "0",
+        "recipient": "Jane Smith 29963"
+    },
+    {
+        "transaction_id": "83014570594",
+        "amount": "10000",
+        "date": "2024-10-14 11:35:27",
+        "new_balance": "52605",
+        "fee": "0",
+        "recipient": "Linda Green 36659"
+    },
+    {
+        "transaction_id": "88832399279",
+        "amount": "10000",
+        "date": "2024-10-14 19:50:29",
+        "new_balance": "12355",
+        "fee": "0",
+        "recipient": "Linda Green 70896"
+    },
+    {
+        "transaction_id": "52293280519",
+        "amount": "20000",
+        "date": "2024-10-16 16:43:56",
+        "new_balance": "108151",
+        "fee": "0",
+        "recipient": "Linda Green 93041"
+    },
+    {
+        "transaction_id": "38148168525",
+        "amount": "10000",
+        "date": "2024-10-16 19:55:32",
+        "new_balance": "98151",
+        "fee": "0",
+        "recipient": "Alex Doe 90011"
+    },
+    {
+        "transaction_id": "81760735419",
+        "amount": "7000",
+        "date": "2024-10-16 19:57:15",
+        "new_balance": "91151",
+        "fee": "0",
+        "recipient": "Samuel Carter 55521"
+    },
+    {
+        "transaction_id": "53606315017",
+        "amount": "13800",
+        "date": "2024-10-16 22:35:33",
+        "new_balance": "33150",
+        "fee": "0",
+        "recipient": "Samuel Carter 21475"
+    },
+    {
+        "transaction_id": "59905850736",
+        "amount": "3500",
+        "date": "2024-10-17 13:54:52",
+        "new_balance": "24550",
+        "fee": "0",
+        "recipient": "Linda Green 85852"
+    },
+    {
+        "transaction_id": "54242334327",
+        "amount": "1000",
+        "date": "2024-10-17 20:16:37",
+        "new_balance": "13450",
+        "fee": "0",
+        "recipient": "Alex Doe 95294"
+    },
+    {
+        "transaction_id": "88072671762",
+        "amount": "37500",
+        "date": "2024-10-18 19:50:14",
+        "new_balance": "16250",
+        "fee": "0",
+        "recipient": "Samuel Carter 73641"
+    },
+    {
+        "transaction_id": "45748335313",
+        "amount": "10000",
+        "date": "2024-10-18 21:06:55",
+        "new_balance": "6250",
+        "fee": "0",
+        "recipient": "Samuel Carter 99589"
+    },
+    {
+        "transaction_id": "59362114751",
+        "amount": "10500",
+        "date": "2024-10-19 11:41:35",
+        "new_balance": "15750",
+        "fee": "0",
+        "recipient": "Jane Smith 54994"
+    },
+    {
+        "transaction_id": "31169956538",
+        "amount": "10750",
+        "date": "2024-10-20 01:07:14",
+        "new_balance": "0",
+        "fee": "0",
+        "recipient": "Linda Green 95179"
+    },
+    {
+        "transaction_id": "18750556052",
+        "amount": "600",
+        "date": "2024-10-20 19:54:03",
+        "new_balance": "132472",
+        "fee": "0",
+        "recipient": "Samuel Carter 57978"
+    },
+    {
+        "transaction_id": "89091466523",
+        "amount": "2200",
+        "date": "2024-10-20 21:08:11",
+        "new_balance": "120272",
+        "fee": "0",
+        "recipient": "Robert Brown 95098"
+    },
+    {
+        "transaction_id": "15223201812",
+        "amount": "15500",
+        "date": "2024-10-21 11:39:26",
+        "new_balance": "82522",
+        "fee": "0",
+        "recipient": "Linda Green 79333"
+    },
+    {
+        "transaction_id": "68316839601",
+        "amount": "1000",
+        "date": "2024-10-21 19:56:30",
+        "new_balance": "81522",
+        "fee": "0",
+        "recipient": "Alex Doe 84251"
+    },
+    {
+        "transaction_id": "76509859651",
+        "amount": "1000",
+        "date": "2024-10-21 20:23:47",
+        "new_balance": "80522",
+        "fee": "0",
+        "recipient": "Samuel Carter 38134"
+    },
+    {
+        "transaction_id": "93902902643",
+        "amount": "2500",
+        "date": "2024-10-21 20:54:18",
+        "new_balance": "78022",
+        "fee": "0",
+        "recipient": "Samuel Carter 49012"
+    },
+    {
+        "transaction_id": "75970255069",
+        "amount": "7000",
+        "date": "2024-10-21 22:07:58",
+        "new_balance": "71022",
+        "fee": "0",
+        "recipient": "Linda Green 69696"
+    },
+    {
+        "transaction_id": "43332595746",
+        "amount": "15000",
+        "date": "2024-10-21 23:27:40",
+        "new_balance": "56022",
+        "fee": "0",
+        "recipient": "Samuel Carter 53208"
+    },
+    {
+        "transaction_id": "83978461332",
+        "amount": "500",
+        "date": "2024-10-22 20:39:05",
+        "new_balance": "55522",
+        "fee": "0",
+        "recipient": "Linda Green 95541"
+    },
+    {
+        "transaction_id": "66774240369",
+        "amount": "1000",
+        "date": "2024-10-22 21:06:54",
+        "new_balance": "54522",
+        "fee": "0",
+        "recipient": "Jane Smith 58118"
+    },
+    {
+        "transaction_id": "18510016190",
+        "amount": "3000",
+        "date": "2024-10-22 21:10:35",
+        "new_balance": "51522",
+        "fee": "0",
+        "recipient": "Alex Doe 13830"
+    },
+    {
+        "transaction_id": "11365396250",
+        "amount": "4000",
+        "date": "2024-10-22 21:22:14",
+        "new_balance": "47522",
+        "fee": "0",
+        "recipient": "Linda Green 63600"
+    },
+    {
+        "transaction_id": "14589884783",
+        "amount": "16500",
+        "date": "2024-10-22 23:12:14",
+        "new_balance": "31022",
+        "fee": "0",
+        "recipient": "Linda Green 94096"
+    },
+    {
+        "transaction_id": "95337556627",
+        "amount": "4500",
+        "date": "2024-10-23 18:41:58",
+        "new_balance": "49072",
+        "fee": "0",
+        "recipient": "Linda Green 44588"
+    },
+    {
+        "transaction_id": "44650869478",
+        "amount": "11800",
+        "date": "2024-10-23 23:43:07",
+        "new_balance": "21922",
+        "fee": "0",
+        "recipient": "Jane Smith 44671"
+    },
+    {
+        "transaction_id": "30398814444",
+        "amount": "1200",
+        "date": "2024-10-23 23:43:59",
+        "new_balance": "20722",
+        "fee": "0",
+        "recipient": "Jane Smith 74010"
+    },
+    {
+        "transaction_id": "31630879946",
+        "amount": "3500",
+        "date": "2024-10-24 13:32:15",
+        "new_balance": "17222",
+        "fee": "0",
+        "recipient": "Alex Doe 98340"
+    },
+    {
+        "transaction_id": "87927056212",
+        "amount": "1000",
+        "date": "2024-10-24 16:34:03",
+        "new_balance": "10122",
+        "fee": "0",
+        "recipient": "Alex Doe 58576"
+    },
+    {
+        "transaction_id": "24961498802",
+        "amount": "500",
+        "date": "2024-10-24 18:45:47",
+        "new_balance": "9102",
+        "fee": "0",
+        "recipient": "Robert Brown 92471"
+    },
+    {
+        "transaction_id": "96078845608",
+        "amount": "1000",
+        "date": "2024-10-24 19:46:31",
+        "new_balance": "8102",
+        "fee": "0",
+        "recipient": "Jane Smith 21336"
+    },
+    {
+        "transaction_id": "27937789255",
+        "amount": "1200",
+        "date": "2024-10-24 20:05:15",
+        "new_balance": "6902",
+        "fee": "0",
+        "recipient": "Samuel Carter 74056"
+    },
+    {
+        "transaction_id": "35915635698",
+        "amount": "5000",
+        "date": "2024-10-24 20:06:29",
+        "new_balance": "1902",
+        "fee": "0",
+        "recipient": "Samuel Carter 33376"
+    },
+    {
+        "transaction_id": "87101311151",
+        "amount": "3000",
+        "date": "2024-10-25 00:33:30",
+        "new_balance": "18382",
+        "fee": "0",
+        "recipient": "Samuel Carter 41674"
+    },
+    {
+        "transaction_id": "63847414444",
+        "amount": "22000",
+        "date": "2024-10-25 23:11:39",
+        "new_balance": "932",
+        "fee": "0",
+        "recipient": "Samuel Carter 43558"
+    },
+    {
+        "transaction_id": "53085798464",
+        "amount": "8000",
+        "date": "2024-10-26 21:52:48",
+        "new_balance": "42932",
+        "fee": "0",
+        "recipient": "Jane Smith 99510"
+    },
+    {
+        "transaction_id": "12026466377",
+        "amount": "1500",
+        "date": "2024-10-26 21:57:25",
+        "new_balance": "41432",
+        "fee": "0",
+        "recipient": "Jane Smith 96105"
+    },
+    {
+        "transaction_id": "84906022239",
+        "amount": "10000",
+        "date": "2024-10-27 14:58:18",
+        "new_balance": "29832",
+        "fee": "0",
+        "recipient": "Linda Green 92330"
+    },
+    {
+        "transaction_id": "63406615894",
+        "amount": "1200",
+        "date": "2024-10-28 19:51:41",
+        "new_balance": "8282",
+        "fee": "0",
+        "recipient": "Linda Green 42626"
+    },
+    {
+        "transaction_id": "79191608492",
+        "amount": "500",
+        "date": "2024-10-28 21:04:17",
+        "new_balance": "7782",
+        "fee": "0",
+        "recipient": "Jane Smith 41853"
+    },
+    {
+        "transaction_id": "97616156692",
+        "amount": "13500",
+        "date": "2024-10-28 22:57:02",
+        "new_balance": "44282",
+        "fee": "0",
+        "recipient": "Jane Smith 89857"
+    },
+    {
+        "transaction_id": "76120536586",
+        "amount": "8000",
+        "date": "2024-10-29 13:18:05",
+        "new_balance": "36282",
+        "fee": "0",
+        "recipient": "Alex Doe 68678"
+    },
+    {
+        "transaction_id": "87234068654",
+        "amount": "8400",
+        "date": "2024-10-29 23:54:40",
+        "new_balance": "16612",
+        "fee": "0",
+        "recipient": "Alex Doe 81429"
+    },
+    {
+        "transaction_id": "81838722855",
+        "amount": "4000",
+        "date": "2024-10-30 17:33:23",
+        "new_balance": "12612",
+        "fee": "0",
+        "recipient": "Linda Green 64373"
+    },
+    {
+        "transaction_id": "63710134665",
+        "amount": "1000",
+        "date": "2024-10-30 20:51:16",
+        "new_balance": "11612",
+        "fee": "0",
+        "recipient": "Jane Smith 73638"
+    },
+    {
+        "transaction_id": "22834010377",
+        "amount": "11000",
+        "date": "2024-10-30 22:18:11",
+        "new_balance": "612",
+        "fee": "0",
+        "recipient": "Alex Doe 28569"
+    },
+    {
+        "transaction_id": "28043130256",
+        "amount": "9000",
+        "date": "2024-10-30 23:47:42",
+        "new_balance": "36612",
+        "fee": "0",
+        "recipient": "Samuel Carter 40783"
+    },
+    {
+        "transaction_id": "19221386945",
+        "amount": "5700",
+        "date": "2024-10-31 18:21:53",
+        "new_balance": "7142",
+        "fee": "0",
+        "recipient": "Samuel Carter 88993"
+    },
+    {
+        "transaction_id": "95154102352",
+        "amount": "1000",
+        "date": "2024-10-31 20:57:25",
+        "new_balance": "6142",
+        "fee": "0",
+        "recipient": "Samuel Carter 91279"
+    },
+    {
+        "transaction_id": "85450886922",
+        "amount": "1000",
+        "date": "2024-10-31 21:34:55",
+        "new_balance": "24892",
+        "fee": "0",
+        "recipient": "Jane Smith 71611"
+    },
+    {
+        "transaction_id": "91900163647",
+        "amount": "20250",
+        "date": "2024-10-31 23:52:19",
+        "new_balance": "4122",
+        "fee": "0",
+        "recipient": "Linda Green 87167"
+    },
+    {
+        "transaction_id": "27925177838",
+        "amount": "3000",
+        "date": "2024-11-02 01:24:44",
+        "new_balance": "11372",
+        "fee": "0",
+        "recipient": "Linda Green 58812"
+    },
+    {
+        "transaction_id": "32029523207",
+        "amount": "4800",
+        "date": "2024-11-02 11:18:38",
+        "new_balance": "3472",
+        "fee": "0",
+        "recipient": "Linda Green 92839"
+    },
+    {
+        "transaction_id": "31684502107",
+        "amount": "6500",
+        "date": "2024-11-02 14:06:34",
+        "new_balance": "16972",
+        "fee": "0",
+        "recipient": "Linda Green 73815"
+    },
+    {
+        "transaction_id": "98072616886",
+        "amount": "1500",
+        "date": "2024-11-02 15:47:36",
+        "new_balance": "14452",
+        "fee": "0",
+        "recipient": "Jane Smith 10418"
+    },
+    {
+        "transaction_id": "74940646559",
+        "amount": "15000",
+        "date": "2024-11-03 14:53:16",
+        "new_balance": "13332",
+        "fee": "0",
+        "recipient": "Alex Doe 13113"
+    },
+    {
+        "transaction_id": "76489114849",
+        "amount": "1500",
+        "date": "2024-11-04 10:08:45",
+        "new_balance": "9712",
+        "fee": "0",
+        "recipient": "Robert Brown 83268"
+    },
+    {
+        "transaction_id": "90771619158",
+        "amount": "1500",
+        "date": "2024-11-04 17:15:50",
+        "new_balance": "8212",
+        "fee": "0",
+        "recipient": "Samuel Carter 28573"
+    },
+    {
+        "transaction_id": "96847302038",
+        "amount": "3500",
+        "date": "2024-11-05 13:30:29",
+        "new_balance": "14212",
+        "fee": "0",
+        "recipient": "Alex Doe 27166"
+    },
+    {
+        "transaction_id": "52306931698",
+        "amount": "9300",
+        "date": "2024-11-05 18:19:25",
+        "new_balance": "4912",
+        "fee": "0",
+        "recipient": "Linda Green 20136"
+    },
+    {
+        "transaction_id": "84422936261",
+        "amount": "500",
+        "date": "2024-11-05 20:01:08",
+        "new_balance": "4412",
+        "fee": "0",
+        "recipient": "Alex Doe 30015"
+    },
+    {
+        "transaction_id": "80762432902",
+        "amount": "1000",
+        "date": "2024-11-05 21:06:39",
+        "new_balance": "3412",
+        "fee": "0",
+        "recipient": "Robert Brown 38967"
+    },
+    {
+        "transaction_id": "12941586465",
+        "amount": "1000",
+        "date": "2024-11-05 21:48:24",
+        "new_balance": "2412",
+        "fee": "0",
+        "recipient": "Robert Brown 53484"
+    },
+    {
+        "transaction_id": "32932185216",
+        "amount": "2200",
+        "date": "2024-11-05 21:50:55",
+        "new_balance": "212",
+        "fee": "0",
+        "recipient": "Jane Smith 78202"
+    },
+    {
+        "transaction_id": "22620644869",
+        "amount": "1400",
+        "date": "2024-11-05 21:55:35",
+        "new_balance": "8812",
+        "fee": "0",
+        "recipient": "Alex Doe 98278"
+    },
+    {
+        "transaction_id": "12285281137",
+        "amount": "3300",
+        "date": "2024-11-06 13:12:08",
+        "new_balance": "64117",
+        "fee": "0",
+        "recipient": "Linda Green 25501"
+    },
+    {
+        "transaction_id": "72077076399",
+        "amount": "500",
+        "date": "2024-11-06 19:14:06",
+        "new_balance": "51367",
+        "fee": "0",
+        "recipient": "Samuel Carter 87234"
+    },
+    {
+        "transaction_id": "17695655335",
+        "amount": "500",
+        "date": "2024-11-06 20:39:02",
+        "new_balance": "50867",
+        "fee": "0",
+        "recipient": "Samuel Carter 34028"
+    },
+    {
+        "transaction_id": "47323864863",
+        "amount": "4700",
+        "date": "2024-11-06 20:46:57",
+        "new_balance": "46167",
+        "fee": "0",
+        "recipient": "Robert Brown 44418"
+    },
+    {
+        "transaction_id": "51185805957",
+        "amount": "1000",
+        "date": "2024-11-07 14:14:35",
+        "new_balance": "36567",
+        "fee": "0",
+        "recipient": "Alex Doe 37459"
+    },
+    {
+        "transaction_id": "64693883303",
+        "amount": "500",
+        "date": "2024-11-07 21:31:21",
+        "new_balance": "35547",
+        "fee": "0",
+        "recipient": "Jane Smith 28704"
+    },
+    {
+        "transaction_id": "32239374076",
+        "amount": "4600",
+        "date": "2024-11-07 23:18:28",
+        "new_balance": "30947",
+        "fee": "0",
+        "recipient": "Samuel Carter 26095"
+    },
+    {
+        "transaction_id": "41292933584",
+        "amount": "40000",
+        "date": "2024-11-08 10:01:11",
+        "new_balance": "20947",
+        "fee": "0",
+        "recipient": "Samuel Carter 71943"
+    },
+    {
+        "transaction_id": "57030093247",
+        "amount": "600",
+        "date": "2024-11-08 13:31:49",
+        "new_balance": "20347",
+        "fee": "0",
+        "recipient": "Linda Green 98470"
+    },
+    {
+        "transaction_id": "68677426758",
+        "amount": "1600",
+        "date": "2024-11-08 18:51:59",
+        "new_balance": "3497",
+        "fee": "0",
+        "recipient": "Robert Brown 20066"
+    },
+    {
+        "transaction_id": "29539835456",
+        "amount": "10000",
+        "date": "2024-11-08 21:33:58",
+        "new_balance": "33397",
+        "fee": "0",
+        "recipient": "Linda Green 71899"
+    },
+    {
+        "transaction_id": "53740527535",
+        "amount": "26000",
+        "date": "2024-11-09 00:27:28",
+        "new_balance": "6377",
+        "fee": "0",
+        "recipient": "Samuel Carter 89478"
+    },
+    {
+        "transaction_id": "55287216793",
+        "amount": "1200",
+        "date": "2024-11-09 07:14:27",
+        "new_balance": "4157",
+        "fee": "0",
+        "recipient": "Samuel Carter 62378"
+    },
+    {
+        "transaction_id": "61476126603",
+        "amount": "2000",
+        "date": "2024-11-09 07:14:59",
+        "new_balance": "2157",
+        "fee": "0",
+        "recipient": "Linda Green 92801"
+    },
+    {
+        "transaction_id": "23756291424",
+        "amount": "17000",
+        "date": "2024-11-09 20:14:00",
+        "new_balance": "51842",
+        "fee": "0",
+        "recipient": "Jane Smith 93184"
+    },
+    {
+        "transaction_id": "79800269407",
+        "amount": "78000",
+        "date": "2024-11-10 01:03:57",
+        "new_balance": "622",
+        "fee": "0",
+        "recipient": "Alex Doe 35226"
+    },
+    {
+        "transaction_id": "62769441387",
+        "amount": "25900",
+        "date": "2024-11-11 18:51:01",
+        "new_balance": "4722",
+        "fee": "0",
+        "recipient": "Jane Smith 78110"
+    },
+    {
+        "transaction_id": "57206973697",
+        "amount": "500",
+        "date": "2024-11-11 19:18:14",
+        "new_balance": "4222",
+        "fee": "0",
+        "recipient": "Linda Green 18596"
+    },
+    {
+        "transaction_id": "67320713042",
+        "amount": "7900",
+        "date": "2024-11-11 19:50:46",
+        "new_balance": "1322",
+        "fee": "0",
+        "recipient": "Jane Smith 23165"
+    },
+    {
+        "transaction_id": "56966147157",
+        "amount": "200",
+        "date": "2024-11-11 19:54:39",
+        "new_balance": "1122",
+        "fee": "0",
+        "recipient": "Samuel Carter 64964"
+    },
+    {
+        "transaction_id": "96703530751",
+        "amount": "3000",
+        "date": "2024-11-12 13:31:51",
+        "new_balance": "2022",
+        "fee": "0",
+        "recipient": "Jane Smith 84743"
+    },
+    {
+        "transaction_id": "50100917269",
+        "amount": "500",
+        "date": "2024-11-12 19:34:20",
+        "new_balance": "1522",
+        "fee": "0",
+        "recipient": "Alex Doe 82575"
+    },
+    {
+        "transaction_id": "62656383062",
+        "amount": "500",
+        "date": "2024-11-12 20:26:54",
+        "new_balance": "1022",
+        "fee": "0",
+        "recipient": "Robert Brown 64685"
+    },
+    {
+        "transaction_id": "94631078749",
+        "amount": "3000",
+        "date": "2024-11-12 21:43:48",
+        "new_balance": "8022",
+        "fee": "0",
+        "recipient": "Alex Doe 81659"
+    },
+    {
+        "transaction_id": "76861068912",
+        "amount": "16000",
+        "date": "2024-11-13 00:00:20",
+        "new_balance": "12022",
+        "fee": "0",
+        "recipient": "Robert Brown 36138"
+    },
+    {
+        "transaction_id": "68167518530",
+        "amount": "2500",
+        "date": "2024-11-13 14:58:17",
+        "new_balance": "2522",
+        "fee": "0",
+        "recipient": "Robert Brown 66760"
+    },
+    {
+        "transaction_id": "53670708085",
+        "amount": "4000",
+        "date": "2024-11-13 23:44:37",
+        "new_balance": "7432",
+        "fee": "0",
+        "recipient": "Robert Brown 50887"
+    },
+    {
+        "transaction_id": "16283271112",
+        "amount": "30000",
+        "date": "2024-11-14 20:38:55",
+        "new_balance": "24022",
+        "fee": "0",
+        "recipient": "Robert Brown 34704"
+    },
+    {
+        "transaction_id": "77064133585",
+        "amount": "10000",
+        "date": "2024-11-14 22:01:37",
+        "new_balance": "14022",
+        "fee": "0",
+        "recipient": "Jane Smith 97256"
+    },
+    {
+        "transaction_id": "54178902109",
+        "amount": "800",
+        "date": "2024-11-15 15:16:04",
+        "new_balance": "8122",
+        "fee": "0",
+        "recipient": "Alex Doe 24330"
+    },
+    {
+        "transaction_id": "54792622020",
+        "amount": "1000",
+        "date": "2024-11-15 18:14:03",
+        "new_balance": "7122",
+        "fee": "0",
+        "recipient": "Alex Doe 81580"
+    },
+    {
+        "transaction_id": "49452512289",
+        "amount": "600",
+        "date": "2024-11-15 18:22:24",
+        "new_balance": "6522",
+        "fee": "0",
+        "recipient": "Robert Brown 58171"
+    },
+    {
+        "transaction_id": "82479923721",
+        "amount": "5700",
+        "date": "2024-11-15 22:12:43",
+        "new_balance": "822",
+        "fee": "0",
+        "recipient": "Jane Smith 79703"
+    },
+    {
+        "transaction_id": "63834300936",
+        "amount": "6300",
+        "date": "2024-11-16 17:27:14",
+        "new_balance": "3902",
+        "fee": "0",
+        "recipient": "Alex Doe 59540"
+    },
+    {
+        "transaction_id": "75381717541",
+        "amount": "2500",
+        "date": "2024-11-16 18:51:06",
+        "new_balance": "1402",
+        "fee": "0",
+        "recipient": "Linda Green 53212"
+    },
+    {
+        "transaction_id": "19451958132",
+        "amount": "40000",
+        "date": "2024-11-17 13:12:49",
+        "new_balance": "95748",
+        "fee": "0",
+        "recipient": "Alex Doe 45298"
+    },
+    {
+        "transaction_id": "70271999796",
+        "amount": "4500",
+        "date": "2024-11-17 14:05:44",
+        "new_balance": "91248",
+        "fee": "0",
+        "recipient": "Alex Doe 64524"
+    },
+    {
+        "transaction_id": "50182287789",
+        "amount": "25000",
+        "date": "2024-11-17 23:25:06",
+        "new_balance": "64648",
+        "fee": "0",
+        "recipient": "Alex Doe 70566"
+    },
+    {
+        "transaction_id": "52735784344",
+        "amount": "4500",
+        "date": "2024-11-18 14:18:29",
+        "new_balance": "60148",
+        "fee": "0",
+        "recipient": "Alex Doe 92263"
+    },
+    {
+        "transaction_id": "69693617235",
+        "amount": "600",
+        "date": "2024-11-18 16:19:41",
+        "new_balance": "19298",
+        "fee": "0",
+        "recipient": "Samuel Carter 81032"
+    },
+    {
+        "transaction_id": "15146134181",
+        "amount": "9300",
+        "date": "2024-11-18 18:52:11",
+        "new_balance": "114186",
+        "fee": "0",
+        "recipient": "Jane Smith 63456"
+    },
+    {
+        "transaction_id": "91836203944",
+        "amount": "2000",
+        "date": "2024-11-18 20:16:01",
+        "new_balance": "112186",
+        "fee": "0",
+        "recipient": "Alex Doe 41036"
+    },
+    {
+        "transaction_id": "35247235522",
+        "amount": "6000",
+        "date": "2024-11-19 22:40:57",
+        "new_balance": "75236",
+        "fee": "0",
+        "recipient": "Jane Smith 28861"
+    },
+    {
+        "transaction_id": "51960195659",
+        "amount": "40000",
+        "date": "2024-11-20 12:16:36",
+        "new_balance": "32636",
+        "fee": "0",
+        "recipient": "Jane Smith 64793"
+    },
+    {
+        "transaction_id": "51637767958",
+        "amount": "1000",
+        "date": "2024-11-20 18:16:27",
+        "new_balance": "21536",
+        "fee": "0",
+        "recipient": "Robert Brown 59828"
+    },
+    {
+        "transaction_id": "63832588568",
+        "amount": "18000",
+        "date": "2024-11-20 23:06:50",
+        "new_balance": "3536",
+        "fee": "0",
+        "recipient": "Robert Brown 19929"
+    },
+    {
+        "transaction_id": "17739493764",
+        "amount": "10000",
+        "date": "2024-11-21 11:51:48",
+        "new_balance": "12167",
+        "fee": "0",
+        "recipient": "Jane Smith 74242"
+    },
+    {
+        "transaction_id": "58201924130",
+        "amount": "4000",
+        "date": "2024-11-21 20:49:29",
+        "new_balance": "967",
+        "fee": "0",
+        "recipient": "Robert Brown 23131"
+    },
+    {
+        "transaction_id": "36782365869",
+        "amount": "10000",
+        "date": "2024-11-21 21:14:02",
+        "new_balance": "125435",
+        "fee": "0",
+        "recipient": "Samuel Carter 91156"
+    },
+    {
+        "transaction_id": "43160125858",
+        "amount": "23000",
+        "date": "2024-11-21 22:28:34",
+        "new_balance": "102435",
+        "fee": "0",
+        "recipient": "Robert Brown 34217"
+    },
+    {
+        "transaction_id": "70636809967",
+        "amount": "78000",
+        "date": "2024-11-22 00:20:34",
+        "new_balance": "24435",
+        "fee": "0",
+        "recipient": "Alex Doe 74053"
+    },
+    {
+        "transaction_id": "44041838566",
+        "amount": "107184",
+        "date": "2024-11-22 15:01:35",
+        "new_balance": "93001",
+        "fee": "0",
+        "recipient": "Alex Doe 91765"
+    },
+    {
+        "transaction_id": "22997289029",
+        "amount": "2000",
+        "date": "2024-11-22 16:15:48",
+        "new_balance": "91001",
+        "fee": "0",
+        "recipient": "Samuel Carter 54183"
+    },
+    {
+        "transaction_id": "82106121513",
+        "amount": "1500",
+        "date": "2024-11-22 16:18:03",
+        "new_balance": "89501",
+        "fee": "0",
+        "recipient": "Alex Doe 17945"
+    },
+    {
+        "transaction_id": "10620670791",
+        "amount": "36000",
+        "date": "2024-11-22 23:38:10",
+        "new_balance": "53501",
+        "fee": "0",
+        "recipient": "Jane Smith 67559"
+    },
+    {
+        "transaction_id": "35896509195",
+        "amount": "41000",
+        "date": "2024-11-24 12:21:25",
+        "new_balance": "25922",
+        "fee": "0",
+        "recipient": "Robert Brown 65386"
+    },
+    {
+        "transaction_id": "84035130850",
+        "amount": "1600",
+        "date": "2024-11-24 13:33:00",
+        "new_balance": "24322",
+        "fee": "0",
+        "recipient": "Alex Doe 41364"
+    },
+    {
+        "transaction_id": "96504237860",
+        "amount": "15500",
+        "date": "2024-11-24 15:31:44",
+        "new_balance": "8822",
+        "fee": "0",
+        "recipient": "Samuel Carter 62070"
+    },
+    {
+        "transaction_id": "78289351585",
+        "amount": "500",
+        "date": "2024-11-24 15:39:36",
+        "new_balance": "8322",
+        "fee": "0",
+        "recipient": "Jane Smith 45265"
+    },
+    {
+        "transaction_id": "72378502864",
+        "amount": "1500",
+        "date": "2024-11-24 16:49:19",
+        "new_balance": "6822",
+        "fee": "0",
+        "recipient": "Robert Brown 83466"
+    },
+    {
+        "transaction_id": "48478800335",
+        "amount": "1000",
+        "date": "2024-11-25 09:34:45",
+        "new_balance": "5822",
+        "fee": "0",
+        "recipient": "Linda Green 88347"
+    },
+    {
+        "transaction_id": "55816563993",
+        "amount": "7000",
+        "date": "2024-11-25 15:48:13",
+        "new_balance": "8822",
+        "fee": "0",
+        "recipient": "Alex Doe 74025"
+    },
+    {
+        "transaction_id": "71214421293",
+        "amount": "5300",
+        "date": "2024-11-25 19:51:37",
+        "new_balance": "3522",
+        "fee": "0",
+        "recipient": "Linda Green 76916"
+    },
+    {
+        "transaction_id": "48536966202",
+        "amount": "8000",
+        "date": "2024-11-26 13:42:26",
+        "new_balance": "23172",
+        "fee": "0",
+        "recipient": "Linda Green 58734"
+    },
+    {
+        "transaction_id": "38897384275",
+        "amount": "2500",
+        "date": "2024-11-26 20:46:38",
+        "new_balance": "20152",
+        "fee": "0",
+        "recipient": "Linda Green 64580"
+    },
+    {
+        "transaction_id": "42838068588",
+        "amount": "1000",
+        "date": "2024-11-26 21:19:18",
+        "new_balance": "19152",
+        "fee": "0",
+        "recipient": "Jane Smith 18325"
+    },
+    {
+        "transaction_id": "39305056580",
+        "amount": "3600",
+        "date": "2024-11-26 21:23:28",
+        "new_balance": "15552",
+        "fee": "0",
+        "recipient": "Alex Doe 44482"
+    },
+    {
+        "transaction_id": "23077076861",
+        "amount": "3500",
+        "date": "2024-11-27 13:36:29",
+        "new_balance": "26052",
+        "fee": "0",
+        "recipient": "Samuel Carter 16167"
+    },
+    {
+        "transaction_id": "66106452523",
+        "amount": "4500",
+        "date": "2024-11-27 18:47:13",
+        "new_balance": "19452",
+        "fee": "0",
+        "recipient": "Alex Doe 66311"
+    },
+    {
+        "transaction_id": "20585797761",
+        "amount": "14000",
+        "date": "2024-11-27 21:26:50",
+        "new_balance": "5452",
+        "fee": "0",
+        "recipient": "Alex Doe 91714"
+    },
+    {
+        "transaction_id": "48062023691",
+        "amount": "1000",
+        "date": "2024-11-28 20:53:02",
+        "new_balance": "47352",
+        "fee": "0",
+        "recipient": "Robert Brown 97308"
+    },
+    {
+        "transaction_id": "56257770091",
+        "amount": "11500",
+        "date": "2024-11-28 23:13:45",
+        "new_balance": "35852",
+        "fee": "0",
+        "recipient": "Alex Doe 35724"
+    },
+    {
+        "transaction_id": "21855529824",
+        "amount": "3500",
+        "date": "2024-11-29 13:42:26",
+        "new_balance": "1712",
+        "fee": "0",
+        "recipient": "Alex Doe 86590"
+    },
+    {
+        "transaction_id": "35022569513",
+        "amount": "43700",
+        "date": "2024-11-29 23:15:07",
+        "new_balance": "8012",
+        "fee": "0",
+        "recipient": "Samuel Carter 90805"
+    },
+    {
+        "transaction_id": "89671501317",
+        "amount": "25100",
+        "date": "2024-11-30 14:22:31",
+        "new_balance": "85892",
+        "fee": "0",
+        "recipient": "Jane Smith 75635"
+    },
+    {
+        "transaction_id": "11135974601",
+        "amount": "6200",
+        "date": "2024-11-30 14:24:58",
+        "new_balance": "79692",
+        "fee": "0",
+        "recipient": "Alex Doe 97609"
+    },
+    {
+        "transaction_id": "21899972101",
+        "amount": "208750",
+        "date": "2024-11-30 16:35:00",
+        "new_balance": "70742",
+        "fee": "0",
+        "recipient": "Linda Green 54562"
+    },
+    {
+        "transaction_id": "41127800959",
+        "amount": "16000",
+        "date": "2024-11-30 18:47:35",
+        "new_balance": "49042",
+        "fee": "0",
+        "recipient": "Alex Doe 35478"
+    },
+    {
+        "transaction_id": "46181498529",
+        "amount": "20000",
+        "date": "2024-12-02 18:58:15",
+        "new_balance": "83944",
+        "fee": "0",
+        "recipient": "Linda Green 37994"
+    },
+    {
+        "transaction_id": "39367315432",
+        "amount": "2500",
+        "date": "2024-12-02 19:03:15",
+        "new_balance": "80424",
+        "fee": "0",
+        "recipient": "Linda Green 57210"
+    },
+    {
+        "transaction_id": "54832853783",
+        "amount": "800",
+        "date": "2024-12-02 19:27:59",
+        "new_balance": "79624",
+        "fee": "0",
+        "recipient": "Robert Brown 67564"
+    },
+    {
+        "transaction_id": "49470186297",
+        "amount": "20000",
+        "date": "2024-12-02 21:27:24",
+        "new_balance": "59624",
+        "fee": "0",
+        "recipient": "Jane Smith 15356"
+    },
+    {
+        "transaction_id": "58399013847",
+        "amount": "40000",
+        "date": "2024-12-03 11:40:54",
+        "new_balance": "16524",
+        "fee": "0",
+        "recipient": "Samuel Carter 87280"
+    },
+    {
+        "transaction_id": "32104617984",
+        "amount": "3500",
+        "date": "2024-12-03 13:13:28",
+        "new_balance": "2924",
+        "fee": "0",
+        "recipient": "Robert Brown 54734"
+    },
+    {
+        "transaction_id": "70799475893",
+        "amount": "1500",
+        "date": "2024-12-03 19:16:28",
+        "new_balance": "1424",
+        "fee": "0",
+        "recipient": "Robert Brown 52041"
+    },
+    {
+        "transaction_id": "47209547707",
+        "amount": "11000",
+        "date": "2024-12-04 22:57:54",
+        "new_balance": "4124",
+        "fee": "0",
+        "recipient": "Alex Doe 43240"
+    },
+    {
+        "transaction_id": "93029036539",
+        "amount": "3500",
+        "date": "2024-12-05 13:07:18",
+        "new_balance": "624",
+        "fee": "0",
+        "recipient": "Alex Doe 48412"
+    },
+    {
+        "transaction_id": "99213721569",
+        "amount": "2500",
+        "date": "2024-12-05 19:47:02",
+        "new_balance": "21024",
+        "fee": "0",
+        "recipient": "Jane Smith 54123"
+    },
+    {
+        "transaction_id": "15669847093",
+        "amount": "11000",
+        "date": "2024-12-05 22:01:40",
+        "new_balance": "10024",
+        "fee": "0",
+        "recipient": "Samuel Carter 58202"
+    },
+    {
+        "transaction_id": "89862603085",
+        "amount": "27600",
+        "date": "2024-12-07 12:57:19",
+        "new_balance": "31524",
+        "fee": "0",
+        "recipient": "Alex Doe 88215"
+    },
+    {
+        "transaction_id": "33953051219",
+        "amount": "6532",
+        "date": "2024-12-07 17:40:00",
+        "new_balance": "14892",
+        "fee": "0",
+        "recipient": "Alex Doe 16921"
+    },
+    {
+        "transaction_id": "41885909187",
+        "amount": "1000",
+        "date": "2024-12-07 17:57:22",
+        "new_balance": "13892",
+        "fee": "0",
+        "recipient": "Jane Smith 70736"
+    },
+    {
+        "transaction_id": "95870127706",
+        "amount": "3000",
+        "date": "2024-12-08 17:19:49",
+        "new_balance": "792",
+        "fee": "0",
+        "recipient": "Linda Green 92842"
+    },
+    {
+        "transaction_id": "37194978837",
+        "amount": "3300",
+        "date": "2024-12-08 19:26:39",
+        "new_balance": "47492",
+        "fee": "0",
+        "recipient": "Linda Green 28118"
+    },
+    {
+        "transaction_id": "71359588682",
+        "amount": "4000",
+        "date": "2024-12-08 19:34:00",
+        "new_balance": "43492",
+        "fee": "0",
+        "recipient": "Samuel Carter 26869"
+    },
+    {
+        "transaction_id": "37711041058",
+        "amount": "1000",
+        "date": "2024-12-09 21:31:46",
+        "new_balance": "12242",
+        "fee": "0",
+        "recipient": "Alex Doe 47347"
+    },
+    {
+        "transaction_id": "94221988885",
+        "amount": "17500",
+        "date": "2024-12-09 23:44:06",
+        "new_balance": "4742",
+        "fee": "0",
+        "recipient": "Samuel Carter 67760"
+    },
+    {
+        "transaction_id": "72231619373",
+        "amount": "1000",
+        "date": "2024-12-10 16:45:04",
+        "new_balance": "6142",
+        "fee": "0",
+        "recipient": "Robert Brown 11851"
+    },
+    {
+        "transaction_id": "66539582201",
+        "amount": "1500",
+        "date": "2024-12-10 20:03:46",
+        "new_balance": "2142",
+        "fee": "0",
+        "recipient": "Alex Doe 88184"
+    },
+    {
+        "transaction_id": "46343939313",
+        "amount": "2000",
+        "date": "2024-12-10 20:07:21",
+        "new_balance": "142",
+        "fee": "0",
+        "recipient": "Alex Doe 57668"
+    },
+    {
+        "transaction_id": "86771299813",
+        "amount": "2200",
+        "date": "2024-12-11 21:06:07",
+        "new_balance": "40642",
+        "fee": "0",
+        "recipient": "Samuel Carter 52782"
+    },
+    {
+        "transaction_id": "45962008824",
+        "amount": "5000",
+        "date": "2024-12-12 20:44:37",
+        "new_balance": "35142",
+        "fee": "0",
+        "recipient": "Robert Brown 82501"
+    },
+    {
+        "transaction_id": "16767909062",
+        "amount": "9500",
+        "date": "2024-12-14 19:05:08",
+        "new_balance": "151",
+        "fee": "0",
+        "recipient": "Robert Brown 39839"
+    },
+    {
+        "transaction_id": "84054827778",
+        "amount": "35000",
+        "date": "2024-12-14 23:19:53",
+        "new_balance": "100291",
+        "fee": "0",
+        "recipient": "Jane Smith 15196"
+    },
+    {
+        "transaction_id": "88725319180",
+        "amount": "20500",
+        "date": "2024-12-15 00:31:55",
+        "new_balance": "79791",
+        "fee": "0",
+        "recipient": "Jane Smith 38526"
+    },
+    {
+        "transaction_id": "77222748548",
+        "amount": "31000",
+        "date": "2024-12-15 16:03:25",
+        "new_balance": "32991",
+        "fee": "0",
+        "recipient": "Samuel Carter 14652"
+    },
+    {
+        "transaction_id": "17878271668",
+        "amount": "30500",
+        "date": "2024-12-15 18:29:49",
+        "new_balance": "24291",
+        "fee": "0",
+        "recipient": "Linda Green 38097"
+    },
+    {
+        "transaction_id": "35727276550",
+        "amount": "25300",
+        "date": "2024-12-16 10:54:09",
+        "new_balance": "4891",
+        "fee": "0",
+        "recipient": "Robert Brown 55886"
+    },
+    {
+        "transaction_id": "34560987595",
+        "amount": "40000",
+        "date": "2024-12-17 08:54:16",
+        "new_balance": "89592",
+        "fee": "0",
+        "recipient": "Alex Doe 35852"
+    },
+    {
+        "transaction_id": "64898321363",
+        "amount": "11750",
+        "date": "2024-12-17 14:51:29",
+        "new_balance": "77842",
+        "fee": "0",
+        "recipient": "Robert Brown 37855"
+    },
+    {
+        "transaction_id": "76380162722",
+        "amount": "1500",
+        "date": "2024-12-17 14:58:14",
+        "new_balance": "76342",
+        "fee": "0",
+        "recipient": "Alex Doe 48372"
+    },
+    {
+        "transaction_id": "82617046769",
+        "amount": "400",
+        "date": "2024-12-18 21:50:20",
+        "new_balance": "31792",
+        "fee": "0",
+        "recipient": "Samuel Carter 92374"
+    },
+    {
+        "transaction_id": "57516315891",
+        "amount": "3500",
+        "date": "2024-12-18 22:15:47",
+        "new_balance": "28292",
+        "fee": "0",
+        "recipient": "Jane Smith 47279"
+    },
+    {
+        "transaction_id": "60930083503",
+        "amount": "1500",
+        "date": "2024-12-19 12:21:23",
+        "new_balance": "25192",
+        "fee": "0",
+        "recipient": "Robert Brown 43272"
+    },
+    {
+        "transaction_id": "15885497602",
+        "amount": "8000",
+        "date": "2024-12-19 23:30:46",
+        "new_balance": "1992",
+        "fee": "0",
+        "recipient": "Robert Brown 88769"
+    },
+    {
+        "transaction_id": "19391512835",
+        "amount": "2000",
+        "date": "2024-12-20 11:59:37",
+        "new_balance": "19992",
+        "fee": "0",
+        "recipient": "Jane Smith 33257"
+    },
+    {
+        "transaction_id": "17798210186",
+        "amount": "2200",
+        "date": "2024-12-21 13:05:24",
+        "new_balance": "4342",
+        "fee": "0",
+        "recipient": "Alex Doe 72364"
+    },
+    {
+        "transaction_id": "94602885416",
+        "amount": "1000",
+        "date": "2024-12-22 14:33:02",
+        "new_balance": "35822",
+        "fee": "0",
+        "recipient": "Linda Green 92343"
+    },
+    {
+        "transaction_id": "40325712376",
+        "amount": "11600",
+        "date": "2024-12-22 14:46:17",
+        "new_balance": "24222",
+        "fee": "0",
+        "recipient": "Alex Doe 80143"
+    },
+    {
+        "transaction_id": "88953152367",
+        "amount": "8250",
+        "date": "2024-12-22 19:45:41",
+        "new_balance": "15972",
+        "fee": "0",
+        "recipient": "Alex Doe 30069"
+    },
+    {
+        "transaction_id": "70853207718",
+        "amount": "2040",
+        "date": "2024-12-22 19:49:17",
+        "new_balance": "13932",
+        "fee": "0",
+        "recipient": "Jane Smith 68739"
+    },
+    {
+        "transaction_id": "86091303323",
+        "amount": "4000",
+        "date": "2024-12-23 00:18:52",
+        "new_balance": "1132",
+        "fee": "0",
+        "recipient": "Samuel Carter 61524"
+    },
+    {
+        "transaction_id": "76924527055",
+        "amount": "15000",
+        "date": "2024-12-23 00:42:39",
+        "new_balance": "36132",
+        "fee": "0",
+        "recipient": "Samuel Carter 72475"
+    },
+    {
+        "transaction_id": "86101897464",
+        "amount": "4000",
+        "date": "2024-12-23 00:52:56",
+        "new_balance": "32132",
+        "fee": "0",
+        "recipient": "Robert Brown 70207"
+    },
+    {
+        "transaction_id": "26959913460",
+        "amount": "4000",
+        "date": "2024-12-23 01:57:08",
+        "new_balance": "28132",
+        "fee": "0",
+        "recipient": "Jane Smith 18434"
+    },
+    {
+        "transaction_id": "47314034059",
+        "amount": "40000",
+        "date": "2024-12-23 18:09:47",
+        "new_balance": "18032",
+        "fee": "0",
+        "recipient": "Samuel Carter 43362"
+    },
+    {
+        "transaction_id": "18331674229",
+        "amount": "2500",
+        "date": "2024-12-23 19:56:41",
+        "new_balance": "15532",
+        "fee": "0",
+        "recipient": "Alex Doe 98062"
+    },
+    {
+        "transaction_id": "24101990460",
+        "amount": "30000",
+        "date": "2024-12-24 22:59:42",
+        "new_balance": "124134",
+        "fee": "0",
+        "recipient": "Linda Green 73777"
+    },
+    {
+        "transaction_id": "36173508232",
+        "amount": "27500",
+        "date": "2024-12-26 00:02:08",
+        "new_balance": "105334",
+        "fee": "0",
+        "recipient": "Robert Brown 65225"
+    },
+    {
+        "transaction_id": "83297515675",
+        "amount": "20900",
+        "date": "2024-12-26 19:21:06",
+        "new_balance": "84434",
+        "fee": "0",
+        "recipient": "Robert Brown 27754"
+    },
+    {
+        "transaction_id": "91646737384",
+        "amount": "19200",
+        "date": "2024-12-27 02:01:48",
+        "new_balance": "58134",
+        "fee": "0",
+        "recipient": "Alex Doe 41445"
+    },
+    {
+        "transaction_id": "32322247458",
+        "amount": "4500",
+        "date": "2024-12-27 16:51:18",
+        "new_balance": "43634",
+        "fee": "0",
+        "recipient": "Robert Brown 65260"
+    },
+    {
+        "transaction_id": "25739550229",
+        "amount": "6000",
+        "date": "2024-12-27 19:39:10",
+        "new_balance": "41184",
+        "fee": "0",
+        "recipient": "Alex Doe 10834"
+    },
+    {
+        "transaction_id": "99751172452",
+        "amount": "12000",
+        "date": "2024-12-27 21:44:34",
+        "new_balance": "19084",
+        "fee": "0",
+        "recipient": "Linda Green 77386"
+    },
+    {
+        "transaction_id": "50448841591",
+        "amount": "2200",
+        "date": "2024-12-27 21:49:25",
+        "new_balance": "16884",
+        "fee": "0",
+        "recipient": "Samuel Carter 35285"
+    },
+    {
+        "transaction_id": "46963818865",
+        "amount": "17000",
+        "date": "2024-12-28 21:23:32",
+        "new_balance": "18864",
+        "fee": "0",
+        "recipient": "Jane Smith 35486"
+    },
+    {
+        "transaction_id": "78301179486",
+        "amount": "2000",
+        "date": "2024-12-28 22:44:16",
+        "new_balance": "16864",
+        "fee": "0",
+        "recipient": "Linda Green 36261"
+    },
+    {
+        "transaction_id": "34561368106",
+        "amount": "33000",
+        "date": "2024-12-29 14:02:51",
+        "new_balance": "33864",
+        "fee": "0",
+        "recipient": "Robert Brown 94662"
+    },
+    {
+        "transaction_id": "87189301259",
+        "amount": "1950",
+        "date": "2024-12-29 16:12:19",
+        "new_balance": "26814",
+        "fee": "0",
+        "recipient": "Robert Brown 17324"
+    },
+    {
+        "transaction_id": "32473306579",
+        "amount": "2500",
+        "date": "2024-12-29 18:43:58",
+        "new_balance": "24314",
+        "fee": "0",
+        "recipient": "Jane Smith 25428"
+    },
+    {
+        "transaction_id": "11332825043",
+        "amount": "8000",
+        "date": "2024-12-30 16:39:33",
+        "new_balance": "43779",
+        "fee": "0",
+        "recipient": "Linda Green 11500"
+    },
+    {
+        "transaction_id": "58861772799",
+        "amount": "2000",
+        "date": "2024-12-30 19:16:10",
+        "new_balance": "38479",
+        "fee": "0",
+        "recipient": "Linda Green 99703"
+    },
+    {
+        "transaction_id": "79491078117",
+        "amount": "9500",
+        "date": "2024-12-30 22:08:08",
+        "new_balance": "28979",
+        "fee": "0",
+        "recipient": "Alex Doe 14352"
+    },
+    {
+        "transaction_id": "26480204749",
+        "amount": "8100",
+        "date": "2024-12-31 17:17:05",
+        "new_balance": "96612",
+        "fee": "0",
+        "recipient": "Robert Brown 76867"
+    },
+    {
+        "transaction_id": "11689124968",
+        "amount": "14000",
+        "date": "2024-12-31 23:56:53",
+        "new_balance": "66262",
+        "fee": "0",
+        "recipient": "Alex Doe 20492"
+    },
+    {
+        "transaction_id": "35592207581",
+        "amount": "11800",
+        "date": "2025-01-01 20:44:56",
+        "new_balance": "33212",
+        "fee": "0",
+        "recipient": "Jane Smith 85059"
+    },
+    {
+        "transaction_id": "48873092706",
+        "amount": "2000",
+        "date": "2025-01-02 14:43:15",
+        "new_balance": "48222",
+        "fee": "0",
+        "recipient": "Alex Doe 29339"
+    },
+    {
+        "transaction_id": "56839942126",
+        "amount": "300",
+        "date": "2025-01-02 14:53:18",
+        "new_balance": "47922",
+        "fee": "0",
+        "recipient": "Linda Green 43036"
+    },
+    {
+        "transaction_id": "82394883480",
+        "amount": "12000",
+        "date": "2025-01-02 18:55:32",
+        "new_balance": "35922",
+        "fee": "0",
+        "recipient": "Linda Green 15355"
+    },
+    {
+        "transaction_id": "93254937757",
+        "amount": "1500",
+        "date": "2025-01-02 20:28:49",
+        "new_balance": "1922",
+        "fee": "0",
+        "recipient": "Linda Green 72867"
+    },
+    {
+        "transaction_id": "31144936614",
+        "amount": "1000",
+        "date": "2025-01-03 21:59:34",
+        "new_balance": "29472",
+        "fee": "0",
+        "recipient": "Alex Doe 18193"
+    },
+    {
+        "transaction_id": "47955567230",
+        "amount": "5400",
+        "date": "2025-01-03 22:04:05",
+        "new_balance": "24072",
+        "fee": "0",
+        "recipient": "Linda Green 80598"
+    },
+    {
+        "transaction_id": "51461434870",
+        "amount": "11000",
+        "date": "2025-01-04 20:08:40",
+        "new_balance": "13072",
+        "fee": "0",
+        "recipient": "Jane Smith 58502"
+    },
+    {
+        "transaction_id": "26095846303",
+        "amount": "20000",
+        "date": "2025-01-05 16:48:14",
+        "new_balance": "123087",
+        "fee": "0",
+        "recipient": "Robert Brown 84840"
+    },
+    {
+        "transaction_id": "29138578472",
+        "amount": "10000",
+        "date": "2025-01-05 19:14:53",
+        "new_balance": "111487",
+        "fee": "0",
+        "recipient": "Linda Green 49806"
+    },
+    {
+        "transaction_id": "42047000517",
+        "amount": "4000",
+        "date": "2025-01-05 19:29:35",
+        "new_balance": "107487",
+        "fee": "0",
+        "recipient": "Alex Doe 72191"
+    },
+    {
+        "transaction_id": "93141088379",
+        "amount": "3500",
+        "date": "2025-01-06 13:33:20",
+        "new_balance": "103987",
+        "fee": "0",
+        "recipient": "Jane Smith 99835"
+    },
+    {
+        "transaction_id": "50185533867",
+        "amount": "1500",
+        "date": "2025-01-06 18:49:55",
+        "new_balance": "29237",
+        "fee": "0",
+        "recipient": "Samuel Carter 11320"
+    },
+    {
+        "transaction_id": "12490495576",
+        "amount": "10000",
+        "date": "2025-01-07 00:00:41",
+        "new_balance": "36449",
+        "fee": "0",
+        "recipient": "Linda Green 27044"
+    },
+    {
+        "transaction_id": "64907673038",
+        "amount": "2500",
+        "date": "2025-01-07 18:45:01",
+        "new_balance": "21699",
+        "fee": "0",
+        "recipient": "Samuel Carter 11135"
+    },
+    {
+        "transaction_id": "32539170420",
+        "amount": "200",
+        "date": "2025-01-07 19:10:37",
+        "new_balance": "21499",
+        "fee": "0",
+        "recipient": "Jane Smith 71988"
+    },
+    {
+        "transaction_id": "78103204977",
+        "amount": "3500",
+        "date": "2025-01-08 09:14:53",
+        "new_balance": "13899",
+        "fee": "0",
+        "recipient": "Samuel Carter 91424"
+    },
+    {
+        "transaction_id": "31387192219",
+        "amount": "4000",
+        "date": "2025-01-08 13:01:15",
+        "new_balance": "9899",
+        "fee": "0",
+        "recipient": "Robert Brown 27045"
+    },
+    {
+        "transaction_id": "57476994247",
+        "amount": "7000",
+        "date": "2025-01-08 13:37:13",
+        "new_balance": "2899",
+        "fee": "0",
+        "recipient": "Linda Green 29089"
+    },
+    {
+        "transaction_id": "98632277447",
+        "amount": "32400",
+        "date": "2025-01-08 23:39:35",
+        "new_balance": "15999",
+        "fee": "0",
+        "recipient": "Samuel Carter 39639"
+    },
+    {
+        "transaction_id": "40588162053",
+        "amount": "3800",
+        "date": "2025-01-09 13:13:37",
+        "new_balance": "12199",
+        "fee": "0",
+        "recipient": "Robert Brown 18304"
+    },
+    {
+        "transaction_id": "45609632088",
+        "amount": "1500",
+        "date": "2025-01-09 20:47:02",
+        "new_balance": "66493",
+        "fee": "0",
+        "recipient": "Alex Doe 73508"
+    },
+    {
+        "transaction_id": "85530195772",
+        "amount": "8500",
+        "date": "2025-01-09 23:08:57",
+        "new_balance": "57993",
+        "fee": "0",
+        "recipient": "Alex Doe 65461"
+    },
+    {
+        "transaction_id": "44937760731",
+        "amount": "3000",
+        "date": "2025-01-10 14:22:41",
+        "new_balance": "49893",
+        "fee": "0",
+        "recipient": "Alex Doe 19217"
+    },
+    {
+        "transaction_id": "65965699498",
+        "amount": "1500",
+        "date": "2025-01-10 19:43:53",
+        "new_balance": "48393",
+        "fee": "0",
+        "recipient": "Linda Green 22825"
+    },
+    {
+        "transaction_id": "22829152838",
+        "amount": "32500",
+        "date": "2025-01-10 21:41:23",
+        "new_balance": "23893",
+        "fee": "0",
+        "recipient": "Jane Smith 12770"
+    },
+    {
+        "transaction_id": "52225700417",
+        "amount": "31000",
+        "date": "2025-01-12 18:29:48",
+        "new_balance": "36873",
+        "fee": "0",
+        "recipient": "Linda Green 29282"
+    },
+    {
+        "transaction_id": "31581671113",
+        "amount": "10000",
+        "date": "2025-01-13 14:22:39",
+        "new_balance": "22773",
+        "fee": "0",
+        "recipient": "Jane Smith 97571"
+    },
+    {
+        "transaction_id": "33961366964",
+        "amount": "35300",
+        "date": "2025-01-13 20:22:16",
+        "new_balance": "122050",
+        "fee": "0",
+        "recipient": "Jane Smith 23980"
+    },
+    {
+        "transaction_id": "36439238929",
+        "amount": "3800",
+        "date": "2025-01-14 13:02:52",
+        "new_balance": "98000",
+        "fee": "0",
+        "recipient": "Jane Smith 46055"
+    },
+    {
+        "transaction_id": "30801532894",
+        "amount": "1000",
+        "date": "2025-01-14 20:08:44",
+        "new_balance": "87000",
+        "fee": "0",
+        "recipient": "Jane Smith 61758"
+    },
+    {
+        "transaction_id": "55109401801",
+        "amount": "14500",
+        "date": "2025-01-14 21:25:51",
+        "new_balance": "72500",
+        "fee": "0",
+        "recipient": "Samuel Carter 39233"
+    },
+    {
+        "transaction_id": "26811810649",
+        "amount": "27000",
+        "date": "2025-01-15 20:26:12",
+        "new_balance": "31300",
+        "fee": "0",
+        "recipient": "Robert Brown 60033"
+    },
+    {
+        "transaction_id": "51350491173",
+        "amount": "1500",
+        "date": "2025-01-15 20:34:58",
+        "new_balance": "29800",
+        "fee": "0",
+        "recipient": "Samuel Carter 58769"
+    },
+    {
+        "transaction_id": "37832903831",
+        "amount": "24900",
+        "date": "2025-01-16 00:13:22",
+        "new_balance": "4900",
+        "fee": "0",
+        "recipient": "Robert Brown 23478"
+    }
+]
