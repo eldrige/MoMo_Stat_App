@@ -1,6 +1,5 @@
 import sqlite3
 import json
-airtime_data = './airtime_payments.json'
 
 conn = sqlite3.connect('momo_data.db')  # Changed database name for clarity
 c = conn.cursor()
@@ -86,6 +85,17 @@ def create_table():
         recipient_name TEXT,
         recipient_phone TEXT,
         sender_account TEXT
+    )
+""")
+    c.execute("""
+    CREATE TABLE IF NOT EXISTS transactions_initiated_by_third_parties (
+        transaction_id TEXT PRIMARY KEY, 
+        external_transaction_id TEXT,
+        date TEXT,
+        amount INTEGER,
+        sender TEXT,
+        fee INTEGER,
+        new_balance INTEGER
     )
 """)
 
@@ -197,13 +207,26 @@ def data_entry_for_payment_to_code_holders(data):
 
 
 def data_entry_for_bank_transfers(data):
-    print(data)
 
     try:
         c.execute("""
             INSERT INTO bank_transfers (transaction_id,date, amount, recipient_name, recipient_phone, sender_account)
             VALUES (?, ?, ?, ?, ?,?)
         """, (data['transaction_id'], data['date'], data['amount'], data['recipient_name'], data['recipient_phone'], data['sender_account']))
+        conn.commit()
+        print(
+            f"Data for transaction_number {data['transaction_id']} inserted successfully.")
+    except sqlite3.IntegrityError as e:
+        print(f"Error inserting data: {e}")
+
+
+def data_entry_for_third_party_txns_initiators(data):
+
+    try:
+        c.execute("""
+            INSERT INTO transactions_initiated_by_third_parties (transaction_id,date, amount, sender, new_balance, fee, external_transaction_id)
+            VALUES (?, ?, ?, ?, ?, ?, ?)
+        """, (data['transaction_id'], data['date'], data['amount'], data['sender'], data['new_balance'], data['fee'], data['external_transaction_id']))
         conn.commit()
         print(
             f"Data for transaction_number {data['transaction_id']} inserted successfully.")
@@ -254,6 +277,11 @@ with open('./data/bank_transfers.json', 'r') as f:
     data = json.load(f)
     for record in data:
         data_entry_for_bank_transfers(record)
+
+with open('./data/transactions_initiated_by_third_parties.json', 'r') as f:
+    data = json.load(f)
+    for record in data:
+        data_entry_for_third_party_txns_initiators(record)
 
 
 c.close()

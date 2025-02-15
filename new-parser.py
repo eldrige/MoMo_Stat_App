@@ -364,6 +364,42 @@ def bank_transfers(sms_data: Dict[str, List[str]]):
                    "data/bank_transfers.json")
 
 
+def txns_intitiated_by_third_parties(sms_data: Dict[str, List[str]]):
+    transfers_from_third_parties_table = sms_data['transtxns_initiate_by_third_parties']
+    pattern = re.compile(
+        r"A transaction of (\d+) RWF by (.+?) on your MOMO account was successfully completed at (\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}).*?Your new balance:(\d+) RWF\. Fee was (\d+) RWF\. Financial Transaction Id: (\d+)\. External Transaction Id: (\d+)",
+        re.DOTALL
+    )
+
+    transfers_from_third_parties = []
+
+    for message in transfers_from_third_parties_table:
+        match = pattern.search(message)
+
+        if match:
+            amount = match.group(1)
+            sender = match.group(2)
+            date = match.group(3)
+            new_balance = match.group(4)
+            fee = match.group(5)
+            transaction_id = match.group(6)
+            external_transaction_id = match.group(7)
+
+            transfers_from_third_parties.append({
+                "transaction_id": transaction_id,
+                "amount": amount,
+                "date": date,
+                "sender": sender,
+                "new_balance": new_balance,
+                "fee": fee,
+                "external_transaction_id": external_transaction_id
+
+            })
+
+    export_to_json(transfers_from_third_parties,
+                   "data/transactions_initiated_by_third_parties.json")
+
+
 def main():
     xml_file = 'sms.xml'
     root = parse_xml(xml_file)
@@ -384,7 +420,8 @@ def main():
         # withdrawals_from_agents(sms_data)
         # internet_voice_bundles(sms_data)
         # payment_to_code_holders(sms_data)
-        bank_transfers(sms_data)
+        # bank_transfers(sms_data)
+        txns_intitiated_by_third_parties(sms_data)
 
 
 if __name__ == "__main__":
