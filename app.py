@@ -1,5 +1,6 @@
 import sqlite3
 from flask import Flask, render_template, jsonify, request
+from helpers import process_transactions
 
 app = Flask(__name__)
 
@@ -107,6 +108,27 @@ def get_withdrawals_from_agents():
     results = [dict(payment) for payment in withdrawals]
 
     return jsonify(results)
+
+
+@app.route('/get-stats')
+def get_momo_stats():
+    conn = get_db_connection()
+
+    incoming_money = conn.execute(
+        'SELECT * FROM incoming_money').fetchall()
+    conn.close()
+    results = [dict(money) for money in incoming_money]
+    stats = process_transactions(results)
+
+    return jsonify(stats)
+
+    # conn = get_db_connection()
+    # withdrawals = conn.execute(
+    #     'SELECT * FROM withdrawals_from_agents').fetchall()
+    # conn.close()
+    # results = [dict(payment) for payment in withdrawals]
+
+    # return jsonify(results)
 
 
 if __name__ == '__main__':
