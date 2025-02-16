@@ -1,6 +1,6 @@
 import sqlite3
 from flask import Flask, render_template, jsonify, request
-from helpers import process_transactions
+from helpers import analyze_incoming_money_transactions, analyze__airtime_transactions
 
 app = Flask(__name__)
 
@@ -22,6 +22,19 @@ def get_airtime_payments():
     return jsonify(results)
 
 
+@app.route('/airtime-payments/stats')
+def get_airtime_payments_stats():
+    conn = get_db_connection()
+    airtime_payments = conn.execute(
+        'SELECT * FROM airtime_payments').fetchall()
+    conn.close()
+    results = [dict(payment) for payment in airtime_payments]
+
+    # return jsonify(results)
+    stats = analyze__airtime_transactions(results)
+    return jsonify(stats)
+
+
 @app.route('/incoming-money')
 def get_incoming_money():
     conn = get_db_connection()
@@ -31,6 +44,18 @@ def get_incoming_money():
     results = [dict(money) for money in incoming_money]
 
     return jsonify(results)
+
+
+@app.route('/incoming-money/stats')
+def get_incoming_money_stats():
+    conn = get_db_connection()
+    incoming_money = conn.execute(
+        'SELECT * FROM incoming_money').fetchall()
+    conn.close()
+    results = [dict(money) for money in incoming_money]
+    stats = analyze_incoming_money_transactions(results)
+
+    return jsonify(stats)
 
 
 @app.route('/transfers-to-mobile_numbers')
@@ -113,12 +138,11 @@ def get_withdrawals_from_agents():
 @app.route('/get-stats')
 def get_momo_stats():
     conn = get_db_connection()
-
     incoming_money = conn.execute(
         'SELECT * FROM incoming_money').fetchall()
     conn.close()
     results = [dict(money) for money in incoming_money]
-    stats = process_transactions(results)
+    stats = analyze_incoming_money_transactions(results)
 
     return jsonify(stats)
 

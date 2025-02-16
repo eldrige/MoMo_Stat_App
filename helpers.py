@@ -1,53 +1,72 @@
+import json
 from collections import defaultdict
 from datetime import datetime
 
 
-def process_transactions(transactions):
-    stats = {
-        "total_transactions": len(transactions),
-        "total_amount_received": 0,
-        "first_transaction_date": None,
-        "last_transaction_date": None,
-        "sender_breakdown": defaultdict(int),
-        "largest_transaction": {"amount": 0, "sender": None, "date": None},
-        "smallest_transaction": {"amount": float("inf"), "sender": None, "date": None},
-        "monthly_breakdown": defaultdict(int)
+def analyze_incoming_money_transactions(data):
+    total_transactions = len(data)
+    total_amount_received = sum(item['amount_received'] for item in data)
+    final_balance = data[-1]['new_balance'] if data else None
+
+    # Convert date strings to datetime objects and find the earliest and latest transaction dates
+    dates = [datetime.strptime(item['date'], "%Y-%m-%dT%H:%M:%S")
+             for item in data]
+    earliest_date = min(dates).strftime("%Y-%m-%d %H:%M:%S") if dates else None
+    latest_date = max(dates).strftime("%Y-%m-%d %H:%M:%S") if dates else None
+
+    # Identify unique senders and count transactions per sender
+    senders = {}
+    for item in data:
+        sender = item['sender']
+        if sender in senders:
+            senders[sender] += 1
+        else:
+            senders[sender] = 1
+
+    # Find the largest transactions
+    largest_transactions = sorted(data, key=lambda x: x['amount_received'], reverse=True)[
+        :5]  # Top 5 transactions
+
+    # Monthly transaction breakdown
+    monthly_transactions = defaultdict(int)
+    for item in data:
+        date = datetime.strptime(item['date'], "%Y-%m-%dT%H:%M:%S")
+        month_year = date.strftime("%Y-%m")
+        monthly_transactions[month_year] += item['amount_received']
+
+    # Prepare results
+    results = {
+        'Total Transactions': total_transactions,
+        'Total Amount Received': total_amount_received,
+        'Final Balance': final_balance,
+        'Earliest Transaction Date': earliest_date,
+        'Latest Transaction Date': latest_date,
+        'Transactions Per Sender': senders,
+        'Largest Transactions': largest_transactions,
+        'Monthly Transaction Breakdown': monthly_transactions
     }
 
-    for txn in transactions:
-        date_obj = datetime.strptime(txn["date"], "%Y-%m-%d")
-        amount = txn["amount"]
-        sender = txn["sender"]
+    return results
 
-        # Update totals
-        stats["total_amount_received"] += amount
-        stats["sender_breakdown"][sender] += amount
-        stats["monthly_breakdown"][date_obj.strftime("%Y-%m")] += amount
 
-        # Update first and last transaction dates
-        if not stats["first_transaction_date"] or date_obj < stats["first_transaction_date"]:
-            stats["first_transaction_date"] = date_obj
-        if not stats["last_transaction_date"] or date_obj > stats["last_transaction_date"]:
-            stats["last_transaction_date"] = date_obj
+def analyze__airtime_transactions(data):
+    total_transactions = len(data)
+    total_payment_amounts = sum(item['payment_amount'] for item in data)
+    final_balance = data[-1]['new_balance'] if data else None
 
-        # Update largest transaction
-        if amount > stats["largest_transaction"]["amount"]:
-            stats["largest_transaction"] = {
-                "amount": amount, "sender": sender, "date": date_obj}
+    # Convert date strings to datetime objects and find the earliest and latest transaction dates
+    dates = [datetime.strptime(item['date'], "%Y-%m-%d %H:%M:%S")
+             for item in data]
+    earliest_date = min(dates).strftime("%Y-%m-%d %H:%M:%S") if dates else None
+    latest_date = max(dates).strftime("%Y-%m-%d %H:%M:%S") if dates else None
 
-        # Update smallest transaction
-        if amount < stats["smallest_transaction"]["amount"]:
-            stats["smallest_transaction"] = {
-                "amount": amount, "sender": sender, "date": date_obj}
+    # Prepare results
+    results = {
+        'Total Transactions': total_transactions,
+        'Total Payment Amounts': total_payment_amounts,
+        'Final Balance': final_balance,
+        'Earliest Transaction Date': earliest_date,
+        'Latest Transaction Date': latest_date
+    }
 
-    # Convert date objects to strings for output
-    stats["first_transaction_date"] = stats["first_transaction_date"].strftime(
-        "%Y-%m-%d")
-    stats["last_transaction_date"] = stats["last_transaction_date"].strftime(
-        "%Y-%m-%d")
-    stats["largest_transaction"]["date"] = stats["largest_transaction"]["date"].strftime(
-        "%Y-%m-%d")
-    stats["smallest_transaction"]["date"] = stats["smallest_transaction"]["date"].strftime(
-        "%Y-%m-%d")
-
-    return stats
+    return results
