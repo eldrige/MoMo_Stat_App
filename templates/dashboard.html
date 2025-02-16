@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">📊 MoMo Transaction Dashboard</h2>
+
+        <!-- Airtime Payments -->
+        <h4 class="mt-4 text-primary">📱 Airtime Payments</h4>
+        <table class="table table-bordered table-striped table-hover">
+            <thead class="table-dark">
+                <tr>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>New Balance</th>
+                    <th>Amount</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for transaction in transactions if transaction['type'] == 'Airtime' %}
+                <tr>
+                    <td>{{ transaction['date'] }}</td>
+                    <td>{{ transaction['time'] }}</td>
+                    <td>{{ transaction['balance'] | format_currency }}</td>
+                    <td class="fw-bold text-success">{{ transaction['amount'] | format_currency }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <!-- Cash Power Payments -->
+        <h4 class="mt-4 text-warning">⚡ Cash Power Payments</h4>
+        <table class="table table-bordered table-striped table-hover">
+            <thead class="table-dark">
+                <tr>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>New Balance</th>
+                    <th>Amount</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for transaction in transactions if transaction['type'] == 'Cash Power' %}
+                <tr>
+                    <td>{{ transaction['date'] }}</td>
+                    <td>{{ transaction['time'] }}</td>
+                    <td>{{ transaction['balance'] | format_currency }}</td>
+                    <td class="fw-bold text-danger">{{ transaction['amount'] | format_currency }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <!-- Other Transactions -->
+        <h4 class="mt-4 text-secondary">🔄 Other Transactions</h4>
+        <table class="table table-bordered table-striped table-hover">
+            <thead class="table-dark">
+                <tr>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>New Balance</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for transaction in transactions if transaction['type'] == 'Transaction' %}
+                <tr>
+                    <td>{{ transaction['date'] }}</td>
+                    <td>{{ transaction['time'] }}</td>
+                    <td>{{ transaction['balance'] | format_currency }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
