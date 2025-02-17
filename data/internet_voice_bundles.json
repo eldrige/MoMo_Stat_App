@@ -1,0 +1,149 @@
+[
+    {
+        "transaction_id": "14324965479",
+        "amount": "2000",
+        "service": "Bundles and Packs",
+        "date": "2024-06-11 06:26:11",
+        "new_balance": "350"
+    },
+    {
+        "transaction_id": "14443130677",
+        "amount": "2000",
+        "service": "Bundles and Packs",
+        "date": "2024-06-19 18:15:53",
+        "new_balance": "3810"
+    },
+    {
+        "transaction_id": "14569120894",
+        "amount": "2000",
+        "service": "Bundles and Packs",
+        "date": "2024-06-28 18:00:22",
+        "new_balance": "30170"
+    },
+    {
+        "transaction_id": "14655104674",
+        "amount": "500",
+        "service": "Bundles and Packs",
+        "date": "2024-07-04 14:02:53",
+        "new_balance": "220"
+    },
+    {
+        "transaction_id": "14756781450",
+        "amount": "500",
+        "service": "Bundles and Packs",
+        "date": "2024-07-11 09:25:46",
+        "new_balance": "340"
+    },
+    {
+        "transaction_id": "14909215103",
+        "amount": "200",
+        "service": "Bundles and Packs",
+        "date": "2024-07-21 18:19:26",
+        "new_balance": "60"
+    },
+    {
+        "transaction_id": "14940294542",
+        "amount": "500",
+        "service": "Bundles and Packs",
+        "date": "2024-07-23 21:22:15",
+        "new_balance": "40"
+    },
+    {
+        "transaction_id": "14969968017",
+        "amount": "2000",
+        "service": "Bundles and Packs",
+        "date": "2024-07-26 00:10:38",
+        "new_balance": "2000"
+    },
+    {
+        "transaction_id": "15064161618",
+        "amount": "3000",
+        "service": "Bundles and Packs",
+        "date": "2024-08-01 13:22:02",
+        "new_balance": "24960"
+    },
+    {
+        "transaction_id": "15070248766",
+        "amount": "500",
+        "service": "Bundles and Packs",
+        "date": "2024-08-01 19:03:14",
+        "new_balance": "210"
+    },
+    {
+        "transaction_id": "15097735991",
+        "amount": "1000",
+        "service": "Bundles and Packs",
+        "date": "2024-08-03 16:42:06",
+        "new_balance": "4940"
+    },
+    {
+        "transaction_id": "15126906031",
+        "amount": "200",
+        "service": "Bundles and Packs",
+        "date": "2024-08-05 17:15:24",
+        "new_balance": "90"
+    },
+    {
+        "transaction_id": "15146128209",
+        "amount": "1000",
+        "service": "Bundles and Packs",
+        "date": "2024-08-06 20:22:06",
+        "new_balance": "290"
+    },
+    {
+        "transaction_id": "15178525743",
+        "amount": "1000",
+        "service": "Bundles and Packs",
+        "date": "2024-08-08 21:19:16",
+        "new_balance": "5170"
+    },
+    {
+        "transaction_id": "15475262766",
+        "amount": "5000",
+        "service": "Bundles and Packs",
+        "date": "2024-08-29 09:30:34",
+        "new_balance": "6260"
+    },
+    {
+        "transaction_id": "15681666953",
+        "amount": "3000",
+        "service": "Bundles and Packs",
+        "date": "2024-09-11 15:43:54",
+        "new_balance": "11330"
+    },
+    {
+        "transaction_id": "15783543056",
+        "amount": "5000",
+        "service": "Bundles and Packs",
+        "date": "2024-09-18 14:17:11",
+        "new_balance": "12850"
+    },
+    {
+        "transaction_id": "16211799078",
+        "amount": "3000",
+        "service": "Bundles and Packs",
+        "date": "2024-10-13 09:37:49",
+        "new_balance": "25605"
+    },
+    {
+        "transaction_id": "16813007600",
+        "amount": "2000",
+        "service": "Bundles and Packs",
+        "date": "2024-11-13 14:44:42",
+        "new_balance": "5022"
+    },
+    {
+        "transaction_id": "17417124626",
+        "amount": "3000",
+        "service": "Bundles and Packs",
+        "date": "2024-12-13 16:30:08",
+        "new_balance": "51892"
+    },
+    {
+        "transaction_id": "18064613724",
+        "amount": "3000",
+        "service": "Bundles and Packs",
+        "date": "2025-01-13 14:42:09",
+        "new_balance": "983950"
+    }
+]
