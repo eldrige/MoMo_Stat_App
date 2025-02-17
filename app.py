@@ -1,6 +1,7 @@
 import sqlite3
-from flask import Flask, render_template, jsonify, request
+from flask import Flask, render_template, jsonify, request, render_template
 from helpers import analyze_incoming_money_transactions, analyze__airtime_transactions
+from datetime import datetime
 
 app = Flask(__name__)
 
@@ -11,7 +12,7 @@ def get_db_connection():
     return conn
 
 
-@app.route('/airtime-payments')
+@app.route('/get-airtime-payments')
 def get_airtime_payments():
     conn = get_db_connection()
     airtime_payments = conn.execute(
@@ -22,7 +23,7 @@ def get_airtime_payments():
     return jsonify(results)
 
 
-@app.route('/airtime-payments/stats')
+@app.route('/get-airtime-payments/stats')
 def get_airtime_payments_stats():
     conn = get_db_connection()
     airtime_payments = conn.execute(
@@ -35,7 +36,7 @@ def get_airtime_payments_stats():
     return jsonify(stats)
 
 
-@app.route('/incoming-money')
+@app.route('/get-incoming-money')
 def get_incoming_money():
     conn = get_db_connection()
     incoming_money = conn.execute(
@@ -46,7 +47,7 @@ def get_incoming_money():
     return jsonify(results)
 
 
-@app.route('/incoming-money/stats')
+@app.route('/get-incoming-money/stats')
 def get_incoming_money_stats():
     conn = get_db_connection()
     incoming_money = conn.execute(
@@ -58,7 +59,7 @@ def get_incoming_money_stats():
     return jsonify(stats)
 
 
-@app.route('/transfers-to-mobile_numbers')
+@app.route('/get-transfers-to-mobile_numbers')
 def get_transfers_to_mobile_numbers():
     conn = get_db_connection()
     transfers = conn.execute(
@@ -69,7 +70,7 @@ def get_transfers_to_mobile_numbers():
     return jsonify(results)
 
 
-@app.route('/payment-to-code-holders')
+@app.route('/get-payment-to-code-holders')
 def get_payments_to_code_holders():
     conn = get_db_connection()
     payments = conn.execute(
@@ -80,7 +81,7 @@ def get_payments_to_code_holders():
     return jsonify(results)
 
 
-@app.route('/bank-transfers')
+@app.route('/get-bank-transfers')
 def get_bank_transfers():
     conn = get_db_connection()
     payments = conn.execute(
@@ -91,7 +92,7 @@ def get_bank_transfers():
     return jsonify(results)
 
 
-@app.route('/internet-voice-bundles')
+@app.route('/get-internet-voice-bundles')
 def get_internet_voice_bundles():
     conn = get_db_connection()
     payments = conn.execute(
@@ -102,7 +103,7 @@ def get_internet_voice_bundles():
     return jsonify(results)
 
 
-@app.route('/cash-power-bill-payments')
+@app.route('/get-cash-power-bill-payments')
 def get_cash_power_bill_payments():
     conn = get_db_connection()
     payments = conn.execute(
@@ -113,7 +114,7 @@ def get_cash_power_bill_payments():
     return jsonify(results)
 
 
-@app.route('/txns-from-third-parties')
+@app.route('/get-txns-from-third-parties')
 def get_trantnxs_from_third_parties():
     conn = get_db_connection()
     payments = conn.execute(
@@ -124,7 +125,7 @@ def get_trantnxs_from_third_parties():
     return jsonify(results)
 
 
-@app.route('/withdrawals-from-agents')
+@app.route('/get-withdrawals-from-agents')
 def get_withdrawals_from_agents():
     conn = get_db_connection()
     withdrawals = conn.execute(
@@ -146,13 +147,21 @@ def get_momo_stats():
 
     return jsonify(stats)
 
-    # conn = get_db_connection()
-    # withdrawals = conn.execute(
-    #     'SELECT * FROM withdrawals_from_agents').fetchall()
-    # conn.close()
-    # results = [dict(payment) for payment in withdrawals]
 
-    # return jsonify(results)
+@app.route('/')
+def dashboard():
+    conn = get_db_connection()
+    transactions = conn.execute(
+        'SELECT * FROM airtime_payments').fetchall()
+    return render_template('index.html', transactions=transactions)
+
+
+@app.route('/airtime')
+def airtime():
+    conn = get_db_connection()
+    transactions = conn.execute(
+        'SELECT * FROM airtime_payments').fetchall()
+    return render_template('airtime.html', transactions=transactions)
 
 
 if __name__ == '__main__':
