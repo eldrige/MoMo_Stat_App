@@ -186,5 +186,28 @@ def incomingMoney():
         'SELECT * FROM incoming_money').fetchall()
     return render_template('incoming-money.html', transactions=transactions)
 
+
+@app.route('/internet-voice')
+def internetBundles():
+    conn = get_db_connection()
+    transactions = conn.execute(
+        'SELECT * FROM internet_voice_bundles').fetchall()
+    return render_template('internet-voice-bundles.html', transactions=transactions)
+
+@app.route('/code-holders')
+def codeHolders():
+    conn = get_db_connection()
+    transactions = conn.execute(
+        'SELECT * FROM payment_to_code_holders').fetchall()
+    return render_template('code-holders.html', transactions=transactions)
+
+
+@app.route('/third-parties')
+def thirdParties():
+    conn = get_db_connection()
+    transactions = conn.execute(
+        'SELECT * FROM transactions_initiated_by_third_parties').fetchall()
+    return render_template('third-party.html', transactions=transactions)
+
 if __name__ == '__main__':
     app.run(debug=True)
