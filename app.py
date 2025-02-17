@@ -209,5 +209,12 @@ def thirdParties():
         'SELECT * FROM transactions_initiated_by_third_parties').fetchall()
     return render_template('third-party.html', transactions=transactions)
 
+@app.route('/transfers-to-mobile')
+def mobileTransfers():
+    conn = get_db_connection()
+    transactions = conn.execute(
+        'SELECT * FROM transfers_to_mobile_numbers').fetchall()
+    return render_template('transfers-to-mobile.html', transactions=transactions)
+
 if __name__ == '__main__':
     app.run(debug=True)
