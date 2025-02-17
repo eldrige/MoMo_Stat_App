@@ -216,5 +216,12 @@ def mobileTransfers():
         'SELECT * FROM transfers_to_mobile_numbers').fetchall()
     return render_template('transfers-to-mobile.html', transactions=transactions)
 
+@app.route('/agent-withdrawals')
+def agentWithdrawals():
+    conn = get_db_connection()
+    transactions = conn.execute(
+        'SELECT * FROM withdrawals_from_agents').fetchall()
+    return render_template('agent-withdrawal.html', transactions=transactions)
+
 if __name__ == '__main__':
     app.run(debug=True)
