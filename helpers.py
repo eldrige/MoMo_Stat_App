@@ -1,3 +1,4 @@
+import sqlite3
 import json
 from collections import defaultdict
 from datetime import datetime
@@ -70,3 +71,38 @@ def analyze__airtime_transactions(data):
     }
 
     return results
+
+
+# Connect to the database
+
+def get_db_connection():
+    conn = sqlite3.connect("momo_data.db")
+    conn.row_factory = sqlite3.Row  # Enables dictionary-like row access
+    return conn
+
+# Function to get transaction summary for a table
+
+
+def get_table_summary(table_name):
+    query = f"""
+    SELECT 
+        COUNT(*) AS num_transactions, 
+        SUM(amount) AS total_amount, 
+        MIN(date) AS first_transaction_date, 
+        MAX(date) AS last_transaction_date 
+    FROM {table_name}
+    """
+    conn = get_db_connection()
+    cursor = conn.execute(query)
+    result = cursor.fetchone()
+    conn.close()
+    return {
+        "table": table_name,
+        "num_transactions": result["num_transactions"],
+        "total_amount": result["total_amount"],
+        "first_transaction_date": result["first_transaction_date"],
+        "last_transaction_date": result["last_transaction_date"]
+    }
+
+
+# List of tables in your database

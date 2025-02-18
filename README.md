@@ -4,7 +4,7 @@
 
 ### Overview
 
-This project is a full-stack application designed to process, analyze, and visualize SMS data from MTN MoMo, a prominent Mobile Payment Service Provider in Rwanda. The application will handle XML data, perform data cleaning and categorization, store the data in a relational database, and provide a frontend interface for data visualization.
+This project is a full-stack application designed to process, analyze, and visualize SMS data from MTN MoMo, a prominent Mobile Payment Service Provider in Rwanda. This application handles XML data, performs data cleaning and categorization, storse the data in an sqlite3 database, and provides a frontend interface for data visualization.
 
 ### Objectives
 
@@ -17,58 +17,37 @@ This project is a full-stack application designed to process, analyze, and visua
 
 - **Backend**:
 
-  - Node.js / Python (Flask/Django) for server-side logic
-  - XML parsing libraries (e.g., `xml.etree.ElementTree` in Python or `xml2js` in Node.js)
-  - SQL database (e.g., PostgreSQL, MySQL)
+  - Python (Flask) for server-side logic
+  - XML parsing libraries (`xml.etree.ElementTree` in Python)
+  - SQL database (sqlite3)
 
 - **Frontend**:
-  - React / Angular / Vue.js for creating the user interface
-  - Charting libraries (e.g., Chart.js, D3.js) for data visualization
+  - HTML / CSS / Javascript for creating the user interface
 
-### Steps to Complete the Assignment
+### Getting started
 
 1. **Setup Development Environment**:
 
-   - Install necessary software (Node.js/Python, database server).
+   - Install necessary software (Python).
    - Set up a version control system (Git).
 
-2. **XML Data Processing**:
+2. **Clone Repo**:
 
-   - Load the XML file using appropriate libraries.
-   - Parse the XML to extract relevant information from SMS messages.
+- git clone git@github.com:eldrige/MoMo_Stat_App.git.
 
-3. **Data Cleaning and Categorization**:
+3. **Setup virtual env**:
 
-   - Implement functions to clean the data (e.g., removing duplicates, handling missing values).
-   - Categorize messages into predefined types for easier analysis.
+   - python3 -m venv env
+   - source env/bin/activate
 
-4. **Database Setup**:
+4. **Install Flask**:
 
-   - Design a relational database schema that accommodates the SMS data.
-   - Create tables and relationships as needed.
-   - Load cleaned data into the database.
+   - pip install flask
 
-5. **Frontend Development**:
+5. **Run the Application**:
 
-   - Design the layout of the dashboard.
-   - Implement interactive components for data visualization.
-   - Connect the frontend to the backend API to fetch and display data.
+   - python3 app.py
 
-6. **Testing**:
+### Repository Link
 
-   - Conduct unit and integration tests to ensure the application functions as expected.
-   - Validate data integrity and accuracy in the database.
-
-7. **Deployment**:
-   - Deploy the application on a cloud platform (e.g., Heroku, AWS).
-   - Ensure that the application is accessible to users.
-
-### Expected Outcomes
-
-By completing this assignment, you will have a fully functional enterprise-level full-stack application capable of processing and visualizing SMS data. You will gain experience in backend data processing, database management, and frontend development, showcasing your skills to potential stakeholders, including MTN.
-
-### Additional Resources
-
-- [XML Parsing in Python](https://docs.python.org/3/library/xml.etree.elementtree.html)
-- [Node.js XML Parsing Examples](https://www.npmjs.com/package/xml2js)
-- [React Charting Libraries](https://reactjs.org/docs/introducing-jsx.html)
+- [Momo Stat App](https://github.com/eldrige/MoMo_Stat_App)

@@ -1,6 +1,6 @@
 import sqlite3
 from flask import Flask, render_template, jsonify, request, render_template
-from helpers import analyze_incoming_money_transactions, analyze__airtime_transactions
+from helpers import analyze_incoming_money_transactions, analyze__airtime_transactions, get_table_summary
 from datetime import datetime
 
 app = Flask(__name__)
@@ -151,8 +151,24 @@ def get_momo_stats():
 @app.route('/')
 def dashboard():
     conn = get_db_connection()
-    transactions = conn.execute(
-        'SELECT * FROM airtime_payments').fetchall()
+    tables = [
+        "airtime_payments",
+        "incoming_money",
+        "transfers_to_mobile_numbers",
+        "payment_to_code_holders",
+        "bank_transfers",
+        "internet_voice_bundles",
+        "cash_power_bill_payments",
+        "transactions_initiated_by_third_parties",
+        "withdrawals_from_agents"
+    ]
+
+
+    db_summary =  [get_table_summary(table) for table in tables]
+    for table in tables:
+        summary = get_table_summary(table)
+        print(summary)
+
     return render_template('index.html', transactions=transactions)
 
 
